@@ -60,7 +60,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Léger | Research Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/Leger2/744000141569336) | Aug 12, 2026 |
 | ResponsiveAds | Full-Stack Developer Intern | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/responsiveads-inc/j/493EAC12D6/) | Aug 11, 2026 |
 | McGill University | Research Assistant, Gen AI Hackathon | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Bronfman-Building/Retail-Gen-Ai-Hackathon-Research-Assistant_JR0000079289) | Aug 11, 2026 | 
- | CLEAResult | Energy Efficiency Analyst Co-op | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://clearesult.wd1.myworkdayjobs.com/CLEAResult_External_Careers/job/Remote---Canada---BC/Energy-Efficiency-Co-op_R0017820) | Aug 10, 2026 |
+ | CLEAResult | Energy Efficiency Analyst Co-op | Remote, Canada | Closed🔒 | Aug 10, 2026 |
 | McKesson | Software Developer Intern, Digital and Enterprise Technology | Montreal, QC | Closed🔒 | Aug 10, 2026 |
 | Engineers and Geoscientists BC | Information Systems Co-op | Burnaby, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://egbc.applytojob.com/apply/FYOlZPW8Z5/Information-Systems-Coop) | Aug 7, 2026 |
 | WSP | Business Intelligence Intern | Toronto, ON / Ottawa, ON| [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/92595) | Aug 7, 2026 | 
@@ -121,7 +121,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Magna | AI Engineering Co-op | Milton, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238) | Jul 17, 2026 | 
  | Mackenzie Investments | Data Science and AI Specialist Intern | Toronto, ON | Closed🔒 | Jul 16, 2026 |
 | CAE | AI Intern | Montreal, QC | Closed🔒 | Jul 16, 2026 | 
- | ↳ | Data Specialist Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-IT-105--Data-Specialist-intern_122741) | Jul 16, 2026 |
+ | ↳ | Data Specialist Intern | Montreal, QC | Closed🔒 | Jul 16, 2026 |
 | Aptiv | Intern Associate Engineer, Cloud  | Kanata, ON | Closed🔒 | Jul 16, 2026 | 
 | Global Relay | AI Developer Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.globalrelay.com/careers/jobs?gh_jid=6112675004) | Jul 14, 2026 | 
 | ↳ | Frontend Software Developer Co-op, Information Archiving | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.globalrelay.com/careers/jobs?gh_jid=6109928004) | Jul 14, 2026 | 
@@ -138,7 +138,7 @@ I’ll post as soon as companies open 2026 internship applications.
  | Orennia | Analytics Intern | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://boards.greenhouse.io/orennia/jobs/5277706008) | Jul 7, 2026 |
 | Ada | Software Engineer Intern | Remote, Canada | Closed🔒 | Jul 6, 2026 | 
  | American Bureau of Shipping | AI Software Engineering Intern | St. John's, NL | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://hbbq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4564) | Jul 6, 2026 |
-| Moment Energy | Software Engineering Co-op | Surrey, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/momentenergy/jobs/4257336009) | Jul 2, 2026 | 
+| Moment Energy | Software Engineering Co-op | Surrey, BC | Closed🔒 | Jul 2, 2026 | 
  | ↳ | Firmware Engineering Co-op | Surrey, BC | Closed🔒 | Jul 2, 2026 | 
  | McKesson | Supply Chain Engineering and Analytics Intern | Surrey, BC | Closed🔒 | Jul 2, 2026 | 
  | Human Computer Lab | Software/ML Engineering Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/human-computer-lab/7d13ae27-1f02-4d9b-8d39-e3d9d67df705/) | Jul 1, 2026 |
