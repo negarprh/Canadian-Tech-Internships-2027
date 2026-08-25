@@ -55,8 +55,8 @@ I’ll post as soon as companies open 2026 internship applications.
 <!-- prettier-ignore -->
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
-| AltaGas | Data Science and Analytics Co-op | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://wgl.wd5.myworkdayjobs.com/altagas/job/Calgary-AB/Data-Science-and-Analytics-Co-op-Student_R7171) | Aug 14, 2026 |
-| Cenovus Energy | Workforce Analytics & Strategic Planning | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cenovus.wd3.myworkdayjobs.com/careers/job/CA-AB-Calgary/Student--Workforce-Analytics---Strategic-Planning_R-411016) | Aug 14, 2026 |
+| AltaGas | Data Science and Analytics Co-op | Calgary, AB | Closed🔒 | Aug 14, 2026 |
+| Cenovus Energy | Workforce Analytics & Strategic Planning | Calgary, AB | Closed🔒 | Aug 14, 2026 |
 | Léger | Research Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/Leger2/744000141569336) | Aug 12, 2026 |
 | ResponsiveAds | Full-Stack Developer Intern | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/responsiveads-inc/j/493EAC12D6/) | Aug 11, 2026 |
 | McGill University | Research Assistant, Gen AI Hackathon | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Bronfman-Building/Retail-Gen-Ai-Hackathon-Research-Assistant_JR0000079289) | Aug 11, 2026 | 
@@ -64,7 +64,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | McKesson | Software Developer Intern, Digital and Enterprise Technology | Montreal, QC | Closed🔒 | Aug 10, 2026 |
 | Engineers and Geoscientists BC | Information Systems Co-op | Burnaby, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://egbc.applytojob.com/apply/FYOlZPW8Z5/Information-Systems-Coop) | Aug 7, 2026 |
 | WSP | Business Intelligence Intern | Toronto, ON / Ottawa, ON| [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/92595) | Aug 7, 2026 | 
- | Ciena | Software Developer Intern | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Developer-Intern---Fall-2026_R031492) | Aug 7, 2026 |
+ | Ciena | Software Developer Intern | Ottawa, ON | Closed🔒 | Aug 7, 2026 |
  | Alayacare | Full-Stack Developer Intern, Python | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://alayacare.com/open-positions?gh_jid=8687981002) | Aug 6, 2026 | 
 | Terminal | Software Engineer Intern, Data Platform | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/terminal/d7e128ed-617c-4b9b-9e42-0e909fb25729/) | Aug 6, 2026 | 
  | ↳ | Software Engineer Intern, Backend | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/terminal/6855293e-a817-4b70-835c-cd57e3bfcfde/) | Aug 6, 2026 | 
@@ -92,7 +92,7 @@ I’ll post as soon as companies open 2026 internship applications.
  | McGill University | Data & Analytics Coordinator | Montreal, QC | Closed🔒 | Jul 30, 2026 |
 | Dexterra Group | Coordinator AI & Data Systems Co-op | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/Dexterra/744000140536634) | Jul 29, 2026 | 
  | Generac | AI Productivity & Adoption Co-op | Toronto, ON | Closed🔒 | Jul 29, 2026 |
-| Teledyne | CMOS Co-op | Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/CMOS-Coop_REQ34538-1) | Jul 29, 2026 | 
+| Teledyne | CMOS Co-op | Waterloo, ON | Closed🔒 | Jul 29, 2026 | 
  | Canadian Tire | AI Enablement Student | Toronto, ON | Closed🔒 | Jul 29, 2026 | 
  | Generac | Engineering Intern | Toronto, ON | Closed🔒 | Jul 29, 2026 |
 | Zurich Insurance | Data Analytics & AI Internship/Co-op | Toronto, ON | Closed🔒 | Jul 28, 2026 |
@@ -341,7 +341,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | A Thinking Ape | Software Development Engineer Co-op | Remote, Canada | Closed🔒 | May 12, 2026 |
 | Geotab | Software Developer Intern | Toronto, ON / Oakville, ON / Waterloo, ON | Closed🔒 | May 12, 2026 |
 | SOTI | Software Developer in Test Intern | Mississauga, ON | Closed🔒 | May 12, 2026 |
-| ↳ | Data Scientist Intern | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Data-Scientist--Intern--September-2026-12-Months-_R10065) | May 12, 2026 |
+| ↳ | Data Scientist Intern | Mississauga, ON | Closed🔒 | May 12, 2026 |
 | Oracle | Advanced Degree Software Engineer, Database Technologies | Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_45001/job/333492) | May 12, 2026 |
 | General Dynamics UK | Software Developer Co-op, Machine Learning Computer Vision | Nepean, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/GDMSI/744000126160269) | May 12, 2026 |
 | Sun Life | Student Developer Intern, Digital Finance Transformation | Toronto, ON | Closed🔒 | May 12, 2026 |
