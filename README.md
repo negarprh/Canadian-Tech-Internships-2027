@@ -55,6 +55,7 @@ Built to help students in Canada find verified tech internships faster.
 <!-- prettier-ignore -->
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Goldman Sachs | Summer Analyst Engineering Deparment | Toronto,ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://higher.gs.com/roles/171567) | Aug 20, 2026 |
 | Ontario Teachers' Pension Plan | Business Insights and Analytics Intern, Member Services | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://otppb.wd3.myworkdayjobs.com/OntarioTeachers_Careers/job/Toronto-Canada/Intern---Member-Services--Business-Insights-and-Analytics--January-2027---8-months-_7179) | Aug 21, 2026 | 
  | ↳ | Capital Markets Intern, Quantitative Strategies and Research | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://otppb.wd3.myworkdayjobs.com/OntarioTeachers_Careers/job/Toronto-Canada/Intern---Capital-Markets--Quantitative-Strategies-and-Research--January-2027---4-months-_7167) | Aug 21, 2026 | 
  | ↳ | Finance Intern, Risk Analytics | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://otppb.wd3.myworkdayjobs.com/OntarioTeachers_Careers/job/Toronto-Canada/Intern--Finance--Risk-Analytics--January-2027--8-months-_7145) | Aug 21, 2026 | 
@@ -117,7 +118,7 @@ Built to help students in Canada find verified tech internships faster.
 | British Columbia Investment | Risk Analytics Solutions Co-op/Intern | Victoria, BC | Closed🔒 | May 14, 2026 |
 | ↳ | Risk Reporting & Data Co-op/Internship | Victoria, BC | Closed🔒 | May 14, 2026 |
 | ↳ | Data & Analytics Engineer Co-op/Intern | Victoria, BC / Vancouver, BC| Closed🔒 | May 14, 2026 |
-| Goldman Sachs | Summer Analyst Engineering Deparment | Toronto,ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://higher.gs.com/roles/171567) | Aug 20 |
+
 <!-- END:INTERNSHIPS_TABLE -->
 
 ---
