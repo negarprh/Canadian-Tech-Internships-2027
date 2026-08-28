@@ -55,6 +55,8 @@ Built to help students in Canada find verified tech internships faster.
 <!-- prettier-ignore -->
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Royal Bank of Canada | Innovation Developer, High School Student, RBC Embark | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Innovation-Developer--High-School-Student---RBC-Embark-2027_R-0000185961) | Aug 26, 2026 | 
+ | Canadian Tire | Banking Analytics Student | Oakville, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://canadiantirecorporation.wd3.myworkdayjobs.com/Enterprise_External_Careers_Site/job/Oakville-ON/Banking-Analytics-Student--4-months----Winter-2027_JR164756) | Aug 26, 2026 |
 | Zip | Software Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/zip/2bc7327b-1c06-418a-beeb-bec1dd70480e/) | Aug 25, 2026 | 
  | Autodesk | AI Research Intern | Toronto, ON | Closed🔒 | Aug 25, 2026 |
 | Royal Bank of Canada | Commercial Portfolio Risk & Credit Analytics Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--Commercial-Portfolio-Risk---Credit-Analytics-Intern--4-Months-_R-0000185201-1) | Aug 25, 2026 | 
