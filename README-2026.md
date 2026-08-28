@@ -62,7 +62,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | McGill University | Research Assistant, Gen AI Hackathon | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Bronfman-Building/Retail-Gen-Ai-Hackathon-Research-Assistant_JR0000079289) | Aug 11, 2026 | 
  | CLEAResult | Energy Efficiency Analyst Co-op | Remote, Canada | Closed🔒 | Aug 10, 2026 |
 | McKesson | Software Developer Intern, Digital and Enterprise Technology | Montreal, QC | Closed🔒 | Aug 10, 2026 |
-| Engineers and Geoscientists BC | Information Systems Co-op | Burnaby, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://egbc.applytojob.com/apply/FYOlZPW8Z5/Information-Systems-Coop) | Aug 7, 2026 |
+| Engineers and Geoscientists BC | Information Systems Co-op | Burnaby, BC | Closed🔒 | Aug 7, 2026 |
 | WSP | Business Intelligence Intern | Toronto, ON / Ottawa, ON| [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://emit.fa.ca3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/92595) | Aug 7, 2026 | 
  | Ciena | Software Developer Intern | Ottawa, ON | Closed🔒 | Aug 7, 2026 |
  | Alayacare | Full-Stack Developer Intern, Python | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://alayacare.com/open-positions?gh_jid=8687981002) | Aug 6, 2026 | 
@@ -118,7 +118,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Telesat | User Terminal Engineering Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/telesat/58832b41-ddb7-4ee1-99fc-92d57f23b788/) | Jul 20, 2026 | 
  | Ciena | Photonic Hardware Intern | Ottawa, ON | Closed🔒 | Jul 20, 2026 | 
  | Sun Life | Student Associate Data Engineer | Toronto, ON / Waterloo, ON | Closed🔒 | Jul 20, 2026 |
-| Magna | AI Engineering Co-op | Milton, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Milton-Ontario-CA/AI-Engineering-Co-Op-Student--4-months-_R00252238) | Jul 17, 2026 | 
+| Magna | AI Engineering Co-op | Milton, ON | Closed🔒 | Jul 17, 2026 | 
  | Mackenzie Investments | Data Science and AI Specialist Intern | Toronto, ON | Closed🔒 | Jul 16, 2026 |
 | CAE | AI Intern | Montreal, QC | Closed🔒 | Jul 16, 2026 | 
  | ↳ | Data Specialist Intern | Montreal, QC | Closed🔒 | Jul 16, 2026 |
