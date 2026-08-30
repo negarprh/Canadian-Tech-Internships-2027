@@ -55,6 +55,7 @@ I’ll post as soon as companies open 2026 internship applications.
 <!-- prettier-ignore -->
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Ciena | Layout Design Intern | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Layout-Design-Intern--Fall-2026-_R031587) | Aug 27, 2026 |
 | AltaGas | Data Science and Analytics Co-op | Calgary, AB | Closed🔒 | Aug 14, 2026 |
 | Cenovus Energy | Workforce Analytics & Strategic Planning | Calgary, AB | Closed🔒 | Aug 14, 2026 |
 | Léger | Research Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/Leger2/744000141569336) | Aug 12, 2026 |
