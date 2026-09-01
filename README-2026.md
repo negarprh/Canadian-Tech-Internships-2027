@@ -370,7 +370,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Acceldata | Software Engineering Co-op | Kitchener, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/acceldata/3b6d3dfe-5e49-41c9-98a5-f732fa63fdf4/) | May 9, 2026 |
 | RBC | CAE, Fall GenAI Engineer Co-op | Toronto, ON | Closed🔒 | May 8, 2026 |
 | ↳ | CFO, Fall Data Analyst, Capital & Liquidity Measurement & Reporting | Toronto, ON | Closed🔒 | May 8, 2026 |
-| SOTI | Associate Product Manager Intern | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Associate-Product-Manager-Intern--September-2026-12-Months-_R10041) | May 8, 2026 |
+| SOTI | Associate Product Manager Intern | Mississauga, ON | Closed🔒 | May 8, 2026 |
 | Sun Life | Student, Data Analytics / Data Science Intern | Toronto, ON / Waterloo, ON | Closed🔒 | May 8, 2026 |
 | ↳ | Student, Data Governance Analyst Intern | Toronto, ON | Closed🔒 | May 8, 2026 |
 | University Health Network | Research Student Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/UniversityHealthNetwork/744000125345839) | May 8, 2026 |
