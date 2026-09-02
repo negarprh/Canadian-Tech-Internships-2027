@@ -86,7 +86,7 @@ I’ll post as soon as companies open 2026 internship applications.
  | Yotta Labs | Research Engineer Intern, AI Systems | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3/) | Aug 2, 2026 |
  | TMX Group | Analyst Student Intern, Market Insights | Toronto, ON | Closed🔒 | Aug 1, 2026 |
 | InstaLILY | Software Engineer 1 Co-op | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/instalilyai/jobs/4342089009) | Jul 31, 2026 | 
-| Ciena | WaveLogic Software Intern | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/WaveLogic-Software---Intern_R031443) | Jul 31, 2026 |
+| Ciena | WaveLogic Software Intern | Ottawa, ON | Closed🔒 | Jul 31, 2026 |
 | Ubisoft | Data Analytics Assistant | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/Ubisoft2/744000140704339) | Jul 30, 2026 | 
  | The Home Depot | AI Engineer Intern | Toronto, ON | Closed🔒 | Jul 30, 2026 |
 | Aptiv | Intern Associate Engineer, Cloud | Kanata, ON | Closed🔒 | Jul 30, 2026 | 
