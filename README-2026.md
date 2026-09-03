@@ -60,7 +60,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Cenovus Energy | Workforce Analytics & Strategic Planning | Calgary, AB | Closed🔒 | Aug 14, 2026 |
 | Léger | Research Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/Leger2/744000141569336) | Aug 12, 2026 |
 | ResponsiveAds | Full-Stack Developer Intern | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/responsiveads-inc/j/493EAC12D6/) | Aug 11, 2026 |
-| McGill University | Research Assistant, Gen AI Hackathon | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://mcgill.wd3.myworkdayjobs.com/McGill_Careers/job/Bronfman-Building/Retail-Gen-Ai-Hackathon-Research-Assistant_JR0000079289) | Aug 11, 2026 | 
+| McGill University | Research Assistant, Gen AI Hackathon | Montreal, QC | Closed🔒 | Aug 11, 2026 | 
  | CLEAResult | Energy Efficiency Analyst Co-op | Remote, Canada | Closed🔒 | Aug 10, 2026 |
 | McKesson | Software Developer Intern, Digital and Enterprise Technology | Montreal, QC | Closed🔒 | Aug 10, 2026 |
 | Engineers and Geoscientists BC | Information Systems Co-op | Burnaby, BC | Closed🔒 | Aug 7, 2026 |
