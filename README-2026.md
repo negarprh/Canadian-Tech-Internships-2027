@@ -78,7 +78,7 @@ I’ll post as soon as companies open 2026 internship applications.
  | Blackberry | Application Engineer Student, QNX | Ottawa, ON | Closed🔒 | Aug 4, 2026 |
 | Lumentum | Optical Verification Technician Intern/Co-op | Ottawa, ON | Closed🔒 | Aug 4, 2026 | 
  | ↳ | Optical Verification Technician Co-op Intern | Ottawa, ON | Closed🔒 | Aug 4, 2026 | 
- | Magna | Warranty Co-op | Newmarket, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Newmarket-Ontario-CA/Warranty-Co-op_R00254754) | Aug 4, 2026 |
+ | Magna | Warranty Co-op | Newmarket, ON | Closed🔒 | Aug 4, 2026 |
 | Rodan Energy Solutions Inc. | Data Science Co-op | Mississauga, ON | Closed🔒 | Aug 3, 2026 | 
  |  ↳  | AI Solutions Specialist Co-op | Mississauga, ON | Closed🔒 | Aug 3, 2026 | 
  |  ↳  | Artificial Intelligence Co-op, Data Services | Mississauga, ON | Closed🔒 | Aug 3, 2026 |
