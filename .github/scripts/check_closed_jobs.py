@@ -11,11 +11,12 @@ from __future__ import annotations
 from dataclasses import dataclass
 from html import unescape
 from html.parser import HTMLParser
+import json
 from pathlib import Path
 import re
 import time
 from typing import Literal
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urlencode, urlparse, urlunparse
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -220,6 +221,8 @@ def ats_name(url: str) -> str:
         return "lever"
     if "ashbyhq" in host:
         return "ashby"
+    if host.endswith(".oraclecloud.com"):
+        return "oracle"
     if "eightfold" in host:
         return "eightfold"
     if "icims.com" in host:
@@ -379,6 +382,71 @@ def check_public_ats_api(session: requests.Session, url: str, provider: str) -> 
     return CheckResult("UNKNOWN", f"{provider} API returned 200 without a job posting")
 
 
+def check_oracle_api(session: requests.Session, url: str) -> CheckResult:
+    """Oracle's UI treats an empty site-scoped detail result as job-expired."""
+    parsed = urlparse(url)
+    route = re.fullmatch(
+        r"/hcmUI/CandidateExperience/[^/]+/sites/([\w-]+)/job/(\d+)(?:/apply)?/?",
+        parsed.path,
+    )
+    if route is None:
+        return CheckResult("UNKNOWN", "Unsupported Oracle job route")
+    site, job_id = route.groups()
+    query = urlencode({"onlyData": "true", "finder": f'ById;Id="{job_id}",siteNumber={site}'})
+    endpoint = urlunparse(
+        (parsed.scheme, parsed.netloc,
+         "/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails", "", query, "")
+    )
+    try:
+        response = session.get(endpoint, allow_redirects=True, timeout=(10, 30))
+    except requests.RequestException as error:
+        return CheckResult("UNKNOWN", f"Oracle API failed: {type(error).__name__}")
+    if response.status_code != 200:
+        return CheckResult("UNKNOWN", f"Oracle API HTTP {response.status_code} (inconclusive)")
+    try:
+        payload = response.json()
+    except requests.JSONDecodeError:
+        return CheckResult("UNKNOWN", "Oracle API returned invalid JSON")
+    if isinstance(payload, dict):
+        items = payload.get("items")
+        if items == [] and payload.get("count") == 0 and payload.get("hasMore") is False:
+            return CheckResult("CLOSED", "Oracle API returned no posting for this job and site")
+        if isinstance(items, list) and any(
+            isinstance(job, dict) and str(job.get("Id")) == job_id and job.get("Title")
+            for job in items
+        ):
+            return CheckResult("OPEN", "Oracle API returned the requested job")
+    return CheckResult("UNKNOWN", "Oracle API returned an unrecognized job response")
+
+
+def check_ashby_page(url: str, html: str) -> CheckResult:
+    """Check the posting directly: unlisted jobs can still accept applications."""
+    parsed = urlparse(url)
+    route = re.fullmatch(
+        r"/[^/]+/([0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12})(?:/application)?/?",
+        parsed.path,
+    )
+    if parsed.hostname != "jobs.ashbyhq.com" or route is None:
+        return CheckResult("UNKNOWN", "Unsupported Ashby job route")
+    match = re.search(r"\bwindow\.__appData\s*=\s*", html)
+    if match:
+        try:
+            payload, _ = json.JSONDecoder().raw_decode(html[match.end():])
+        except ValueError:
+            payload = None
+        if isinstance(payload, dict) and payload.get("maintenanceMode") is False:
+            if "posting" in payload and payload["posting"] is None:
+                return CheckResult("CLOSED", "Ashby page explicitly returned posting: null")
+            posting = payload.get("posting")
+            if (
+                isinstance(posting, dict)
+                and str(posting.get("id", "")).casefold() == route[1].casefold()
+                and posting.get("title")
+            ):
+                return CheckResult("OPEN", "Ashby page returned the requested posting")
+    return CheckResult("UNKNOWN", "Ashby page has no conclusive posting data")
+
+
 def redirect_is_search_or_landing(original: str, final: str, provider: str) -> bool:
     if provider not in KNOWN_ATS or original == final:
         return False
@@ -403,6 +471,8 @@ def check_url(
 ) -> CheckResult:
     """Return CLOSED only when there is a high-confidence closure signal."""
     provider = ats_name(url)
+    if provider == "oracle":
+        return check_oracle_api(public_api_session or make_public_api_session(), url)
     workday_result = None
     if provider == "workday":
         workday_result = check_workday_api(workday_session or make_workday_session(), url)
@@ -440,6 +510,10 @@ def check_url(
         return CheckResult("UNKNOWN", f"HTTP {response.status_code} (not treated as closed)")
     if response.status_code >= 400:
         return CheckResult("UNKNOWN", f"HTTP {response.status_code} (inconclusive)")
+
+    if provider == "ashby":
+        # Board/login pages can also have null posting data; validate the final route.
+        return check_ashby_page(response.url, response.text)
 
     if redirect_is_search_or_landing(url, response.url, provider):
         return CheckResult("CLOSED", f"Redirected to ATS search/landing page: {response.url}")
