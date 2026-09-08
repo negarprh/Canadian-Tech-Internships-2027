@@ -55,6 +55,12 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Super | Data Analytics Intern | Toronto, ON / Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/super.com/68809622-6599-4379-bb88-925b2d8fcfd9/) | Sep 4, 2026 |
+| ↳ | Software Engineer in Data Intern | Toronto, ON / Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/super.com/2c889dd2-0103-43e8-a405-e5b006d8b5ec/) | Sep 4, 2026 |
+| ↳ | Software Engineer Intern, Platform | Toronto, ON / Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/super.com/29751d58-eacc-4b5a-8e9d-e59cb7a595c7/) | Sep 4, 2026 |
+| ↳ | Data Engineer Intern | Toronto, ON / Remote, Canada  | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/super.com/5251792e-093d-42c6-ae9e-08c656e90807/) | Sep 4, 2026 |
+| ↳ | Software Engineer Intern, Full-Stack | Toronto, ON / Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/super.com/b2615f7e-c6d2-46d6-9699-5027da9b5757/) | Sep 4, 2026 |
+| ↳ | Data Engineer Intern | Toronto, ON / Remote, Canada  | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/super.com/c54cf7df-73b3-49d4-acff-5dc04fba15a4/) | Sep 4, 2026 |
 | General Dynamics UK | Systems Engineering Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/GDMSI/744000147549219) | Sep 4, 2026 |
 | ↳ | Computer Science and Robotics Co-op | Sherbrooke, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/GDMSI/744000147541849) | Sep 4, 2026 |
 | ↳ | Software Engineering Co-op | Cole Harbour, NS | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/GDMSI/744000147583700) | Sep 4, 2026 |
