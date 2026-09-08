@@ -55,6 +55,10 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Royal Bank of Canada | Data Engineer, RBC Amplify | Halifax, NS | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/HALIFAX-Nova-Scotia-Canada/Data-Engineer--RBC-Amplify-2027--Halifax_R-0000187117) | Sep 7, 2026 |
+| ↳ | Developer, RBC Amplify | Halifax, NS | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/HALIFAX-Nova-Scotia-Canada/Developer--RBC-Amplify-2027--Halifax_R-0000187119) | Sep 7, 2026 |
+| ↳ | Data Engineer, RBC Amplify | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/TORONTO-Ontario-Canada/Data-Engineer--RBC-Amplify-2027--Toronto_R-0000187113) | Sep 7, 2026 |
+| ↳ | Developer, RBC Amplify | Toronto, ON | Closed🔒 | Sep 7, 2026 |
 | Bank of Montreal | Climate Risk Reporting Analyst Co-op Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bmo.wd3.myworkdayjobs.com/Campus/job/Toronto-ON-CAN/Climate-Risk-Reporting-Analyst--Winter-2027--Co-op-Internship----4-Months_R260024768-2) | Sep 7, 2026 |
 | ↳ | Data Science Analyst Co-op Intern, Audit AI & Analytics | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bmo.wd3.myworkdayjobs.com/Campus/job/Toronto-ON-CAN/Data-Science-Analyst---Audit-AI---Analytics--Winter-2027--Co-op-Internship----4-Months_R260024761-2) | Sep 7, 2026 |
 | ↳ | Data Science Risk Analyst Co-op Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bmo.wd3.myworkdayjobs.com/Campus/job/Toronto-ON-CAN/Data-Science-Risk-Analyst--Winter-2027--Co-op-Internship----4-Months_R260024735-2) | Sep 7, 2026 |
