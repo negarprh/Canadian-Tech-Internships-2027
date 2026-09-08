@@ -346,9 +346,9 @@ def smartrecruiters_api_url(url: str) -> str | None:
 def check_public_ats_api(session: requests.Session, url: str, provider: str) -> CheckResult | None:
     """Classify public Greenhouse and SmartRecruiters postings via their APIs.
 
-    These APIs expose only published job postings.  A 404/410 is therefore a
-    high-confidence closure signal; every other non-success status remains
-    inconclusive and falls back to the public posting page.
+    A 404/410 is a closure signal; other non-success statuses are inconclusive.
+    SmartRecruiters can retain details for expired jobs, so its successful
+    response must also be checked against the public posting page.
     """
     endpoint = {
         "greenhouse": greenhouse_api_url,
@@ -447,6 +447,31 @@ def check_ashby_page(url: str, html: str) -> CheckResult:
     return CheckResult("UNKNOWN", "Ashby page has no conclusive posting data")
 
 
+class SmartRecruitersExpiredButton(HTMLParser):
+    """Read the expired application control, not text in a job description."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.in_disabled_button = False
+        self.parts: list[str] = []
+        self.expired = False
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "button":
+            self.in_disabled_button = "disabled" in dict(attrs)
+            self.parts = []
+
+    def handle_data(self, data: str) -> None:
+        if self.in_disabled_button:
+            self.parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "button" and self.in_disabled_button:
+            label = re.sub(r"\s+", " ", "".join(self.parts)).strip().casefold()
+            self.expired |= label in {"sorry, this job has expired", "désolé, ce poste a expiré"}
+            self.in_disabled_button = False
+
+
 def check_phenom_page(url: str, html: str) -> CheckResult | None:
     """Phenom pages include hidden expired-job text even for open postings."""
     match = re.search(r"\bphApp\.ddo\s*=\s*", html)
@@ -505,7 +530,10 @@ def check_url(
     public_api_result = check_public_ats_api(
         public_api_session or make_public_api_session(), url, provider
     )
-    if public_api_result is not None and public_api_result.status != "UNKNOWN":
+    if public_api_result is not None and (
+        public_api_result.status == "CLOSED"
+        or (public_api_result.status == "OPEN" and provider != "smartrecruiters")
+    ):
         return public_api_result
 
     try:
@@ -540,6 +568,18 @@ def check_url(
 
     if redirect_is_search_or_landing(url, response.url, provider):
         return CheckResult("CLOSED", f"Redirected to ATS search/landing page: {response.url}")
+
+    if provider == "smartrecruiters":
+        parser = SmartRecruitersExpiredButton()
+        parser.feed(response.text)
+        parser.close()
+        if parser.expired:
+            return CheckResult("CLOSED", "SmartRecruiters application button says this job has expired")
+        # Generic closure phrases may occur in descriptions or hidden UI text.
+        # Only the provider's explicit application control overrides its data.
+        if public_api_result is not None:
+            return public_api_result
+        return CheckResult("UNKNOWN", "SmartRecruiters page has no conclusive posting state")
 
     phenom_result = check_phenom_page(url, response.text)
     if phenom_result is not None:

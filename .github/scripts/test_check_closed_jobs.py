@@ -98,6 +98,57 @@ class AshbyTests(unittest.TestCase):
             self.assertEqual(checker.check_ashby_page(ASHBY, html).status, "UNKNOWN")
 
 
+class SmartRecruitersTests(unittest.TestCase):
+    url = "https://jobs.smartrecruiters.com/GDMSI/744000124175808"
+    expired = '<button class="is-disabled" disabled>Sorry, this job has expired</button>'
+
+    def check(self, html="", page_status=200, api_status=200, error=None):
+        api = Mock()
+        api.get.return_value = response({"id": "744000124175808", "name": "Intern"},
+                                       status=api_status)
+        browser = Mock()
+        browser.get.return_value = response(status=page_status, url=self.url, text=html)
+        browser.get.side_effect = error
+        return checker.check_url(browser, self.url, public_api_session=api).status
+
+    def test_expired_page_overrides_retained_api_details(self):
+        self.assertEqual(self.check(self.expired), "CLOSED")
+
+    def test_open_page_with_api_details(self):
+        self.assertEqual(self.check('<button>I\'m interested</button>'), "OPEN")
+
+    def test_description_closure_phrase_does_not_override_api(self):
+        self.assertEqual(self.check('<p>This position has been filled is an example message.</p>'
+                                    '<button>I\'m interested</button>'), "OPEN")
+
+    def test_french_expired_application_control(self):
+        self.assertEqual(self.check('<button disabled>Désolé, ce poste a expiré</button>'), "CLOSED")
+
+    def test_expired_text_outside_disabled_control_is_not_closure(self):
+        for html in ['<p>Sorry, this job has expired</p>',
+                     '<script>' + self.expired + '</script>',
+                     '<button>Sorry, this job has expired</button>']:
+            with self.subTest(html=html):
+                self.assertEqual(self.check(html), "OPEN")
+
+    def test_expired_control_with_nested_markup(self):
+        self.assertEqual(self.check('<button disabled><span>Sorry, this job</span>\n'
+                                    ' has expired</button>'), "CLOSED")
+
+    def test_unavailable_page_does_not_trust_retained_api_details(self):
+        for code in [403, 429, 500]:
+            with self.subTest(code=code):
+                self.assertEqual(self.check(page_status=code), "UNKNOWN")
+        self.assertEqual(self.check(error=requests.Timeout()), "UNKNOWN")
+
+    def test_missing_posting_and_api_failure_fallback(self):
+        for code in [404, 410]:
+            self.assertEqual(self.check(api_status=code), "CLOSED")
+            self.assertEqual(self.check(page_status=code), "CLOSED")
+        self.assertEqual(self.check(self.expired, api_status=503), "CLOSED")
+        self.assertEqual(self.check(api_status=503), "UNKNOWN")
+
+
 class PhenomTests(unittest.TestCase):
     url = "https://careers.tranetechnologies.com/global/en/job/JR-7608/2027-BrainBox-AI-Intern"
 
