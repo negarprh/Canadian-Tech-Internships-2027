@@ -98,5 +98,45 @@ class AshbyTests(unittest.TestCase):
             self.assertEqual(checker.check_ashby_page(ASHBY, html).status, "UNKNOWN")
 
 
+class PhenomTests(unittest.TestCase):
+    url = "https://careers.tranetechnologies.com/global/en/job/JR-7608/2027-BrainBox-AI-Intern"
+
+    def check(self, payload, status=200):
+        html = (
+            '<script>phApp.ddo = ' + json.dumps(payload) + ';</script>'
+            '<div ph-page-state="expired" class="hide job-expired-view">'
+            'Unfortunately, we are no longer accepting applications.</div>'
+        )
+        browser = Mock()
+        browser.get.return_value = response(status=status, url=self.url, text=html)
+        return checker.check_url(browser, self.url, public_api_session=Mock()).status
+
+    def test_open_job_with_hidden_expired_template(self):
+        self.assertEqual(self.check({"jobDetail": {"status": 200, "data": {"job": {
+            "jobId": "JR-7608", "title": "2027 BrainBox AI Intern", "postingStatus": "OPEN",
+        }}}}), "OPEN")
+
+    def test_inconclusive_data_does_not_use_hidden_template(self):
+        for payload in [None, {}, {"jobDetail": {"status": 500}},
+                        {"jobDetail": {"status": 200, "data": {"job": {
+                            "jobId": "OTHER", "title": "Other job", "postingStatus": "OPEN",
+                        }}}}]:
+            with self.subTest(payload=payload):
+                self.assertEqual(self.check(payload), "UNKNOWN")
+        self.assertEqual(checker.check_phenom_page(self.url, "phApp.ddo = {broken").status, "UNKNOWN")
+
+    def test_gone_job_still_closes(self):
+        self.assertEqual(self.check({"jobDetail": {
+            "status": 200, "hits": 0, "totalHits": 0, "data": {},
+        }}, status=410), "CLOSED")
+
+    def test_other_sites_still_detect_visible_closed_message(self):
+        browser = Mock()
+        browser.get.return_value = response(url="https://example.com/job/1",
+                                           text="This job is no longer available")
+        self.assertEqual(checker.check_url(browser, "https://example.com/job/1",
+                                          public_api_session=Mock()).status, "CLOSED")
+
+
 if __name__ == "__main__":
     unittest.main()

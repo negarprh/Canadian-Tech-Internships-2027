@@ -447,6 +447,29 @@ def check_ashby_page(url: str, html: str) -> CheckResult:
     return CheckResult("UNKNOWN", "Ashby page has no conclusive posting data")
 
 
+def check_phenom_page(url: str, html: str) -> CheckResult | None:
+    """Phenom pages include hidden expired-job text even for open postings."""
+    match = re.search(r"\bphApp\.ddo\s*=\s*", html)
+    if match is None:
+        return None
+    try:
+        payload, _ = json.JSONDecoder().raw_decode(html[match.end():])
+    except ValueError:
+        payload = None
+    detail = payload.get("jobDetail") if isinstance(payload, dict) else None
+    if isinstance(detail, dict) and detail.get("status") == 200:
+        data = detail.get("data")
+        job = data.get("job") if isinstance(data, dict) else None
+        route = re.search(r"/job/([^/]+)(?:/|$)", urlparse(url).path)
+        if (
+            isinstance(job, dict) and route
+            and job.get("jobId") == route[1] and job.get("title")
+            and str(job.get("postingStatus", "")).casefold() == "open"
+        ):
+            return CheckResult("OPEN", "Phenom returned the requested job with postingStatus OPEN")
+    return CheckResult("UNKNOWN", "Phenom page has no conclusive posting state")
+
+
 def redirect_is_search_or_landing(original: str, final: str, provider: str) -> bool:
     if provider not in KNOWN_ATS or original == final:
         return False
@@ -517,6 +540,10 @@ def check_url(
 
     if redirect_is_search_or_landing(url, response.url, provider):
         return CheckResult("CLOSED", f"Redirected to ATS search/landing page: {response.url}")
+
+    phenom_result = check_phenom_page(url, response.text)
+    if phenom_result is not None:
+        return phenom_result
 
     phrase = closed_phrase(readable_text(response.text), provider)
     if phrase:
