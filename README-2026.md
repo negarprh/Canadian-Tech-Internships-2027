@@ -101,7 +101,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Blackberry | Application Engineering Student | Ottawa, ON | Closed🔒 | Jul 28, 2026 | 
  | Blackberry | QNX-Software Development Student (Acoustics) | Burnaby, BC | Closed🔒 | Jul 28, 2026 |
 | Ciena | Software Liquid Spectrum Applications Intern | Ottawa, ON | Closed🔒 | Jul 28, 2026 |
-| Later | Data/Analytics Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/later/jobs/8647385002) | Jul 27, 2026 | 
+| Later | Data/Analytics Co-op | Vancouver, BC | Closed🔒 | Jul 27, 2026 | 
  | Ciena | Software Engineer Intern | Ottawa, ON | Closed🔒 | Jul 27, 2026 |
 | TechInsights | Software Developer Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://techinsights.applytojob.com/apply/JihPx6iShB/Software-Development-Coop-Student-Fall-2026) | Jul 24, 2026 | 
  | Bank of Montreal | Market Risk Analyst Co-op/Intern | Toronto, ON | Closed🔒 | Jul 24, 2026 |
@@ -137,7 +137,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Later | Software Development Co-op | Vancouver, BC | Closed🔒 | Jul 9, 2026 | 
  | McKesson | Data Governance Analyst Intern | Mississauga, ON | Closed🔒 | Jul 9, 2026 | 
  | Bank of Montreal | Data Scientist Co-op/Internship | Toronto, ON | Closed🔒 | Jul 7, 2026 | 
- | Orennia | Analytics Intern | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://boards.greenhouse.io/orennia/jobs/5277706008) | Jul 7, 2026 |
+ | Orennia | Analytics Intern | Calgary, AB | Closed🔒 | Jul 7, 2026 |
 | Ada | Software Engineer Intern | Remote, Canada | Closed🔒 | Jul 6, 2026 | 
  | American Bureau of Shipping | AI Software Engineering Intern | St. John's, NL | Closed🔒 | Jul 6, 2026 |
 | Moment Energy | Software Engineering Co-op | Surrey, BC | Closed🔒 | Jul 2, 2026 | 
@@ -265,7 +265,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Sun Life | Student, Associate Software Engineer, Mainframe | Kitchener, ON | Closed🔒 | May 26, 2026 |
 | MaintainX | Software Development Intern | Montreal, QC | Closed🔒 | May 26, 2026 |
 | Ciena | Hardware Design and Verification Intern, Printed Circuit Board Assembly | Ottawa, ON | Closed🔒 | May 25, 2026 |
-| CMC Markets | Quantitative Trader | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cmcmarkets.wd3.myworkdayjobs.com/CMC_Markets_Careers/job/Toronto/Quantitative-Trader_CMC5360) | May 25, 2026 |
+| CMC Markets | Quantitative Trader | Toronto, ON | Closed🔒 | May 25, 2026 |
 | RBC | Machine Learning Software Engineer Co-op | Toronto, ON / Vancouver, BC | Closed🔒 | May 23, 2026 |
 | Canadian Tire | Data Engineering Student | Toronto, ON | Closed🔒 | May 23, 2026 |
 | Magna | Artificial Intelligence Student | Vaughan, ON | Closed🔒 | May 22, 2026 |
