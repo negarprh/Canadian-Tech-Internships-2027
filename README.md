@@ -345,15 +345,15 @@ Built to help students in Canada find verified tech internships faster.
  | Epic Games | Machine Learning Intern, Special Projects, Epic Research Group | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://epicgames.com/careers/jobs/6138140004?gh_jid=6138140004) | Aug 7, 2026 |
 | Autodesk | Cloud Developer Intern, Interactive Graphics, Media & Entertainment | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://autodesk.wd1.myworkdayjobs.com/Ext/job/Montreal-QC-CAN/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer_26WD100400) | Aug 7, 2026 | 
  | ↳ | Cloud Developer Intern, Fcap | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://autodesk.wd1.myworkdayjobs.com/uni/job/Montreal-QC-CAN/Stagiaire-en-Dveloppement-Cloud--Intern-Cloud-Developer---FCAP_26WD100406-1) | Aug 7, 2026 |
- | Microsoft | Software Engineer Intern, Gears of War | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.careers.microsoft.com/careers/job/1970393556956276) | Aug 6, 2026 |
- | Shopify | Software Engineering Intern | Montreal, QC / Toronto, ON / Ottawa, ON| Closed🔒 | Aug 5, 2026|
+ | Microsoft | Software Engineer Intern, Gears of War | Vancouver, BC | Closed🔒 | Aug 6, 2026 |
+| Shopify | Software Engineering Intern | Montreal, QC / Toronto, ON / Ottawa, ON| Closed🔒 | Aug 5, 2026|
 | Microsoft | Software Engineer Intern | Vancouver, BC | Closed🔒 | Aug 2, 2026 | 
- | Kepler Communications | FPGA Digital Design Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/kepler/f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03/) | Jul 22, 2026 |
+| Kepler Communications | FPGA Digital Design Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/kepler/f06ca5e6-2e7f-4b76-a5c4-cb423d3cfc03/) | Jul 22, 2026 |
 | NationGraph | Software Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/nationgraph/a1bcdd3e-d863-42b6-8469-ec587190ad68/) | Jul 21, 2026 |
 | Onware | Full Stack Developer, Intern | Edmonton, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ats.rippling.com/onware/jobs/1b9d59b6-1ab0-4c40-8429-39b5b62f019a) | Jul 21, 2026 |
 | Georgian Partners Growth | AI/ML Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/georgian/2ae71a4b-dd9d-4068-8ef2-81351ee74cab/) | Jul 21, 2026 | 
 | Google | Software Developer Intern, BS | Montreal, QC / Toronto, ON / Waterloo, ON | Closed🔒 | Jul 20, 2026 | 
- | ↳ | Software Developer Intern, MS | Montreal, QC / Toronto, ON / Waterloo, ON | Closed🔒 | Jul 20, 2026 | 
+| ↳ | Software Developer Intern, MS | Montreal, QC / Toronto, ON / Waterloo, ON | Closed🔒 | Jul 20, 2026 | 
 | British Columbia Investment | Risk Analytics Solutions Co-op/Intern | Victoria, BC | Closed🔒 | May 14, 2026 |
 | ↳ | Risk Reporting & Data Co-op/Internship | Victoria, BC | Closed🔒 | May 14, 2026 |
 | ↳ | Data & Analytics Engineer Co-op/Intern | Victoria, BC / Vancouver, BC| Closed🔒 | May 14, 2026 |
