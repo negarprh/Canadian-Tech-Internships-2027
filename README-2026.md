@@ -59,7 +59,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Brave | Software Engineering Intern, Waterloo University | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/brave/jobs/8161945) | Sep 4, 2026 |
 | AltaGas | Data Science and Analytics Co-op | Calgary, AB | Closed🔒 | Aug 14, 2026 |
 | Cenovus Energy | Workforce Analytics & Strategic Planning | Calgary, AB | Closed🔒 | Aug 14, 2026 |
-| Léger | Research Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/Leger2/744000141569336) | Aug 12, 2026 |
+| Léger | Research Intern | Toronto, ON | Closed🔒 | Aug 12, 2026 |
 | ResponsiveAds | Full-Stack Developer Intern | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/responsiveads-inc/j/493EAC12D6/) | Aug 11, 2026 |
 | McGill University | Research Assistant, Gen AI Hackathon | Montreal, QC | Closed🔒 | Aug 11, 2026 | 
  | CLEAResult | Energy Efficiency Analyst Co-op | Remote, Canada | Closed🔒 | Aug 10, 2026 |
@@ -75,7 +75,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Ciena | Hardware Engineer Co-op | Ottawa, ON | Closed🔒 | Aug 5, 2026 | 
  | Bank of Montreal | Database Operations Co-op Intern | Toronto, ON | Closed🔒 | Aug 5, 2026 | 
  | OLG | Risk Monitoring and Intervention Student, Safer Gambling | Toronto, ON / Sault Ste. Marie, ON | Closed🔒 | Aug 5, 2026 |
-| Arlo Technologies | Firmware Developer Co-op | Richmond, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://arlo.wd12.myworkdayjobs.com/External_Careers/job/Richmond-BC-Canada/Firmware-Developer-Co-op_JR100404) | Aug 4, 2026 | 
+| Arlo Technologies | Firmware Developer Co-op | Richmond, BC | Closed🔒 | Aug 4, 2026 | 
  | Blackberry | Application Engineer Student, QNX | Ottawa, ON | Closed🔒 | Aug 4, 2026 |
 | Lumentum | Optical Verification Technician Intern/Co-op | Ottawa, ON | Closed🔒 | Aug 4, 2026 | 
  | ↳ | Optical Verification Technician Co-op Intern | Ottawa, ON | Closed🔒 | Aug 4, 2026 | 
