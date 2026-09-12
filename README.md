@@ -55,6 +55,13 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Qualcomm | Machine Learning Compiler & Performance Engineering Intern | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721064018) | Sep 11, 2026 |
+| Dialogue | Full Stack Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ats.rippling.com/dialogue-en/jobs/3c2341d5-604d-463c-8b79-5d1669d81e78) | Sep 11, 2026 |
+| Cozey | Data Science Intern | Mount-Royal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ats.rippling.com/cozey-internships/jobs/1e50d436-06c1-447c-b676-5e487b19433c) | Sep 11, 2026 |
+| ↳ | Product Management Intern | Mount-Royal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ats.rippling.com/cozey-internships/jobs/b1f3e185-e5d7-4baf-b67f-10f8703b130a) | Sep 11, 2026 |
+| Amazon | Machine Learning Systems Software Development Engineer Intern, Annapurna Labs | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://amazon.jobs/en/jobs/10538066/ml-systems-software-development-engineer-intern-annapurna-labs-2027) | Sep 11, 2026 |
+| Nokia | Optical Test Intern Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39964) | Sep 11, 2026 |
+| ↳ | Data Scientist Co-op/Intern | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39965) | Sep 11, 2026 |
 | Lyft | Software Engineer Intern, Backend | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8796054002?gh_jid=8796054002) | Sep 11, 2026 |
 | ↳ | Software Engineer Intern, Machine Learning | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8802332002?gh_jid=8802332002) | Sep 11, 2026 |
 | ↳ | Software Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8767710002?gh_jid=8767710002) | Sep 11, 2026 |
