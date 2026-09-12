@@ -55,6 +55,15 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Lyft | Software Engineer Intern, Backend | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8796054002?gh_jid=8796054002) | Sep 11, 2026 |
+| ↳ | Software Engineer Intern, Machine Learning | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8802332002?gh_jid=8802332002) | Sep 11, 2026 |
+| ↳ | Software Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8767710002?gh_jid=8767710002) | Sep 11, 2026 |
+| ↳ | Software Engineer Intern, Fullstack | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8797859002?gh_jid=8797859002) | Sep 11, 2026 |
+| ↳ | Data Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8797376002?gh_jid=8797376002) | Sep 11, 2026 |
+| ↳ | Data Science Intern, Algorithms | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8767697002?gh_jid=8767697002) | Sep 11, 2026 |
+| ↳ | Software Developer Intern, Backend | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.careerpuck.com/job-board/lyft/job/8796052002?gh_jid=8796052002) | Sep 11, 2026 |
+| Kinaxis | Software Engineer Co-op/Intern, Data Modeling & Integration | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers-kinaxis.icims.com/jobs/35349/job?mobile=true&needsRedirect=false) | Sep 11, 2026 |
+| Armstrong Fluid Technology | Test Engineering Co-op | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://armstrongfluidtechnology.bamboohr.com/careers/1001/) | Sep 11, 2026 |
 | Kinaxis | Intern Developer, Clients, Front End Technologies | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers-kinaxis.icims.com/jobs/35320/job?mobile=true&needsRedirect=false) | Sep 11, 2026 |
 | Definity Financial | Commercial Insurance Product Owner Co-op Intern | Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://hdks.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9354) | Sep 11, 2026 |
 | ↳ | Business Intelligence Co-op | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://hdks.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9351) | Sep 11, 2026 |
