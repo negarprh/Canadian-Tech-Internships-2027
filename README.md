@@ -221,7 +221,7 @@ Built to help students in Canada find verified tech internships faster.
 | Royal Bank of Canada | Developer & IT Specialist Co-op | Toronto, ON | Closed🔒 | Sep 4, 2026 |
 | Procter & Gamble | Digital Technologies Intern/Co-op | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://pg.wd5.myworkdayjobs.com/1000/job/TORONTO-GO/Digital-Technologies-Internship-Co-op---Stage-ou-programme-coopratif-en-en-technologies-digitales_R000158595) | Sep 4, 2026 |
 | ↳ | Analytics & Insights Intern/Co-op | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://pg.wd5.myworkdayjobs.com/1000/job/TORONTO-GO/Analytics---Insights-Internship-Co-op-Summer-2027--Stage-ou-programme-coopratif-en-Analyse-et-veille-stratgique-t-2027_R000158592) | Sep 4, 2026 |
-| Wealthsimple | Credit & Fraud Analytics Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/wealthsimple/c4cea9f1-950e-4035-83a8-7126b72b3a28/) | Sep 3, 2026 |
+| Wealthsimple | Credit & Fraud Analytics Intern | Toronto, ON | Closed🔒 | Sep 3, 2026 |
 | Geotab | Software Developer Intern | Toronto, ON / Oakville, ON / Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/internshiplist2000/jobs/5376578008) | Sep 3, 2026 |
 | AltaML | Associate Software Developer | Calgary, AB / Edmonton, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/altaml/abed5ba5-8cbe-46b1-beae-25fe30bc4c91/) | Sep 3, 2026 |
 | General Dynamics UK | Software Engineering Co-op | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/GDMSI/744000147563929) | Sep 3, 2026 |
@@ -293,7 +293,7 @@ Built to help students in Canada find verified tech internships faster.
 | ↳ | Machine Learning/Artificial Intelligence Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90383?icims=1) | Sep 1, 2026 |
 | ↳ | Graphics Software Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91359?icims=1) | Sep 1, 2026 |
 | Stripe | Software Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://stripe.com/jobs/search?gh_jid=8130805) | Sep 1, 2026 |
-| Wealthsimple | Software Development and Data Science Internships | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/wealthsimple/de09418a-8a12-46aa-a371-34bafaf5be26/) | Sep 1, 2026 |
+| Wealthsimple | Software Development and Data Science Internships | Toronto, ON | Closed🔒 | Sep 1, 2026 |
 | Trane Technologies | BrainBox AI Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.tranetechnologies.com/global/en/job/JR-7608/2027-BrainBox-AI-Intern) | Sep 1, 2026 |
 | RTX | Advanced Software Development, Numerical Methods | Longueuil, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Dveloppement-Logiciel-Avanc--Mthodes-Numriques---Internship---Winter-2027---Advanced-Software-Development--Numerical-Methods_01871187) | Sep 1, 2026 |
 | Royal Bank of Canada | Data Traceability & Controls Intern | Halifax, NS | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/HALIFAX-Nova-Scotia-Canada/XMLNAME-2027-Winter---CDO--Data-Traceability---Controls-Intern--4-Months-_R-0000186553-1) | Sep 1, 2026 |
@@ -384,8 +384,8 @@ Built to help students in Canada find verified tech internships faster.
 | PwC | Cloud, Data and AI Intern | Calgary, AB | Closed🔒 | Aug 18, 2026 |
 | ↳ | Cloud, Data and AI Intern | Vancouver, BC | Closed🔒 | Aug 18, 2026 |
 | ↳ | Summer Intern, SAP | Calgary, AB | Closed🔒 | Aug 18, 2026 |
-| ↳ | Cloud, Data and AI Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Toronto/May-2027---Cloud--Data-and-AI---Summer-Intern---Toronto_745713WD) | Aug 18, 2026 |
-| ↳ | Cloud, Data and AI Intern | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://pwc.wd3.myworkdayjobs.com/Global_Campus_Careers/job/Ottawa/May-2027---Cloud--Data-and-AI---Summer-Intern---Ottawa_752827WD) | Aug 18, 2026 |
+| ↳ | Cloud, Data and AI Intern | Toronto, ON | Closed🔒 | Aug 18, 2026 |
+| ↳ | Cloud, Data and AI Intern | Ottawa, ON | Closed🔒 | Aug 18, 2026 |
 | RTX | Quality Project Management and Data Analysis Tool Development Intern | Longueuil, QC | Closed🔒 | Aug 17, 2026 |
 | Suncor | Automation Intern - Software or Computer Engineering Student | Calgary, AB / St. John's, NL / Fort McMurray, AB | Closed🔒 | Aug 17, 2026 |
 | ↳ | Data Science Student | Calgary, AB / St. John's, NL / Fort McMurray, AB | Closed🔒 | Aug 17, 2026 |
