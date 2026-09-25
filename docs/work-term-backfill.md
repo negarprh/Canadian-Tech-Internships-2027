@@ -71,12 +71,17 @@ browser automation or anti-bot bypass. A reused requisition with the same ID
 and title cannot always be distinguished from the historical posting; inspect
 the evidence before merging.
 
-Requests are sequential within a maximum 200-job batch (default 100), spaced
+The default job limit is `all`, covering both existing listing tables in one run.
+A positive integer limits processing for debugging. Requests remain sequential, spaced
 at least one second apart. Connect/read timeouts are 5/15 seconds; streamed
 responses have a 2 MB cap and a 25-second elapsed-time check between chunks.
 One slow read may extend that elapsed limit. No automatic retries: failures
-become checkpoints and can be explicitly revisited. Identical endpoints are
-cached in memory. No full page bodies are saved.
+become checkpoints. All-job runs revisit unclassified checkpoints while skipping
+confirmed terms. Limited runs retain checkpoint skipping unless explicitly retried.
+An in-memory LRU cache holds at most 32 endpoint responses. No full page bodies
+are saved. The workflow allows 240 minutes for the existing dataset (309 retained
+URLs at inspection); substantially larger future datasets may require revisiting
+this limit. A timeout fails the run rather than opening a partial PR.
 
 ## Run from GitHub
 
@@ -84,38 +89,34 @@ cached in memory. No full page bodies are saved.
    ensure GitHub Actions may create pull requests (organization policy may
    control this).
 2. Open **Actions → Historical work-term backfill → Run workflow**.
-3. Select the default branch. Keep **dry_run=true**, choose **batch_size** (1–200),
-   and choose whether to **fetch** supported postings. Leave **after_key** empty.
-4. Open the completed run's summary for counts and proposed terms. Download
-   **work-term-review** from its artifacts and open `work-term-review.json`.
-   Each processed job includes its file, identity, source URL, original title,
-   proposed term/year when available, exact evidence, and outcome/reason.
-   Counts distinguish already classified, checkpointed, deferred, ambiguous
-   identities, newly classifiable, insufficient evidence, and fetch failures.
-   Fetch failures are also included in insufficient evidence. Grouped terms
-   describe new proposals in this batch. Duplicate table rows are counted
-   separately from unique identities.
-5. For another preview batch, paste the JSON's `next_after_key` into **after_key**.
-   A dry run saves no checkpoints and creates no commit, branch, or PR. Its only
-   output is stdout; the workflow captures that output outside the checkout
-   and uploads the review artifact. Repeating a preview may repeat requests.
-6. To apply, dispatch again with **dry_run=false** and the same batch/fetch
-   settings. Usually leave **after_key** empty so no earlier jobs are skipped.
-   Apply re-evaluates current evidence; it does not blindly apply the preview.
-7. The run checkpoints each job, regenerates role displays, and opens a PR on
-   `backfill/work-terms-<run_id>`. Review the README diff and metadata evidence.
-   Unknown-only batches can produce checkpoint-only PRs. An unchanged batch
-   produces no PR. There is no direct push to the default branch.
-8. **Merge each batch PR before starting the next apply run.** Run again with
-   an empty cursor to process the next unprocessed batch. Classified and
-   checkpointed unknown jobs are skipped. Stop when `deferred` is zero.
+3. Select the default branch (`main`). Keep **dry_run=true** (Preview),
+   **max_jobs=all**, and **fetch=true**. There is no cursor input to fill in.
+4. Open the completed run's summary. Download **work-term-review** from its
+   artifacts and open `work-term-review.json`. It includes proposed classifications
+   with evidence, already classified jobs, unclassified outcomes, ambiguous
+   identities, and fetch failures across the whole dataset. Duplicate identities
+   are reported with their row count and remain unclassified for safety.
+   Fetch failures also count as insufficient evidence; grouped terms describe
+   new proposals. `deferred` is zero in an all-job run.
+5. Preview changes no repository files and creates no commit, branch, or PR.
+   The workflow captures stdout outside the checkout and uploads the artifact.
+6. To apply the entire backfill, dispatch once with **dry_run=false**,
+   **max_jobs=all**, and **fetch=true**. Apply re-evaluates current evidence;
+   it does not blindly apply the preview.
+7. The run checkpoints jobs, regenerates listings once, and creates **one PR** on
+   `backfill/work-terms-<run_id>` containing the complete result. Review the README
+   diff and metadata evidence before merging. There is no push to main or
+   automatic merge. Unchanged runs create no PR; unknown-only changes may create
+   a checkpoint-only PR.
+8. For debugging, set **max_jobs** to a positive integer such as `10` or `100`.
+   No repeated triggers or manual pagination are needed for normal `all` usage.
 
 Only the PR job receives write permissions, and it never runs for a preview.
-Runs are serialized. Do not start overlapping unmerged batch PRs: concurrency
+Runs are serialized. Do not start overlapping unmerged backfill PRs: concurrency
 prevents simultaneous execution, but cannot carry unmerged checkpoints forward.
 Review artifacts expire after 30 days. Local apply checkpoints survive an
 interruption; a canceled/failed hosted runner can lose unuploaded progress and
-must repeat that unmerged batch. A stale PR should be rerun or resolved against
+must repeat that unmerged run. A stale PR should be rerun or resolved against
 the current listings before merging.
 
 ## Local commands and explicit retries
@@ -124,15 +125,16 @@ Run from the repository root with Python 3.11+ and `requests` installed:
 
 ```sh
 python -B -m unittest discover -s .github/scripts -p 'test_*.py'
-python -B .github/scripts/backfill_work_terms.py --dry-run --batch-size 100 --fetch
+python -B .github/scripts/backfill_work_terms.py --dry-run --max-jobs all --fetch
 # Only after review:
-python -B .github/scripts/backfill_work_terms.py --apply --batch-size 100 --fetch
+python -B .github/scripts/backfill_work_terms.py --apply --max-jobs all --fetch
 ```
 
 Default mode is dry run. It creates no report, checkpoint, bytecode, or page cache.
 Redirect stdout yourself if you want a persistent JSON review file.
-To revisit unknowns, use `--retry-unclassified` with `--fetch`, optionally with
-`--after-key <next_after_key>` to page through the retry pass. Classified jobs
-remain skipped. This is useful after a title-only pass or transient failures.
+All-job runs automatically revisit unknowns and skip classified jobs. For limited
+local debugging runs, `--retry-unclassified` and `--after-key <next_after_key>`
+remain available. A cursor is rejected with `all` to prevent accidentally skipping
+part of the dataset. `--batch-size` remains a compatibility alias for `--max-jobs`.
 No live historical backfill is required to test the infrastructure: the tests
 use synthetic rows and mocked HTTP responses.

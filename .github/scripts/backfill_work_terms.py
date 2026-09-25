@@ -3,7 +3,7 @@ import sys
 sys.dont_write_bytecode = True
 
 import argparse
-from collections import Counter
+from collections import Counter, OrderedDict
 import json
 from pathlib import Path
 import re
@@ -34,9 +34,9 @@ class Fetcher:
     def __init__(self):
         self.session = make_public_api_session()
         # The closure checker's retries can honor unbounded Retry-After values.
-        # A bounded historical batch instead records failure for explicit later retry.
+        # Record failures for a later run instead of retrying protected sites.
         self.session.mount("https://", HTTPAdapter(max_retries=0))
-        self.cache = {}
+        self.cache = OrderedDict()
         self.last_request = 0.0
 
     def __call__(self, url, title):
@@ -68,6 +68,9 @@ class Fetcher:
                 self.cache[endpoint] = (True, payload)
             except (requests.RequestException, ValueError) as error:
                 self.cache[endpoint] = (False, str(error)[:200])
+            if len(self.cache) > 32:
+                self.cache.popitem(last=False)
+        self.cache.move_to_end(endpoint)
         ok, payload = self.cache[endpoint]
         if not ok:
             return "fetch_failure", payload
@@ -89,9 +92,19 @@ class Fetcher:
         return "fetched", plain_description(content)
 
 
-def run(root=Path("."), *, apply=False, batch_size=100, fetch=False, retry_unclassified=False, after_key="", fetcher=None):
-    if not 1 <= batch_size <= 200:
-        raise ValueError("batch_size must be between 1 and 200")
+def job_limit(value):
+    if str(value).strip().lower() == "all":
+        return "all"
+    if not re.fullmatch(r"[1-9]\d*", str(value).strip()):
+        raise ValueError("Job limit must be 'all' or a positive integer")
+    return int(value)
+
+
+def run(root=Path("."), *, apply=False, batch_size="all", fetch=False, retry_unclassified=False, after_key="", fetcher=None):
+    batch_size = job_limit(batch_size)
+    unlimited = batch_size == "all"
+    if unlimited and after_key:
+        raise ValueError("An all-job run cannot use an after_key cursor")
     state_path = root / STATE
     state = load_state(state_path)
     all_rows = []
@@ -110,10 +123,14 @@ def run(root=Path("."), *, apply=False, batch_size=100, fetch=False, retry_uncla
     if after_key and not re.fullmatch(r"[0-9a-f]{64}", after_key):
         raise ValueError("after_key must be an identity from the previous review")
     grouped, review = Counter(), []
+    last_processed_key = after_key
     fetcher = fetcher or Fetcher()
     for key, (file, row) in sorted(unique.items()):
         if counts[key] > 1:
             summary["ambiguous_identity"] += 1
+            review.append(dict(key=key, file=file, url=row.url, original_title=row.title,
+                               status="unclassified", reason="ambiguous duplicate identity",
+                               listing_rows=counts[key]))
             continue
         if key <= after_key:
             summary["before_cursor"] += 1
@@ -122,14 +139,17 @@ def run(root=Path("."), *, apply=False, batch_size=100, fetch=False, retry_uncla
         if old and old.get("work_term"):
             label(old)  # fail loudly on invalid existing metadata
             summary["already_classified"] += 1
+            review.append(dict(key=key, file=file, url=row.url, **old))
             continue
-        if old and not retry_unclassified:
+        if old and not retry_unclassified and not unlimited:
             summary["skipped_checkpoint"] += 1
+            review.append(dict(key=key, file=file, url=row.url, **old))
             continue
-        if summary["processed"] >= batch_size:
+        if not unlimited and summary["processed"] >= batch_size:
             summary["deferred"] += 1
             continue
         summary["processed"] += 1
+        last_processed_key = key
         result, reason = classify(row.title)
         source, fetch_status = "stored title", "not requested"
         if result is None and reason == "insufficient evidence" and fetch and row.url:
@@ -158,7 +178,7 @@ def run(root=Path("."), *, apply=False, batch_size=100, fetch=False, retry_uncla
         from format_table import format_listings
         format_listings(root=root, terms_only=True)
     return dict(summary=dict(summary), classifications_by_term=dict(sorted(grouped.items())),
-                next_after_key=review[-1]["key"] if review else after_key, review=review)
+                next_after_key=last_processed_key, review=review)
 
 
 def main():
@@ -166,7 +186,8 @@ def main():
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--apply", action="store_true")
     mode.add_argument("--dry-run", action="store_true")
-    parser.add_argument("--batch-size", type=int, default=100)
+    parser.add_argument("--max-jobs", "--batch-size", dest="batch_size", type=job_limit, default="all",
+                        help="all (default), or a positive job limit for debugging")
     parser.add_argument("--fetch", action="store_true", help="Fetch supported ATS postings when titles are insufficient")
     parser.add_argument("--retry-unclassified", action="store_true", help="Explicitly revisit checkpointed unknowns")
     parser.add_argument("--after-key", default="", help="Review batches after this identity without changing checkpoints")

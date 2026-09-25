@@ -7,18 +7,14 @@ on:
         description: Preview only (no branch or PR)
         type: boolean
         default: true
-      batch_size:
-        description: Maximum unprocessed jobs (1-200)
-        type: number
-        default: 100
+      max_jobs:
+        description: Number of jobs (all, or a positive integer for debugging)
+        type: string
+        default: 'all'
       fetch:
         description: Fetch supported ATS descriptions if stored titles are insufficient
         type: boolean
         default: true
-      after_key:
-        description: Optional next_after_key from a previous dry-run review
-        type: string
-        default: ''
 
 permissions:
   contents: read
@@ -32,7 +28,7 @@ jobs:
     # Only process the default branch's historical dataset.
     if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
     outputs:
       changed: ${{ steps.classify.outputs.changed }}
     env:
@@ -46,19 +42,17 @@ jobs:
           python-version: '3.11'
       - run: pip install requests
       - run: python -B -m unittest discover -s .github/scripts -p 'test_*.py'
-      - name: Classify bounded batch
+      - name: Classify selected jobs
         id: classify
         env:
           DRY_RUN: ${{ inputs.dry_run }}
-          BATCH_SIZE: ${{ inputs.batch_size }}
+          MAX_JOBS: ${{ inputs.max_jobs }}
           FETCH: ${{ inputs.fetch }}
-          AFTER_KEY: ${{ inputs.after_key }}
         shell: bash
         run: |
-          args=(--batch-size "$BATCH_SIZE")
+          args=(--max-jobs "$MAX_JOBS")
           if [[ "$DRY_RUN" == true ]]; then args+=(--dry-run); else args+=(--apply); fi
           if [[ "$FETCH" == true ]]; then args+=(--fetch); fi
-          if [[ -n "$AFTER_KEY" ]]; then args+=(--after-key "$AFTER_KEY"); fi
           python -B .github/scripts/backfill_work_terms.py "${args[@]}" > "$RUNNER_TEMP/work-term-review.json"
           python - <<'PY'
           import json, os
@@ -119,10 +113,10 @@ jobs:
           body: |
             Adds conservative work-term annotations and renders confirmed terms in existing role cells.
             Original titles and evidence are preserved in data/work-terms.json.
-            Unclassified checkpoints prevent repeated work; these may be the only changes in a batch.
+            Includes all selected jobs in one PR; unclassified jobs retain their existing display.
 
             Review the summary and download the work-term-review artifact:
             ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
-            Merge this batch before running the next apply batch so checkpoints carry forward.
+            Review the complete backfill before merging. No automatic merge is performed.
             No classifications are inferred from posting dates or the README's year.

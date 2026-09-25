@@ -102,8 +102,8 @@ class BackfillTests(unittest.TestCase):
         self.assertEqual(result["summary"]["newly_classifiable"], 0)
 
     def test_cursor_pages_a_dry_run(self):
-        first = backfill.run(self.root)
-        second = backfill.run(self.root, after_key=first["next_after_key"])
+        first = backfill.run(self.root, batch_size=1)
+        second = backfill.run(self.root, batch_size=1, after_key=first["next_after_key"])
         self.assertEqual(second["summary"]["processed"], 0)
         self.assertFalse((self.root / STATE).exists())
 
@@ -151,13 +151,47 @@ class BackfillTests(unittest.TestCase):
         result = backfill.run(self.root, apply=True, fetch=True, fetcher=fetcher)
         self.assertEqual(result["summary"]["fetch_failures"], 1)
         self.assertNotIn("Unknown", (self.root / "README.md").read_text())
-        backfill.run(self.root, apply=True, fetch=True, fetcher=fetcher)
+        backfill.run(self.root, apply=True, fetch=True, fetcher=fetcher, batch_size=100)
         fetcher.assert_called_once()
         backfill.run(self.root, fetch=True, retry_unclassified=True, fetcher=fetcher)
         self.assertEqual(fetcher.call_count, 2)
         path = self.root / "README.md"
         path.write_text(path.read_text().replace("[![Apply](https://badge)](https://example.org/job/1)", "Closed🔒"), encoding="utf-8")
-        self.assertEqual(backfill.run(self.root)["summary"]["skipped_checkpoint"], 1)
+        self.assertEqual(backfill.run(self.root, batch_size=100)["summary"]["skipped_checkpoint"], 1)
+
+    def test_all_exceeds_previous_cap_and_apply_renders_once(self):
+        path = self.root / "README.md"
+        extra = "".join(f"| Company {i} | Summer 2027 Intern | Toronto | Closed🔒 | Jan 2 |\n" for i in range(205))
+        path.write_text(path.read_text().replace(LISTING_FILES[0].end_marker,
+                                               extra + LISTING_FILES[0].end_marker), encoding="utf-8")
+        before = self.snapshot()
+        fetcher = Mock(return_value=("fetch_failure", "HTTP 404"))
+        preview = backfill.run(self.root, fetch=True, fetcher=fetcher)
+        self.assertEqual(preview["summary"]["processed"], 206)
+        self.assertEqual(preview["summary"]["deferred"], 0)
+        self.assertEqual(preview["summary"]["newly_classifiable"], 205)
+        self.assertEqual(preview["summary"]["fetch_failures"], 1)
+        self.assertEqual(len(preview["review"]), 206)
+        self.assertEqual(before, self.snapshot())
+        from unittest.mock import patch
+        with patch("format_table.format_listings", wraps=format_listings) as render:
+            applied = backfill.run(self.root, apply=True, fetch=True, fetcher=fetcher)
+            render.assert_called_once()
+        self.assertEqual(preview, applied)
+        self.assertEqual(len(load_state(self.root / STATE)["jobs"]), 206)
+        rerun = backfill.run(self.root, fetch=True, fetcher=Mock(return_value=("fetched", "Start Date: May 2027")))
+        self.assertEqual(rerun["summary"]["already_classified"], 205)
+        self.assertEqual(rerun["summary"]["newly_classifiable"], 1)
+        self.assertEqual(len(rerun["review"]), 206)
+
+    def test_limit_validation(self):
+        for value in [0, -1, "nonsense", "1.5"]:
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                backfill.run(self.root, batch_size=value)
+        self.assertEqual(backfill.job_limit("all"), "all")
+        self.assertEqual(backfill.job_limit("300"), 300)
+        with self.assertRaises(ValueError):
+            backfill.run(self.root, after_key="a" * 64)
 
     def test_batches_resume_and_title_only_never_fetches(self):
         path = self.root / "README.md"
