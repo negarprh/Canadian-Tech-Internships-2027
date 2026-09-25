@@ -22,6 +22,8 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
+from format_table import APPLY_LINK
+
 
 REPORT = Path("link-check-report.md")
 
@@ -48,12 +50,8 @@ LISTING_FILES = (
     ),
 )
 
-# This expression matches only the Apply control itself. Its replacement is
-# intentionally a single table-cell value, so no pipes, whitespace, rows, or
-# other listing-file content can be reformatted by this script.
-APPLY_LINK = re.compile(
-    r"\[!\[Apply\]\([^)]+?\)\]\((https?://[^)\s]+)\)", re.IGNORECASE
-)
+# The shared APPLY_LINK expression matches only the Apply control itself, so
+# replacing it cannot reformat other table cells or listing-file content.
 
 Status = Literal["CLOSED", "OPEN", "UNKNOWN"]
 

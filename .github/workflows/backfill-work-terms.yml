@@ -1,0 +1,128 @@
+name: Historical work-term backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Preview only (no branch or PR)
+        type: boolean
+        default: true
+      batch_size:
+        description: Maximum unprocessed jobs (1-200)
+        type: number
+        default: 100
+      fetch:
+        description: Fetch supported ATS descriptions if stored titles are insufficient
+        type: boolean
+        default: true
+      after_key:
+        description: Optional next_after_key from a previous dry-run review
+        type: string
+        default: ''
+
+permissions:
+  contents: read
+
+concurrency:
+  group: historical-work-term-backfill
+  cancel-in-progress: false
+
+jobs:
+  classify:
+    # Only process the default branch's historical dataset.
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    outputs:
+      changed: ${{ steps.classify.outputs.changed }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python -B -m unittest discover -s .github/scripts -p 'test_*.py'
+      - name: Classify bounded batch
+        id: classify
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+          BATCH_SIZE: ${{ inputs.batch_size }}
+          FETCH: ${{ inputs.fetch }}
+          AFTER_KEY: ${{ inputs.after_key }}
+        shell: bash
+        run: |
+          args=(--batch-size "$BATCH_SIZE")
+          if [[ "$DRY_RUN" == true ]]; then args+=(--dry-run); else args+=(--apply); fi
+          if [[ "$FETCH" == true ]]; then args+=(--fetch); fi
+          if [[ -n "$AFTER_KEY" ]]; then args+=(--after-key "$AFTER_KEY"); fi
+          python -B .github/scripts/backfill_work_terms.py "${args[@]}" > "$RUNNER_TEMP/work-term-review.json"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          report = json.loads((Path(os.environ['RUNNER_TEMP']) / 'work-term-review.json').read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              out.write('## Historical work-term review\n\n')
+              for key, value in report['summary'].items():
+                  out.write(f'- {key}: {value}\n')
+              out.write('\nProposed terms: ' + json.dumps(report['classifications_by_term']) + '\n')
+              out.write('\nDownload **work-term-review** for evidence and per-job outcomes.\n')
+          PY
+          if [[ "$DRY_RUN" == false ]]; then
+            git add -- README.md README-2026.md
+            if [[ -f data/work-terms.json ]]; then git add -- data/work-terms.json; fi
+            if ! git diff --cached --quiet; then echo 'changed=true' >> "$GITHUB_OUTPUT"; fi
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: work-term-review
+          path: ${{ runner.temp }}/work-term-review.json
+          retention-days: 30
+      - uses: actions/upload-artifact@v4
+        if: steps.classify.outputs.changed == 'true'
+        with:
+          name: work-term-changes
+          path: |
+            README.md
+            README-2026.md
+            data/work-terms.json
+          retention-days: 7
+
+  pull-request:
+    needs: classify
+    if: ${{ !inputs.dry_run && needs.classify.outputs.changed == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: work-term-changes
+      - name: Open review PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          base: ${{ github.event.repository.default_branch }}
+          branch: backfill/work-terms-${{ github.run_id }}
+          title: 'Backfill historical internship work terms'
+          commit-message: 'Backfill confirmed work terms and processing checkpoints'
+          add-paths: |
+            README.md
+            README-2026.md
+            data/work-terms.json
+          body: |
+            Adds conservative work-term annotations and renders confirmed terms in existing role cells.
+            Original titles and evidence are preserved in data/work-terms.json.
+            Unclassified checkpoints prevent repeated work; these may be the only changes in a batch.
+
+            Review the summary and download the work-term-review artifact:
+            ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Merge this batch before running the next apply batch so checkpoints carry forward.
+            No classifications are inferred from posting dates or the README's year.
