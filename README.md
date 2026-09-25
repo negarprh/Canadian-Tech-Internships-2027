@@ -56,6 +56,7 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Ciena | ASIC Engineer Intern (Winter 2027) | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750) | Sep 22, 2026 |
 | Vanderlande Industries | Software Development Intern | Québec City, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://vanderlande.wd3.myworkdayjobs.com/careers/job/Quebec-Canada/Stage---Dveloppement-logiciel_JR38017) | Sep 22, 2026 |
 | ↳ | Software Development Intern | Québec City, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://vanderlande.wd3.myworkdayjobs.com/careers/job/Quebec-Canada/Stage---Dveloppement-logiciel_JR38019) | Sep 22, 2026 |
 | Danaher | Hardware Engineer Co-op | Concord, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Concord-Ontario-Canada/Hardware-Engineering-Co-op_R1317537) | Sep 22, 2026 |
