@@ -58,6 +58,7 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Royal Bank of Canada | Data Analyst Co-op, Personal Banking (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Winter-2027-Co-op-Student---Data-Analyst--Personal-Banking---8-months-_R-0000189535) | Oct 5, 2026 |
 | Harvey | Software Engineer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/harvey/d40e15aa-2351-4be8-ac8f-1faf60bfcdbf/) | Oct 2, 2026 |
 | Solink | Software Engineer Co-op, Agents | Ottawa, ON / Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/solink/8493613d-ea47-4182-ac0b-f5f24d11f49e/) | Oct 2, 2026 |
 | Mila | AI Safety Research Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/mila-2/j/1E81635604/) | Oct 2, 2026 |
