@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🍁 Canadian Tech Internships — Filter</title>
+<meta name="description" content="Filter Canadian tech internships by term, location, duration, and remote availability.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>🍁 Canadian Tech Internships</h1>
+    <p class="lede">Filter verified Canadian tech internships by work term, city, length, and remote availability.</p>
+    <p class="meta" id="generated"></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <form class="filters" id="filters" autocomplete="off">
+    <label class="field search">
+      <span>Search</span>
+      <input type="search" id="q" placeholder="Company or role…">
+    </label>
+
+    <label class="field">
+      <span>Cycle</span>
+      <select id="cycle">
+        <option value="2027" selected>2027</option>
+        <option value="2026">2026</option>
+        <option value="">All</option>
+      </select>
+    </label>
+
+    <label class="field">
+      <span>Work term</span>
+      <select id="term">
+        <option value="">Any</option>
+        <option value="winter">Winter</option>
+        <option value="summer">Summer</option>
+        <option value="fall">Fall</option>
+      </select>
+    </label>
+
+    <label class="field">
+      <span>Location</span>
+      <select id="location"><option value="">All</option></select>
+    </label>
+
+    <label class="field">
+      <span>Duration</span>
+      <select id="duration">
+        <option value="">Any</option>
+        <option value="1-4">Up to 4 months</option>
+        <option value="5-8">5–8 months</option>
+        <option value="9-12">9–12 months</option>
+        <option value="13-24">13+ months</option>
+        <option value="unknown">Not listed</option>
+      </select>
+    </label>
+
+    <label class="field">
+      <span>Status</span>
+      <select id="status">
+        <option value="open" selected>Open</option>
+        <option value="all">All</option>
+        <option value="closed">Closed</option>
+      </select>
+    </label>
+
+    <label class="field checkbox">
+      <input type="checkbox" id="remote">
+      <span>Remote only</span>
+    </label>
+
+    <button type="reset" id="reset" class="reset">Reset</button>
+  </form>
+
+  <p class="count" id="count" role="status"></p>
+
+  <ul class="listings" id="listings"></ul>
+  <p class="empty" id="empty" hidden>No internships match these filters.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Data generated from the repository's Markdown listings. Apply links point to the original postings.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
