@@ -59,7 +59,7 @@ Built to help students in Canada find verified tech internships faster.
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
 | Semtech | Software Developer Co-op, Web/Cloud Application | Richmond, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Richmond-BC/Software-Developer---Web-Cloud-Application--Co-op_REQ3644) | Oct 5, 2026 | 
- | GoTo Group | Software Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://goto.wd5.myworkdayjobs.com/GoToCareers/job/Remote-Canada/Contacts-Intern_R26-2249) | Oct 5, 2026 | 
+ | GoTo Group | Software Developer Intern | Remote, Canada | Closed🔒 | Oct 5, 2026 | 
  | AltaGas | Digital Intern, NextGen AI & Data (Winter 2027) | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://wgl.wd5.myworkdayjobs.com/altagas/job/Calgary-AB/AltaGas---2027-Digital--NextGen-AI---Data--Intern_R7312) | Oct 5, 2026 |
 | Royal Bank of Canada | Data Analyst Co-op, Personal Banking (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/TORONTO-Ontario-Canada/Winter-2027-Co-op-Student---Data-Analyst--Personal-Banking---8-months-_R-0000189535) | Oct 5, 2026 |
 | Harvey | Software Engineer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/harvey/d40e15aa-2351-4be8-ac8f-1faf60bfcdbf/) | Oct 2, 2026 |
