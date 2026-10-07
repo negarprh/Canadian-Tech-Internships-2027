@@ -95,7 +95,7 @@ Built to help students in Canada find verified tech internships faster.
 | Intact | Software Developer 1 Intern/Co-op (Winter 2027) | St. John's, NL | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc/job/St-Johns-Newfoundland-and-Labrador-CAN/Software-Developer-I---4-months-internship--Co-op--Winter-2027-_R155972) | Sep 29, 2026 | 
 | Ciena | Hardware Design and Verification Intern, PCBA (Winter 2027) | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787) | Sep 29, 2026 | 
 | Alexion | Development Operations AI & Automation Enablement Co-op Intern (Winter 2027) | Mississauga, ON | Closed🔒 | Sep 29, 2026 | 
-| TD Bank | Data Analytics & Insights Intern Co-op (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Montral-Qubec/Data-Analytics---Insights-Intern---Co-op--Winter-2027-_R_1513914) | Sep 29, 2026 | 
+| TD Bank | Data Analytics & Insights Intern Co-op (Winter 2027) | Montreal, QC | Closed🔒 | Sep 29, 2026 | 
 | Moment Energy | Data Scientist Co-op (Winter 2027) | Surrey, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/momentenergy/jobs/4421775009) | Sep 26, 2026 |
 | Intuit | Software Developer Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Sep 25, 2026 | 
 | Nokia | Operations Analytics Co-op Intern (Winter 2027) | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40261) | Sep 25, 2026 | 
@@ -371,7 +371,7 @@ Built to help students in Canada find verified tech internships faster.
 | Kinaxis | Developer Intern Co-op, Machine Learning | Remote, Canada | Closed🔒 | Sep 3, 2026 |
 | AMD | Diagnostics Design Engineering Intern/Co-op | Markham, ON | Closed🔒 | Sep 3, 2026 |
 | ↳ | Hardware Design Verification Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91361?icims=1) | Sep 3, 2026 |
-| North American Construction Group | Full Stack Developer Co-op | Acheson, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers-nacg.icims.com/jobs/17153/job?mobile=true&needsRedirect=false) | Sep 3, 2026 |
+| North American Construction Group | Full Stack Developer Co-op | Acheson, AB | Closed🔒 | Sep 3, 2026 |
 | Geotab | Software Developer Intern | Toronto, ON / Oakville, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/internshiplist2000/jobs/5350915008) | Sep 3, 2026 |
 | AltaML | Associate Software Engineer | Edmonton, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/altaml/bd8167f5-e84c-48b1-9cad-2831bf71dea1/) | Sep 3, 2026 |
 | Nokia | Embedded C/C++ IP Routing Software Developer Student Intern | Ottawa, ON | Closed🔒 | Sep 3, 2026 |
