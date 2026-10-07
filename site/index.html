@@ -1,92 +1,278 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>🍁 Canadian Tech Internships — Filter</title>
-<meta name="description" content="Filter Canadian tech internships by term, location, duration, and remote availability.">
+<title>Canadian Tech Internships — Discover & Filter</title>
+<meta name="description" content="Discover and filter Canadian tech internships by term, province, duration, and remote availability.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        fontFamily: { sans: ["Inter", "system-ui", "sans-serif"] },
+        colors: {
+          primary: "rgb(var(--c-primary) / <alpha-value>)",
+          "on-primary": "rgb(var(--c-on-primary) / <alpha-value>)",
+          "primary-container": "rgb(var(--c-primary-container) / <alpha-value>)",
+          "on-primary-container": "rgb(var(--c-on-primary-container) / <alpha-value>)",
+          "primary-fixed": "rgb(var(--c-primary-fixed) / <alpha-value>)",
+          "on-primary-fixed": "rgb(var(--c-on-primary-fixed) / <alpha-value>)",
+          secondary: "rgb(var(--c-secondary) / <alpha-value>)",
+          "on-secondary": "rgb(var(--c-on-secondary) / <alpha-value>)",
+          "secondary-container": "rgb(var(--c-secondary-container) / <alpha-value>)",
+          "on-secondary-container": "rgb(var(--c-on-secondary-container) / <alpha-value>)",
+          tertiary: "rgb(var(--c-tertiary) / <alpha-value>)",
+          "tertiary-container": "rgb(var(--c-tertiary-container) / <alpha-value>)",
+          "on-tertiary-container": "rgb(var(--c-on-tertiary-container) / <alpha-value>)",
+          surface: "rgb(var(--c-surface) / <alpha-value>)",
+          "surface-dim": "rgb(var(--c-surface-dim) / <alpha-value>)",
+          "surface-variant": "rgb(var(--c-surface-variant) / <alpha-value>)",
+          "surface-container": "rgb(var(--c-surface-container) / <alpha-value>)",
+          "surface-container-low": "rgb(var(--c-surface-container-low) / <alpha-value>)",
+          "surface-container-high": "rgb(var(--c-surface-container-high) / <alpha-value>)",
+          "on-surface": "rgb(var(--c-on-surface) / <alpha-value>)",
+          "on-surface-variant": "rgb(var(--c-on-surface-variant) / <alpha-value>)",
+          "outline": "rgb(var(--c-outline) / <alpha-value>)",
+          "outline-variant": "rgb(var(--c-outline-variant) / <alpha-value>)",
+        },
+      },
+    },
+  };
+</script>
+<script>
+  (function () {
+    try {
+      var stored = localStorage.getItem("theme");
+      var dark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.classList.toggle("dark", dark);
+    } catch (e) {}
+  })();
+</script>
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<header class="site-header">
-  <div class="wrap">
-    <h1>🍁 Canadian Tech Internships</h1>
-    <p class="lede">Filter verified Canadian tech internships by work term, city, length, and remote availability.</p>
-    <p class="meta" id="generated"></p>
+<body class="min-h-screen bg-surface-dim font-sans text-on-surface antialiased">
+
+<header class="border-b border-outline-variant bg-surface/90 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3 sm:px-6">
+    <a href="#" class="flex items-center gap-2.5">
+      <span class="grid h-9 w-9 place-items-center rounded-xl bg-primary text-on-primary shadow-sm" aria-hidden="true">
+        <span class="material-symbols-outlined text-[22px]">eco</span>
+      </span>
+      <span class="flex flex-col leading-tight">
+        <span class="text-sm font-extrabold tracking-tight sm:text-base">Canadian Tech Internships</span>
+        <span class="hidden text-xs text-on-surface-variant sm:block">2027 co-op &amp; internship directory</span>
+      </span>
+    </a>
+    <div class="ml-auto flex items-center gap-2">
+      <button type="button" data-theme-toggle aria-label="Toggle dark mode" aria-pressed="false"
+              class="inline-flex items-center justify-center rounded-full p-2 text-on-surface-variant transition hover:bg-surface-container focus:outline-none focus-visible:ring-2 focus-visible:ring-primary">
+        <span class="material-symbols-outlined text-[22px] dark:hidden" aria-hidden="true">dark_mode</span>
+        <span class="material-symbols-outlined hidden text-[22px] dark:block" aria-hidden="true">light_mode</span>
+      </button>
+      <a href="https://github.com/negarprh/Canadian-Tech-Internships-2027" target="_blank" rel="noopener noreferrer"
+         class="hidden items-center gap-1.5 rounded-full px-3 py-2 text-sm font-semibold text-on-surface-variant transition hover:bg-surface-container sm:inline-flex">
+        <span class="material-symbols-outlined text-[20px]" aria-hidden="true">code</span> GitHub
+      </a>
+      <button type="button" data-open-add
+        class="inline-flex items-center gap-1.5 rounded-full bg-primary px-4 py-2 text-sm font-semibold text-on-primary shadow-sm transition hover:bg-primary-container focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
+        <span class="material-symbols-outlined text-[20px]" aria-hidden="true">add_circle</span>
+        <span class="hidden sm:inline">Add internship</span>
+      </button>
+    </div>
   </div>
 </header>
 
-<main class="wrap">
-  <form class="filters" id="filters" autocomplete="off">
-    <label class="field search">
-      <span>Search</span>
-      <input type="search" id="q" placeholder="Company or role…">
-    </label>
+<main class="mx-auto max-w-6xl px-4 pb-24 pt-8 sm:px-6">
+  <section class="mb-8">
+    <h1 class="max-w-3xl text-3xl font-extrabold tracking-tight sm:text-4xl">
+      Find your next Canadian tech internship
+    </h1>
+    <p class="mt-3 max-w-2xl text-base text-on-surface-variant">
+      A continuously updated directory of co-op and internship postings across Canada.
+      Filter by work term, province, length, and remote availability.
+    </p>
 
-    <label class="field">
-      <span>Cycle</span>
-      <select id="cycle">
-        <option value="2027" selected>2027</option>
-        <option value="2026">2026</option>
-        <option value="">All</option>
+    <div class="mt-5 flex flex-wrap items-center gap-2">
+      <span class="text-xs font-semibold uppercase tracking-wide text-on-surface-variant">Popular terms</span>
+      <button type="button" class="cohort-chip" data-season="winter" data-cycle="2027">Winter 2027</button>
+      <button type="button" class="cohort-chip" data-season="summer" data-cycle="2026">Summer 2026</button>
+      <button type="button" class="cohort-chip" data-season="fall" data-cycle="2026">Fall 2026</button>
+    </div>
+  </section>
+
+  <form id="filters" autocomplete="off" role="search"
+        class="mb-6 rounded-2xl border border-outline-variant bg-surface/95 p-3 shadow-sm backdrop-blur sm:p-4">
+    <div class="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-6">
+      <label class="col-span-2 flex items-center gap-2 rounded-xl border border-outline-variant bg-surface-container-low px-3 py-2 focus-within:border-primary sm:col-span-3 lg:col-span-2">
+        <span class="material-symbols-outlined text-[20px] text-on-surface-variant" aria-hidden="true">search</span>
+        <input id="q" type="search" placeholder="Search company or role…"
+               class="w-full bg-transparent text-sm outline-none placeholder:text-on-surface-variant/70">
+      </label>
+
+      <select id="cycle" aria-label="Cycle" class="filter-select">
+        <option value="2027" selected>2027 cycle</option>
+        <option value="2026">2026 cycle</option>
+        <option value="">All cycles</option>
       </select>
-    </label>
 
-    <label class="field">
-      <span>Work term</span>
-      <select id="term">
-        <option value="">Any</option>
+      <select id="term" aria-label="Work term" class="filter-select">
+        <option value="">Any term</option>
         <option value="winter">Winter</option>
         <option value="summer">Summer</option>
         <option value="fall">Fall</option>
       </select>
-    </label>
 
-    <label class="field">
-      <span>Location</span>
-      <select id="location"><option value="">All</option></select>
-    </label>
+      <select id="location" aria-label="Location" class="filter-select">
+        <option value="">All locations</option>
+      </select>
 
-    <label class="field">
-      <span>Duration</span>
-      <select id="duration">
-        <option value="">Any</option>
+      <select id="duration" aria-label="Duration" class="filter-select">
+        <option value="">Any duration</option>
         <option value="1-4">Up to 4 months</option>
         <option value="5-8">5–8 months</option>
         <option value="9-12">9–12 months</option>
         <option value="13-24">13+ months</option>
         <option value="unknown">Not listed</option>
       </select>
-    </label>
 
-    <label class="field">
-      <span>Status</span>
-      <select id="status">
-        <option value="open" selected>Open</option>
-        <option value="all">All</option>
+      <select id="status" aria-label="Status" class="filter-select">
+        <option value="open" selected>Open only</option>
+        <option value="all">Any status</option>
         <option value="closed">Closed</option>
       </select>
-    </label>
+    </div>
 
-    <label class="field checkbox">
-      <input type="checkbox" id="remote">
-      <span>Remote only</span>
-    </label>
-
-    <button type="reset" id="reset" class="reset">Reset</button>
+    <div class="mt-2.5 flex flex-wrap items-center gap-3">
+      <label class="inline-flex cursor-pointer items-center gap-2 text-sm font-medium">
+        <input id="remote" type="checkbox" class="h-4 w-4 rounded border-outline text-primary focus:ring-primary">
+        Remote only
+      </label>
+      <button type="reset" id="reset"
+              class="ml-auto inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-semibold text-primary transition hover:bg-primary-fixed">
+        <span class="material-symbols-outlined text-[18px]" aria-hidden="true">restart_alt</span> Reset
+      </button>
+    </div>
   </form>
 
-  <p class="count" id="count" role="status"></p>
+  <div class="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2">
+    <p id="count" role="status" class="text-sm font-medium text-on-surface-variant"></p>
+    <div id="chips" class="flex flex-wrap items-center gap-2"></div>
+  </div>
 
-  <ul class="listings" id="listings"></ul>
-  <p class="empty" id="empty" hidden>No internships match these filters.</p>
+  <div id="listings" class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3"></div>
+
+  <div id="skeleton" class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3" hidden>
+    <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+    <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+  </div>
+
+  <div id="empty" class="hidden flex-col items-center justify-center gap-3 rounded-2xl border border-dashed border-outline-variant bg-surface px-6 py-16 text-center">
+    <span class="material-symbols-outlined text-4xl text-on-surface-variant" aria-hidden="true">search_off</span>
+    <p class="text-lg font-semibold">No internships match these filters</p>
+    <p class="max-w-sm text-sm text-on-surface-variant">Try clearing a filter or broadening your search.</p>
+    <button type="button" data-reset-filters class="mt-1 rounded-full bg-primary px-4 py-2 text-sm font-semibold text-on-primary transition hover:bg-primary-container">Clear filters</button>
+  </div>
+
+  <div id="load-more" class="hidden justify-center py-8" role="status" aria-live="polite">
+    <span class="inline-flex items-center gap-2 text-sm text-on-surface-variant">
+      <span class="h-4 w-4 animate-spin rounded-full border-2 border-outline-variant border-t-primary" aria-hidden="true"></span>
+      Loading more…
+    </span>
+  </div>
+
+  <div id="sentinel" class="h-px w-full" aria-hidden="true"></div>
+
+  <section class="mt-14 grid gap-3 rounded-2xl border border-outline-variant bg-surface p-5 sm:grid-cols-[1fr_auto] sm:items-center sm:p-6">
+    <div>
+      <h2 class="text-base font-bold">Know of an opening we're missing?</h2>
+      <p class="mt-1 text-sm text-on-surface-variant">Submit a posting and a bot opens a pull request for review. All listings are checked before they go live.</p>
+    </div>
+    <button type="button" data-open-add
+      class="inline-flex items-center justify-center gap-1.5 rounded-full border border-outline-variant px-4 py-2 text-sm font-semibold text-on-surface transition hover:bg-surface-container">
+      <span class="material-symbols-outlined text-[20px]" aria-hidden="true">add_link</span> Submit a posting
+    </button>
+  </section>
 </main>
 
-<footer class="site-footer">
-  <div class="wrap">
-    <p>Data generated from the repository's Markdown listings. Apply links point to the original postings.</p>
+<footer class="border-t border-outline-variant bg-surface">
+  <div class="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-8 text-sm text-on-surface-variant sm:flex-row sm:items-center sm:px-6">
+    <p>Data generated automatically from the repository's Markdown listings. Apply links point to the original postings.</p>
+    <a href="https://github.com/negarprh/Canadian-Tech-Internships-2027" target="_blank" rel="noopener noreferrer"
+       class="font-semibold text-primary hover:underline sm:ml-auto">View on GitHub →</a>
   </div>
 </footer>
+
+<button type="button" data-open-add aria-label="Submit a posting"
+        class="fixed bottom-5 right-5 z-30 grid h-14 w-14 place-items-center rounded-full bg-primary text-on-primary shadow-lg transition hover:bg-primary-container focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 sm:hidden">
+  <span class="material-symbols-outlined text-[26px]" aria-hidden="true">add</span>
+</button>
+
+<div id="add-modal" class="fixed inset-0 z-50 hidden" role="dialog" aria-modal="true" aria-labelledby="add-modal-title">
+  <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" data-close-add></div>
+  <div class="absolute inset-x-0 bottom-0 max-h-[92vh] overflow-y-auto rounded-t-2xl bg-surface p-5 shadow-2xl sm:inset-0 sm:bottom-auto sm:left-1/2 sm:top-1/2 sm:max-h-[88vh] sm:w-[min(560px,92vw)] sm:-translate-x-1/2 sm:-translate-y-1/2 sm:rounded-2xl sm:p-6">
+    <div class="mb-4 flex items-start gap-3">
+      <div class="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-primary-fixed text-primary" aria-hidden="true">
+        <span class="material-symbols-outlined">add_link</span>
+      </div>
+      <div class="min-w-0">
+        <h2 id="add-modal-title" class="text-lg font-bold">Submit an internship</h2>
+        <p class="mt-0.5 text-sm text-on-surface-variant">We'll open a pre-filled GitHub issue. Review it, confirm the checklist, and submit.</p>
+      </div>
+      <button type="button" data-close-add aria-label="Close" class="ml-auto rounded-full p-1.5 text-on-surface-variant transition hover:bg-surface-container">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+
+    <form id="add-form" class="grid gap-4" novalidate>
+      <div class="grid gap-1.5">
+        <label for="add-company" class="text-sm font-semibold">Company <span class="text-primary">*</span></label>
+        <input id="add-company" name="company" required maxlength="120" placeholder="e.g. Shopify"
+               class="rounded-xl border border-outline-variant bg-surface-container-low px-3 py-2.5 text-sm outline-none focus:border-primary">
+      </div>
+      <div class="grid gap-1.5">
+        <label for="add-role" class="text-sm font-semibold">Role <span class="text-primary">*</span></label>
+        <input id="add-role" name="role" required maxlength="160" placeholder="e.g. Software Engineering Intern"
+               class="rounded-xl border border-outline-variant bg-surface-container-low px-3 py-2.5 text-sm outline-none focus:border-primary">
+      </div>
+      <div class="grid gap-1.5">
+        <label for="add-location" class="text-sm font-semibold">Location <span class="text-primary">*</span></label>
+        <input id="add-location" name="location" required maxlength="120" placeholder="e.g. Toronto, ON"
+               class="rounded-xl border border-outline-variant bg-surface-container-low px-3 py-2.5 text-sm outline-none focus:border-primary">
+      </div>
+      <div class="grid gap-1.5">
+        <label for="add-link" class="text-sm font-semibold">Application link <span class="text-primary">*</span></label>
+        <input id="add-link" name="link" type="url" required inputmode="url" placeholder="https://…"
+               class="rounded-xl border border-outline-variant bg-surface-container-low px-3 py-2.5 text-sm outline-none focus:border-primary">
+      </div>
+      <div class="grid gap-1.5">
+        <label for="add-date" class="text-sm font-semibold">Date posted <span class="text-primary">*</span></label>
+        <input id="add-date" name="date" type="date" required
+               class="rounded-xl border border-outline-variant bg-surface-container-low px-3 py-2.5 text-sm outline-none focus:border-primary">
+      </div>
+      <label class="flex items-start gap-2.5 rounded-xl bg-surface-container-low p-3 text-sm">
+        <input id="add-confirm" type="checkbox" required class="mt-0.5 h-4 w-4 shrink-0 rounded border-outline-variant text-primary focus:ring-primary">
+        <span>I verified the link works and the role is still open.</span>
+      </label>
+
+      <p id="add-error" class="hidden rounded-xl bg-primary-fixed px-3 py-2 text-sm font-medium text-on-primary-fixed" role="alert"></p>
+
+      <div class="mt-1 flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
+        <button type="button" data-close-add
+                class="rounded-full px-4 py-2.5 text-sm font-semibold text-on-surface-variant transition hover:bg-surface-container">Cancel</button>
+        <button type="submit"
+                class="inline-flex items-center justify-center gap-1.5 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-on-primary transition hover:bg-primary-container">
+          <span class="material-symbols-outlined text-[20px]" aria-hidden="true">open_in_new</span> Continue on GitHub
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
 
 <script src="app.js"></script>
 </body>
