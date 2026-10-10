@@ -73,7 +73,7 @@ Built to help students in Canada find verified tech internships faster.
  | SOTI | Data Scientist Intern (Winter 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Data-Scientist--Intern--Jan-2027-12-Months-_R10571) | Oct 5, 2026 |
 | Sun Life | Data Analyst Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Toronto-Ontario/Student--Data-Analyst---Winter-2027-_JR00128365) | Oct 5, 2026 |
 | Royal Bank of Canada | AI Developer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Winter---GRM--AI-Developer-Intern---Innovation---AI-Center-of-Excellence--4-Months-_R-0000188001-1) | Oct 5, 2026 | 
- | Capital One | Data Scientist Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Data-Scientist---Summer-2027_R1002165-1) | Oct 5, 2026 |
+ | Capital One | Data Scientist Intern (Summer 2027) | Toronto, ON | Closed🔒 | Oct 5, 2026 |
 | Semtech | Software Developer Co-op, Web/Cloud Application | Richmond, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Richmond-BC/Software-Developer---Web-Cloud-Application--Co-op_REQ3644) | Oct 5, 2026 | 
  | GoTo Group | Software Developer Intern | Remote, Canada | Closed🔒 | Oct 5, 2026 | 
  | AltaGas | Digital Intern, NextGen AI & Data (Winter 2027) | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://wgl.wd5.myworkdayjobs.com/altagas/job/Calgary-AB/AltaGas---2027-Digital--NextGen-AI---Data--Intern_R7312) | Oct 5, 2026 |
@@ -161,7 +161,7 @@ Built to help students in Canada find verified tech internships faster.
 | ↳ | Software Engineer 1 Co-op, Anvi | Vancouver, BC | Closed🔒 | Sep 22, 2026 |
 | ↳ | Software Engineer 1 Co-op, Hub | Vancouver, BC | Closed🔒 | Sep 22, 2026 |
 | L3Harris Technologies | Software Engineer Co-op | Waterdown, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.l3harris.com/job/Waterdown-Software-Engineering-Co-Op-(Waterdown,-CAN)-ON-L9H-0C5/1432400300/?ats=successfactors) | Sep 22, 2026 |
-| Marvell | Firmware Engineer Intern | Toronto, ON, | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CA-ON---Toronto---TOR/Firmware-Engineer-Intern_2603751) | Sep 22, 2026 |
+| Marvell | Firmware Engineer Intern | Toronto, ON, | Closed🔒 | Sep 22, 2026 |
 | ↳ | Software/Firmware Engineer Intern | Toronto, ON | Closed🔒 | Sep 22, 2026 |
 | CIBC | Software/Application Developer Co-op (Winter 2026) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Software-Application-Developer-Co-op_2619461) | Sep 22, 2026 |
 | ↳ | Application/Software Developer Co-op (Winter 2026) | Toronto, ON | Closed🔒 | Sep 22, 2026 |
@@ -341,7 +341,7 @@ Built to help students in Canada find verified tech internships faster.
 | ↳ | Portfolio Analytics Data Analyst Intern/Co-op | Toronto, ON | Closed🔒 | Sep 8, 2026 |
 | ↳ | Product Management Intern/Co-op | Toronto, ON | Closed🔒 | Sep 8, 2026 |
 | ↳ | Software Engineering Rotational Program | Toronto, ON | Closed🔒 | Sep 8, 2026 |
-| Lumentum | Optical Verification Engineer Intern Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Optical-Verification-Engineer-Co-op-Intern_20261193) | Sep 8, 2026 |
+| Lumentum | Optical Verification Engineer Intern Co-op | Ottawa, ON | Closed🔒 | Sep 8, 2026 |
 | OMERS | Portfolio Analytics Student | Toronto, ON | Closed🔒 | Sep 7, 2026 |
 | ↳ | AI/ML Engineer Student | Toronto, ON | Closed🔒 | Sep 7, 2026 |
 | Royal Bank of Canada | Data Engineer, RBC Amplify | Halifax, NS | Closed🔒 | Sep 7, 2026 |
@@ -409,7 +409,7 @@ Built to help students in Canada find verified tech internships faster.
 | ↳ | Data Analyst Intern, Spare Parts Services | Longueuil, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Analyste-de-donnes--Services-de-pices-de-rechange---Internship---Winter-2027---Data-Analyst--Spare-Parts-Services_01872182) | Sep 3, 2026 |
 | ↳ | Development of Performance Indicators and Process and Project Management | Longueuil, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Dveloppement-d-indicateurs-de-performance-et-gestion-des-processus-et-projets---Internship---Winter-2027--Development-of-Performance-Indicators-and-Process-and-Project-Management_01867284) | Sep 3, 2026 |
 | Canadian Tire | Business Operations Analyst Student | Welland, ON | Closed🔒 | Sep 3, 2026 |
-| Teledyne | LiDAR Data Analyst Co-op | Concord, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Concord-ON-TDY/LiDAR-Data-Analyst--Co-op-_REQ36378) | Sep 3, 2026 |
+| Teledyne | LiDAR Data Analyst Co-op | Concord, ON | Closed🔒 | Sep 3, 2026 |
 | Sun Life | Associate Software Engineer | Waterloo, ON | Closed🔒 | Sep 3, 2026 |
 | ↳| Software Engineer Intern, API | Toronto, ON | Closed🔒 | Sep 3, 2026 |
 | Nokia | Software Developer Co-op Intern | Ottawa, ON | Closed🔒 | Sep 2, 2026 |
