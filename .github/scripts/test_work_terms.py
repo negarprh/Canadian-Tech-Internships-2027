@@ -11,7 +11,13 @@ import requests
 import backfill_work_terms as backfill
 from check_closed_jobs import LISTING_FILES
 from format_table import format_listings
-from work_terms import STATE, classify, load_state
+from work_terms import (ROLE_SUFFIX, STATE, classify, display_title, identity,
+                        load_state, rows, save_state)
+
+
+def make_document(listing, rows_text):
+    table = "| Company | Role | Location | Apply | Date Posted |\n|---|---|---|---|---|\n" + rows_text
+    return "before\n" + listing.begin_marker + "\n" + table + "\n" + listing.end_marker + "\nafter\n"
 
 
 class ClassificationTests(unittest.TestCase):
@@ -246,6 +252,49 @@ class FetchTests(unittest.TestCase):
         self.assertEqual(self.fetcher(payload)(url, "Intern")[0], "fetched")
         payload["jobPostingInfo"]["externalPath"] = "/job/Toronto/Intern_R999"
         self.assertEqual(self.fetcher(payload)(url, "Intern")[0], "fetch_failure")
+
+
+class DurationRenderingTests(unittest.TestCase):
+    def test_display_title_variants(self):
+        self.assertEqual(display_title({"original_title": "Developer Intern", "duration_months": 8}),
+                         "Developer Intern · 8 months")
+        self.assertEqual(display_title({"original_title": "Developer Intern", "work_term": "summer", "start_year": 2027}),
+                         "Developer Intern (Summer 2027)")
+        self.assertEqual(
+            display_title({"original_title": "Developer Intern", "work_term": "summer", "start_year": 2027,
+                           "duration_months": 1}),
+            "Developer Intern (Summer 2027) · 1 month")
+        # A length already stated in the title is not repeated.
+        self.assertEqual(display_title({"original_title": "Intern, 8 months", "duration_months": 8}),
+                         "Intern, 8 months")
+
+    def test_suffix_stripping(self):
+        for title in ["Developer Intern (Summer 2027) · 8 months", "Developer Intern · 8 months",
+                      "Developer Intern (Summer 2027)", "Developer Intern"]:
+            with self.subTest(title=title):
+                self.assertEqual(ROLE_SUFFIX.fullmatch(title)["base"], "Developer Intern")
+        self.assertEqual(ROLE_SUFFIX.fullmatch("Developer (Winter 2027) Intern")["base"],
+                         "Developer (Winter 2027) Intern")
+
+    def test_render_and_round_trip(self):
+        temp = tempfile.TemporaryDirectory()
+        self.addCleanup(temp.cleanup)
+        root = Path(temp.name)
+        row = ("| Acme | Developer Intern | Toronto, ON | "
+               "[![Apply](https://badge)](https://example.org/job/1) | Jan 1 |")
+        root.joinpath("README.md").write_text(make_document(LISTING_FILES[0], row), encoding="utf-8")
+        root.joinpath("README-2026.md").write_text(make_document(LISTING_FILES[1], ""), encoding="utf-8")
+        key = identity("Acme", "Developer Intern", "Toronto, ON", "Jan 1")
+        save_state({"version": 1, "jobs": {key: {
+            "original_title": "Developer Intern", "work_term": "summer", "start_year": 2027,
+            "duration_months": 8, "source_url": "https://example.org/job/1"}}}, root / STATE)
+        format_listings(root)
+        text = root.joinpath("README.md").read_text(encoding="utf-8")
+        self.assertIn("Developer Intern (Summer 2027) · 8 months", text)
+        # The rendered suffixes are stripped back to the stored identity.
+        section = text.split(LISTING_FILES[0].begin_marker)[1].split(LISTING_FILES[0].end_marker)[0]
+        parsed = list(rows(section, load_state(root / STATE)))
+        self.assertEqual((parsed[0].key, parsed[0].title, parsed[0].company), (key, "Developer Intern", "Acme"))
 
 
 if __name__ == "__main__":
