@@ -58,7 +58,7 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
-| Astera Labs | Platform Applications Engineer Intern Co-op - Tools Development Engineer - COSMOS Platform Software | Vancouver, BC, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4733856005) | Oct 6, 2026 | 
+| Astera Labs | Platform Applications Engineer Intern Co-op | Vancouver, BC, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4733856005) | Oct 6, 2026 | 
  | Astera Labs | Physical Design Engineer Intern | Toronto, ON, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731401005) | Oct 6, 2026 | 
  | Astera Labs | System Validation Engineer Intern | Vancouver, BC, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4729021005) | Oct 6, 2026 | 
  | Astera Labs | Design-for-Test Engineer Intern | Toronto, ON, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4728387005) | Oct 6, 2026 | 
