@@ -58,6 +58,9 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| StackAdapt | Software Engineer Backend Intern (Winter 2027) | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4386552009) | Oct 6, 2026 | 
+ | ↳ | Machine Learning Engineer Intern (Winter 2027) | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4397976009) | Oct 6, 2026 | 
+ | MistyWest | Engineering Co-op (Winter 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/mistywest/j/5D68DE0118/apply) | Oct 6, 2026 |
 | Astera Labs | Platform Applications Engineer Intern Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4733856005) | Oct 6, 2026 | 
  | ↳ | Physical Design Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731401005) | Oct 6, 2026 | 
  | ↳ | System Validation Engineer Intern | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4729021005) | Oct 6, 2026 | 
