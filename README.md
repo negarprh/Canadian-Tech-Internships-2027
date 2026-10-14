@@ -58,6 +58,7 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Magnet Forensics | Software Developer Co-op (Winter 2027) | Ontario, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/magnetforensics/6eba87dc-f110-47b2-8015-31311ca60f52/) | Oct 10, 2026 |
 | Electronic Arts | Software Engineer Intern (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027-8-Months-Sports-Technology/216225) | Oct 9, 2026 | 
  | ↳ | C++ Generalist Software Engineer Co-op (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216231) | Oct 9, 2026 | 
  | ↳ | Gameplay Software Engineer Co-op (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216230) | Oct 9, 2026 | 
