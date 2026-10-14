@@ -79,8 +79,8 @@ Built to help students in Canada find verified tech internships faster.
 | Motorola | Software Developer, Embedded Appliances Co-op | Vancouver, BC | Closed🔒 | Oct 7, 2026 | 
  | The Semios Group | Software Developer Co-op (Winter 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/semios/j/4B5D1FB613/) | Oct 6, 2026 | 
  | Tenstorrent | Hardware Intern, AI HW & System on a Chip | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5256568007) | Oct 6, 2026 |
-| StackAdapt | Software Engineer Backend Intern (Winter 2027) | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4386552009) | Oct 6, 2026 | 
- | ↳ | Machine Learning Engineer Intern (Winter 2027) | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/stackadapt-confidential/jobs/4397976009) | Oct 6, 2026 | 
+| StackAdapt | Software Engineer Backend Intern (Winter 2027) | Remote, Canada | Closed🔒 | Oct 6, 2026 | 
+ | ↳ | Machine Learning Engineer Intern (Winter 2027) | Remote, Canada | Closed🔒 | Oct 6, 2026 | 
 | Astera Labs | Platform Applications Engineer Intern Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4733856005) | Oct 6, 2026 | 
  | ↳ | Physical Design Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731401005) | Oct 6, 2026 | 
  | ↳ | System Validation Engineer Intern | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4729021005) | Oct 6, 2026 | 
@@ -90,7 +90,7 @@ Built to help students in Canada find verified tech internships faster.
  | Moment Energy | Firmware Engineering Co-op (Winter 2027) | Surrey, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/momentenergy/jobs/4434575009) | Oct 6, 2026 |
 | ↳ | Software Engineering Co-op (Winter 2027) | Surrey, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/momentenergy/jobs/4434577009) | Oct 6, 2026 | 
  | General Motors | Vehicle Experience Software Developer Co-op (Winter 2027) | Markham, ON | Closed🔒 | Oct 6, 2026 | 
- | CIBC | Business Intelligence Enterprise Anti-Money Laundering Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Business-Intelligence--Enterprise-Anti-Money-Laundering-Winter-2027-Co-op_2620595) | Oct 6, 2026 |
+ | CIBC | Business Intelligence Enterprise Anti-Money Laundering Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 6, 2026 |
 | Lumentum | Embedded Software Engineer Co-op Intern | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Engineer-Co-op-Intern_20261370) | Oct 6, 2026 | 
  | AltaGas | Data Analytics & Process Automation Co-op (Winter 2027) | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://wgl.wd5.myworkdayjobs.com/altagas/job/Calgary-AB/XMLNAME-2027-Data-Analytics---AltaGas---2027-Process-Automation-Co-op-Student_R7321-1) | Oct 6, 2026 |
 | CAE | Data Specialist Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire---Spcialiste-de-donnes_123901) | Oct 6, 2026 | 
@@ -282,11 +282,11 @@ Built to help students in Canada find verified tech internships faster.
 | Equitable Bank | Commercial Lending AI Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/eqbank/54045eae-334a-4486-8e97-96e49e6a1487/) | Sep 14, 2026 |
 | ↳ | Retail Lending AI Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/eqbank/1c46930a-7ffe-4760-9d31-e08ea191ddea/) | Sep 14, 2026 |
 | Definity Financial | Technology Business Administration Co-op Intern | Toronto, ON / Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://hdks.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9345) | Sep 14, 2026 |
-| Robinhood | Software Developer Intern, Backend | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://boards.greenhouse.io/robinhood/jobs/8142930) | Sep 14, 2026 |
-| ↳ | Software Developer Intern, Web | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://boards.greenhouse.io/robinhood/jobs/8199744) | Sep 14, 2026 |
-| ↳ | Software Developer Intern/Co-op, Backend | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://boards.greenhouse.io/robinhood/jobs/8194428) | Sep 14, 2026 |
-| ↳ | Software Developer Intern, IOS | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://boards.greenhouse.io/robinhood/jobs/8199729) | Sep 14, 2026 |
-| Ciena | Software Engineering Intern, Optical Transport and IP Networking | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Software-Engineering--Optical-Transport-and-IP-Networking-Intern_R031631) | Sep 14, 2026 |
+| Robinhood | Software Developer Intern, Backend | Toronto, ON | Closed🔒 | Sep 14, 2026 |
+| ↳ | Software Developer Intern, Web | Toronto, ON | Closed🔒 | Sep 14, 2026 |
+| ↳ | Software Developer Intern/Co-op, Backend | Toronto, ON | Closed🔒 | Sep 14, 2026 |
+| ↳ | Software Developer Intern, IOS | Toronto, ON | Closed🔒 | Sep 14, 2026 |
+| Ciena | Software Engineering Intern, Optical Transport and IP Networking | Ottawa, ON | Closed🔒 | Sep 14, 2026 |
 | Sun Life | Software Engineer Co-op | Waterloo, ON | Closed🔒 | Sep 14, 2026 |
 | BDO Canada | Full-Stack Developer Co-op Intern | Toronto, ON / Ottawa, ON / Oakville, ON | Closed🔒 | Sep 14, 2026 |
 | Royal Bank of Canada | Algorithmic Trading Developer Co-op, Global Equities | Toronto, ON | Closed🔒 | Sep 14, 2026 |

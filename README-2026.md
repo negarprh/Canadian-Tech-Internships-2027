@@ -107,7 +107,7 @@ I’ll post as soon as companies open 2026 internship applications.
  | Bank of Montreal | Market Risk Analyst Co-op/Intern | Toronto, ON | Closed🔒 | Jul 24, 2026 |
 | Veralto | Aquatic Informatics, Machine Learning Co-Op (Intern) | London, ON | Closed🔒 | Jul 23, 2026 |
 | Motorola | Software Engineer Co-op | Gatineau, QC | Closed🔒 | Jul 23, 2026 |
-| Later | Software Development Co-op, Later Influence | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/later/jobs/8643138002) | Jul 22, 2026 |  
+| Later | Software Development Co-op, Later Influence | Vancouver, BC | Closed🔒 | Jul 22, 2026 |  
  | Varian | Product Engineering Assistant Co-op | Ottawa, ON | Closed🔒 | Jul 22, 2026 |
 | ShyftLabs | AI Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/shyftlabs/4f389ea7-9b98-4ed0-99c2-b25ea8cc2dcd/) | Jul 21, 2026 |  
  | Veeda AI | Veeda AI Scientist | Toronto, ON | Closed🔒 | Jul 21, 2026 | 
