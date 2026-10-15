@@ -117,7 +117,7 @@ I’ll post as soon as companies open 2026 internship applications.
  | Generac | Data Science Intern | Toronto, ON | Closed🔒 | Jul 21, 2026 |
 | Google | Student Researcher, BS/MS | Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.google.com/about/careers/applications/jobs/results/113855697199735494) | Jul 20, 2026 | 
  | ↳ | Student Researcher, PHD | Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.google.com/about/careers/applications/jobs/results/128430823337534150) | Jul 20, 2026 |
-| Telesat | User Terminal Engineering Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/telesat/58832b41-ddb7-4ee1-99fc-92d57f23b788/) | Jul 20, 2026 | 
+| Telesat | User Terminal Engineering Co-op | Ottawa, ON | Closed🔒 | Jul 20, 2026 | 
  | Ciena | Photonic Hardware Intern | Ottawa, ON | Closed🔒 | Jul 20, 2026 | 
  | Sun Life | Student Associate Data Engineer | Toronto, ON / Waterloo, ON | Closed🔒 | Jul 20, 2026 |
 | Magna | AI Engineering Co-op | Milton, ON | Closed🔒 | Jul 17, 2026 | 
