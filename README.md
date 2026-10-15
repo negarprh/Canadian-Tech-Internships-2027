@@ -63,7 +63,7 @@ Built to help students in Canada find verified tech internships faster.
  | ↳ | C++ Generalist Software Engineer Co-op (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216231) | Oct 9, 2026 | 
  | ↳ | Gameplay Software Engineer Co-op (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216230) | Oct 9, 2026 | 
  | ↳ | C++ Software Engineer Intern (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027-8-months-UFC/216226) | Oct 9, 2026 | 
- | Varian | Performance Engineering Assistant Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://onehealthineers.wd3.myworkdayjobs.com/SHSJB/job/YOW-B/Performance-Engineering-Assistant-Co-op_R-31160) | Oct 9, 2026 |
+ | Varian | Performance Engineering Assistant Co-op | Ottawa, ON | Closed🔒 | Oct 9, 2026 |
 | Workday | Software Development Engineer Intern (Winter 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Software-Development-Engineer-Intern_JR-0110807) | Oct 9, 2026 | 
  | ↳ | Product Manager Intern (Winter 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Product-Manager-Intern_JR-0110808) | Oct 9, 2026 | 
  | ↳ | Machine Learning Engineer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/Canada-BC-Vancouver/Machine-Learning-Engineer-Intern_JR-0110806) | Oct 9, 2026 |
@@ -196,21 +196,21 @@ Built to help students in Canada find verified tech internships faster.
 | CIBC | Software/Application Developer Co-op (Winter 2026) | Toronto, ON | Closed🔒 | Sep 22, 2026 |
 | ↳ | Application/Software Developer Co-op (Winter 2026) | Toronto, ON | Closed🔒 | Sep 22, 2026 |
 | Ciena | ASIC Engineer Intern (Winter 2027) | Ottawa, ON | Closed🔒 | Sep 22, 2026 |
-| Vanderlande Industries | Software Development Intern | Québec City, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://vanderlande.wd3.myworkdayjobs.com/careers/job/Quebec-Canada/Stage---Dveloppement-logiciel_JR38017) | Sep 22, 2026 |
-| ↳ | Software Development Intern | Québec City, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://vanderlande.wd3.myworkdayjobs.com/careers/job/Quebec-Canada/Stage---Dveloppement-logiciel_JR38019) | Sep 22, 2026 |
+| Vanderlande Industries | Software Development Intern | Québec City, QC | Closed🔒 | Sep 22, 2026 |
+| ↳ | Software Development Intern | Québec City, QC | Closed🔒 | Sep 22, 2026 |
 | Danaher | Hardware Engineer Co-op | Concord, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Concord-Ontario-Canada/Hardware-Engineering-Co-op_R1317537) | Sep 22, 2026 |
 | RTX | Quality Project Management and Data Analysis Tool Development Intern (Winter 2027) | Longueuil, QC | Closed🔒  | Sep 22, 2026 |
 | Rodan Energy Solutions | Data Operations Engineer AI Co-op (Winter 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rodanenergysolutionsinc.applytojob.com/apply/baC6tVrSpB/Data-Operations-Engineer-AI-Coop-Student-Winter-2027) | Sep 21, 2026 |
 | ↳ | AI Solutions Co-op (Winter 2027) | Mississauga, ON | Closed🔒 | Sep 21, 2026 |
 | ↳ | Data Science Co-op (Winter 2027) | Mississauga, ON | Closed🔒 | Sep 21, 2026 |
 | CAE | C++ CGF Unreal Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-416---Stagiaire-dveloppeur-se--C---CGF-Unreal_123656) | Sep 21, 2026 |
-| ↳ | Business Intelligence Analyst & Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-917---Stagaire-en-analyste-et-dveloppeur-en-Intelligence-d-affaires_123723) | Sep 21, 2026 |
+| ↳ | Business Intelligence Analyst & Developer Intern | Montreal, QC | Closed🔒 | Sep 21, 2026 |
 | ↳ | Integration Specialist Defense & Security Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-470---Spcialiste-d-intgration-Dfense-et-scurit_120963) | Sep 21, 2026 |
 | ↳ | Software Developer Intern, Content Creation Tools | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-017---Stagiaire-dveloppeur-se--de-logiciels_123658) | Sep 21, 2026 |
 | ↳ | Software Developer Intern, Immersive | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-112-Stagiaire-dveloppeur-se--logiciel---Environnement-immersif_123653-1) | Sep 21, 2026 |
 | ↳ | Unreal Engine Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-900---Dveloppeur-se--Engin-Unreal_123654) | Sep 21, 2026 |
 | ↳ | Software Developer Intern, Software | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-950---Dveloppeur-se--logiciel_123688) | Sep 21, 2026 |
-| ↳ | C++ Backend Developer Intern, Image Generator | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GE-925---Dveloppeur-se--C-----Back-end--_123655) | Sep 21, 2026 |
+| ↳ | C++ Backend Developer Intern, Image Generator | Montreal, QC | Closed🔒 | Sep 21, 2026 |
 | CIBC | Data Analytics Co-op | Toronto, ON | Closed🔒 | Sep 21, 2026 |
 | Mercury | Software Engineering Intern (Spring 2027) | Remote, Canada | Closed🔒 | Sep 21, 2026 |
 | Achievers | Software Engineer Co-op | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/achievers/e0700fce-b33b-435a-ab90-84bbd677e181/) | Sep 19, 2026 |
