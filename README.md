@@ -58,6 +58,12 @@ Built to help students in Canada find verified tech internships faster.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Moment Energy | Test Engineering Co-op | Surrey, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/momentenergy/jobs/4455115009) | Oct 16, 2026 |
+| BC Pensions | Application Developer Co-op (Winter 2027) | Victoria, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://fa-exby-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1013/job/227) | Oct 16, 2026 |
+| Tower Research Capital | Machine Learning Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.tower-research.com/open-positions/?gh_jid=7077280) | Oct 15, 2026 |
+| TechInsights | Software Development Co-op Student (Winter 2026) | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://techinsights.applytojob.com/apply/3yhis78252/Software-Development-Coop-Student-Winter-2026) | Oct 15, 2026 |
+| Nokia | Embedded C/C++ Software Developer Co-op Intern (Winter 2027) | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41311) | Oct 15, 2026 |
+| Boeing | Data Science Intern (Winter 2027) | Vancouver, BC / Richmond, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/CAN---Richmond-Canada/Data-Science-Intern_JR2026526159) | Oct 15, 2026 |
 | Intel | Compiler Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Compiler-Engineering-Intern_JR0287934) | Oct 15, 2026 |
 | Ciena | Embedded Software Developer Intern (Winter 2027) | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890) | Oct 15, 2026 |
 | Altera | FPGA IP Design Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----Intern_R03324) | Oct 15, 2026 |
