@@ -23,14 +23,6 @@ It will open a PR automatically.
 
 ---
 
-### 👩🏻‍💻 Creator and Maintainer
-
-Created and maintained by **Negar Pirasteh** · [LinkedIn](https://www.linkedin.com/in/negar-pirasteh/)
-
-Built to help students in Canada find verified tech internships faster.
-
----
-
 ### 🔔 Star this repo ⭐ or watch for updates, I’ll post as soon as companies open applications.
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/negarprh/Canadian-Tech-Internships-2026?style=social)
