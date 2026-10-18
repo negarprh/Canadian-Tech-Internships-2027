@@ -174,8 +174,8 @@ It will open a PR automatically.
 | ↳ | Product Management Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 1, 2026 |
 | Manulife Financial | ALM Data Management & Analytics Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Toronto-Ontario/Winter-Co-op-2027---ALM-Data-Management---Analytics_JR26091831) | Oct 1, 2026 |
 | Sun Life | Associate Software Engineer Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 1, 2026 |
-| The Home Depot | AI Machine Learning Developer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://homedepot.wd5.myworkdayjobs.com/CareerDepotCanada/job/CANADA-STORE-SUPPORT-CENTER---7000/Intern--AI-Machine-Learning-Developer_Req195010) | Oct 1, 2026 |
-| ↳ | Full Stack Software Developer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://homedepot.wd5.myworkdayjobs.com/CareerDepotCanada/job/CANADA-STORE-SUPPORT-CENTER---7000/Intern--Full-Stack-Software-Developer_Req195012) | Oct 1, 2026 |
+| The Home Depot | AI Machine Learning Developer Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 1, 2026 |
+| ↳ | Full Stack Software Developer Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 1, 2026 |
 | Royal Bank of Canada | Data Analyst Co-op, Personal Banking (Winter 2027) | Toronto, ON, Canada | Closed🔒 | Oct 1, 2026 |
 | ↳ | GRM, MCCR Policy AI Applications Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 1, 2026 |
 | Pinterest | Software Engineering Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.pinterestcareers.com/jobs/8138039/software-engineering-intern-2027-toronto/?gh_jid=8138039) | Oct 1, 2026 |
