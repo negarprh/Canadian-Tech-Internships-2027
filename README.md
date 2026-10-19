@@ -50,6 +50,9 @@ It will open a PR automatically.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Waabi | Safety Methodologies Intern Co-op (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/waabi/480d9d41-33d0-429a-8883-7f9ec305a30f/apply) | Oct 16, 2026 | 
+ | Kepler Communications | Software Engineer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c/apply) | Oct 16, 2026 | 
+ | Eaton | C++ Developer Intern, Research & Development Engineering | Brossard, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://eaton.eightfold.ai/careers/job/687239542740) | Oct 16, 2026 |
 | D2L | Software Developer Co-op, Custom Development Services (Winter 2027) | Kitchener, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.d2l.com/careers/jobs/?job_id=8289767&gh_jid=8289767) | Oct 16, 2026 |
 | Behaviour Interactive | Product Management Intern (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/bhvr/540b00d3-8693-4c2b-9e98-10e33cb0ce62/) | Oct 16, 2026 | 
  | Qualcomm | Automotive Engineering Intern (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721615591) | Oct 16, 2026 | 
