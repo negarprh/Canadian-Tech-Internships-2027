@@ -50,6 +50,8 @@ It will open a PR automatically.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| HeyGen | Software Engineer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/heygen/jobs/4540716007) | Oct 19, 2026 | 
+ | University of Ottawa | Teaching Assistant Intern (Winter 2027) | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://uottawa.wd3.myworkdayjobs.com/uOttawa_External_Career_Site/job/Ottawa-ON/CUPE---Winter-2027---Teaching-Assistant---ADM4379_JR40054) | Oct 19, 2026 |
 | Waabi | Safety Methodologies Intern Co-op (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/waabi/480d9d41-33d0-429a-8883-7f9ec305a30f/) | Oct 16, 2026 | 
  | Kepler Communications | Software Engineer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c/) | Oct 16, 2026 | 
  | Eaton | C++ Developer Intern | Brossard, QC | Closed🔒 | Oct 16, 2026 |
