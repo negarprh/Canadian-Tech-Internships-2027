@@ -72,7 +72,7 @@ It will open a PR automatically.
 | Sun Life | Software Engineer Co-opو Security (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://sunlife.wd3.myworkdayjobs.com/en-US/Campus/job/Toronto-Ontario/Student--Software-Engineer---Security--Winter-2027-_JR00129065) | Oct 26, 2026 |
 | SOTI | Software Developer Intern, Server (Summer 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---Server--May-2027---12-Months-_R10647) | Oct 26, 2026 | 
  | ↳ | Software Developer Intern, Android (Summer 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---Android--May-2027---12-Months-_R10620) | Oct 26, 2026 | 
- | Altera | Software Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer---Intern_R03382) | Oct 26, 2026 | 
+ | Altera | Software Engineer Intern | Toronto, ON | Closed🔒 | Oct 26, 2026 | 
  | Intuit | Software Developer Co-op, Front End (Winter 2027) | Toronto, ON | Closed🔒 | Oct 25, 2026 |
 | American Express | AI Engineer, Enterprise Technology Services (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015552) | Oct 23, 2026 |
 | Boson Ai | MScAC Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/bosonai/3b66f322-55eb-4c4b-9b36-028dfcdd85e9/apply) | Oct 23, 2026 |
@@ -271,7 +271,7 @@ It will open a PR automatically.
 | Pinterest | Software Engineering Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.pinterestcareers.com/jobs/8138039/software-engineering-intern-2027-toronto/?gh_jid=8138039) | Oct 1, 2026 |
 | Autodesk | Software Development Internship (Winter 2027) | Toronto, ON | Closed🔒 | Oct 1, 2026 |
 | Kinaxis | Intern Developer, AI Solutions (Winter 2027) | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers-kinaxis.icims.com/jobs/35343/intern-developer%2c-ai-solutions/job) | Oct 1, 2026 |
-| Intel | Graphics Hardware Validation Undergraduate Engineering Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://intel.wd1.myworkdayjobs.com/en-us/external/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535) | Oct 1, 2026 |
+| Intel | Graphics Hardware Validation Undergraduate Engineering Intern | Toronto, ON | Closed🔒 | Oct 1, 2026 |
 | Electronic Arts | Software Engineer Intern | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern/216227) | Sep 30, 2026 |
 | Intact | Software Developer 1 Intern/Co-op (Winter 2027) | St. John's, NL | Closed🔒 | Sep 29, 2026 | 
 | Ciena | Hardware Design and Verification Intern, PCBA (Winter 2027) | Ottawa, ON | Closed🔒 | Sep 29, 2026 | 
