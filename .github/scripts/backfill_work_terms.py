@@ -15,6 +15,7 @@ from requests.adapters import HTTPAdapter
 
 from check_closed_jobs import (LISTING_FILES, VisibleText, greenhouse_api_url,
                                make_public_api_session, table_bounds, workday_api_url)
+from duration import extract as extract_duration
 from work_terms import STATE, classify, label, load_state, rows, save_state
 
 
@@ -135,14 +136,25 @@ def run(root=Path("."), *, apply=False, batch_size="all", fetch=False, retry_unc
         if key <= after_key:
             summary["before_cursor"] += 1
             continue
+        duration = extract_duration(row.title, row.url or "")
         old = state["jobs"].get(key)
         if old and old.get("work_term"):
             label(old)  # fail loudly on invalid existing metadata
             summary["already_classified"] += 1
+            if duration and not old.get("duration_months"):
+                old.update(duration)
+                state["jobs"][key] = old
+                if apply:
+                    save_state(state, state_path)
             review.append(dict(key=key, file=file, url=row.url, **old))
             continue
         if old and not retry_unclassified and not unlimited:
             summary["skipped_checkpoint"] += 1
+            if duration and not old.get("duration_months"):
+                old.update(duration)
+                state["jobs"][key] = old
+                if apply:
+                    save_state(state, state_path)
             review.append(dict(key=key, file=file, url=row.url, **old))
             continue
         if not unlimited and summary["processed"] >= batch_size:
@@ -151,16 +163,21 @@ def run(root=Path("."), *, apply=False, batch_size="all", fetch=False, retry_unc
         summary["processed"] += 1
         last_processed_key = key
         result, reason = classify(row.title)
-        source, fetch_status = "stored title", "not requested"
+        source, fetch_status, description = "stored title", "not requested", ""
         if result is None and reason == "insufficient evidence" and fetch and row.url:
-            fetch_status, description = fetcher(row.url, row.title)
+            fetch_status, fetched = fetcher(row.url, row.title)
             if fetch_status == "fetched":
+                description = fetched
                 result, reason = classify(row.title, description)
                 source = "posting description"
             else:
-                reason = description
+                reason = fetched
         entry = dict(original_title=row.title, status="classified" if result else "unclassified",
                      reason=reason, source=source, source_url=row.url, fetch_status=fetch_status)
+        if not duration and description:
+            duration = extract_duration(row.title, row.url or "", description)
+        if duration:
+            entry.update(duration)
         if result:
             entry.update(result)
             summary["newly_classifiable"] += 1

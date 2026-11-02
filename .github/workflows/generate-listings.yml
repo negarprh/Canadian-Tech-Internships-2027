@@ -1,0 +1,51 @@
+name: Generate listings data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - README-2026.md
+      - .github/scripts/generate_listings.py
+      - .github/scripts/duration.py
+      - .github/scripts/work_terms.py
+  schedule:
+    - cron: "0 7 * * 1" # weekly, Monday 07:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Generate structured listings
+        run: python .github/scripts/generate_listings.py
+
+      - name: Create Pull Request (only if data changed)
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: regenerate listings data"
+          title: "chore: regenerate listings data"
+          body: |
+            Regenerates `data/listings.json` from the Markdown listings.
+
+            This powers the filterable site and other tooling. Durations are
+            derived only from explicit title/URL evidence; the site renders
+            whatever is known.
+          branch: "auto/listings-data"
+          delete-branch: true
+          add-paths: |
+            data/listings.json

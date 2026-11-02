@@ -1,0 +1,61 @@
+name: Deploy listings site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - README-2026.md
+      - data/listings.json
+      - site/**
+      - .github/scripts/**
+      - .github/workflows/deploy-site.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Generate structured listings
+        run: python .github/scripts/generate_listings.py
+
+      - name: Assemble site
+        run: cp data/listings.json site/listings.json
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
