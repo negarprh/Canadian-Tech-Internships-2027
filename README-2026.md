@@ -454,7 +454,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | ↳ | Cloud Business & Strategy Analytics Analyst Co-op/Internship | Toronto, ON | Closed🔒 | May 4, 2026 |
 | Trane Technologies | Brainbox AI Intern | Montreal, QC | Closed🔒 | May 2, 2026 |
 | Caterpillar | Software Designer Intern | Laval, QC | Closed🔒 | May 1, 2026 |
-| Cohere | Software Engineer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254/) | May 1, 2026 |
+| Cohere | Software Engineer Intern | Remote, Canada | Closed🔒 | May 1, 2026 |
 | ↳ | Research Internship | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/cohere/73bd3e2b-6597-4124-b64b-1e5dbc32e785/) | May 1, 2026 |
 | RBC | Data Analyst Intern, Private Banking | Toronto, ON | Closed🔒 | May 1, 2026 |
 | ↳ | Insurance, Product Analyst Co-op | Mississauga, ON | Closed🔒 | May 1, 2026 |
