@@ -49,6 +49,9 @@ It will open a PR automatically.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Bank of Montreal | UX/UI Designer Co-op Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bmo.wd3.myworkdayjobs.com/Campus/job/Toronto-ON-CAN/UX-UI-Designer--Winter-2027--Co-op-Internship---8-months_R260026951) | Nov 2, 2026 |
+| Textron | Information Technology Intern (Winter 2027) | Mirabel, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=345269) | Nov 2, 2026 |
+| Tecsys | Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/tecsys/j/D61D5FB9AB/) | Nov 2, 2026 |
 | Stripe | PhD Machine Learning Engineer Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://stripe.com/jobs/search?gh_jid=8328664) | Oct 30, 2026 |
 | ↳ | Machine Learning Engineer Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://stripe.com/jobs/search?gh_jid=8333122) | Oct 30, 2026 |
 | CIBC | Project Analyst Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Product-Analyst-Co-op--Winter-2027_2622544) | Oct 30, 2026 |
