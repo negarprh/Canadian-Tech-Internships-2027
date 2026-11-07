@@ -350,7 +350,7 @@ It will open a PR automatically.
 | Intact | Android Developer Intern Co-op (Winter 2027) | Montreal, QC | Closed🔒 | Sep 23, 2026 |
 | Analog Devices | Embedded Software Engineer Intern | Toronto, ON / Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Embedded-Software-Engineer_R266615) | Sep 23, 2026 |
 | Teledyne | Industrialization and Statistical Analysis Intern | Bromont, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Bromont-QC-TDY/Stagiaire-en-industrialisation-et-analyse-statistique_REQ36708) | Sep 23, 2026 |
-| Electronic Arts | Rendering Engineer Intern (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Rendering-Engineer-Intern/216222) | Sep 22, 2026 |
+| Electronic Arts | Rendering Engineer Intern (Summer 2027) | Vancouver, BC | Closed🔒 | Sep 22, 2026 |
 | ↳ | AI Engineer Intern (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/AI-Engineer/216236) | Sep 22, 2026 |
 | Planview | Software Engineer 1 Co-op, Data Foundations | Vancouver, BC | Closed🔒 | Sep 22, 2026 |
 | ↳ | Software Engineer 1 Co-op, Flowplatform Team | Vancouver, BC | Closed🔒 | Sep 22, 2026 |
@@ -413,7 +413,7 @@ It will open a PR automatically.
 | Rockwell Automation | Robotics Research Co-op, Physical AI, OTTO | Waterloo, ON | Closed🔒 | Sep 17, 2026 |
 | Manulife Financial | Software Engineering Intern | Waterloo, ON | Closed🔒 | Sep 17, 2026 |
 | Thales | Computer Science Intern Co-op | Ottawa, ON | Closed🔒 | Sep 17, 2026 |
-| Apera AI | Software Developer Co-op, Full Stack | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/aperaaiinc/jobs/5240259007) | Sep 16, 2026 |
+| Apera AI | Software Developer Co-op, Full Stack | Vancouver, BC | Closed🔒 | Sep 16, 2026 |
 | ↳ | Software Developer Co-op, C++ | Vancouver, BC | Closed🔒 | Sep 16, 2026 |
 | ↳ | Machine Learning Applied Scientist Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/aperaaiinc/jobs/5239440007) | Sep 16, 2026 |
 | Qualcomm | Sensors Subsystem Engineering Intern, Low-Power AI, Audio | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721109229) | Sep 15, 2026 |

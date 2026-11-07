@@ -56,7 +56,7 @@ I’ll post as soon as companies open 2026 internship applications.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
-| Brave | Software Engineering Intern, Waterloo University | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/brave/jobs/8161945) | Sep 4, 2026 |
+| Brave | Software Engineering Intern, Waterloo University | Remote, Canada | Closed🔒 | Sep 4, 2026 |
 | AltaGas | Data Science and Analytics Co-op | Calgary, AB | Closed🔒 | Aug 14, 2026 |
 | Cenovus Energy | Workforce Analytics & Strategic Planning | Calgary, AB | Closed🔒 | Aug 14, 2026 |
 | Léger | Research Intern | Toronto, ON | Closed🔒 | Aug 12, 2026 |
