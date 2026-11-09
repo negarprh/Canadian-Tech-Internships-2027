@@ -61,20 +61,20 @@ It will open a PR automatically.
 | Stripe | PhD Machine Learning Engineer Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://stripe.com/jobs/search?gh_jid=8328664) | Oct 30, 2026 |
 | ↳ | Machine Learning Engineer Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://stripe.com/jobs/search?gh_jid=8333122) | Oct 30, 2026 |
 | CIBC | Project Analyst Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Product-Analyst-Co-op--Winter-2027_2622544) | Oct 30, 2026 |
-| NAV CANADA | Aviation Predictive Analytics Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://navcanada.wd10.myworkdayjobs.com/NAV_Careers/job/Ottawa/Aviation-Predictive-Analytics-Co-op-Student_JR-8599) | Oct 30, 2026 |
+| NAV CANADA | Aviation Predictive Analytics Co-op | Ottawa, ON | Closed🔒 | Oct 30, 2026 |
 | Revvity | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045792) | Oct 30, 2026 |
 | ↳ | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045794) | Oct 30, 2026 |
 | ↳ | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045793) | Oct 30, 2026 |
 | ↳ | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045791) | Oct 30, 2026 |
 | ↳ | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045795) | Oct 30, 2026 |
-| OLG | Front End Developer Student Intern (Winter 2027) | Toronto, ON / Sault Ste. Marie, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://olg.wd3.myworkdayjobs.com/Careers-Students/job/Sault-Ste-Marie-Ontario-Canada/Front-End-Developer-Student_R26_00665) | Oct 30, 2026 |
+| OLG | Front End Developer Student Intern (Winter 2027) | Toronto, ON / Sault Ste. Marie, ON | Closed🔒 | Oct 30, 2026 |
 | Waterworth | Computer Science Co-op (Winter 2027) | Victoria, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/waterworth/j/D450C48C96/) | Oct 29, 2026 |
 | Qualcomm | AI Software Engineering Co-op Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721862429) | Oct 29, 2026 |
 | ↳ | AI Software Systems Co-op Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721862430) | Oct 29, 2026 |
 | ↳ | Deep Learning Research Intern (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721858024) | Oct 29, 2026 |
 | Geotab | Data Governance & Operations Data Analyst Intern (Winter 2027) | Toronto, ON / Burnaby, BC / Oakville, ON | Closed🔒 | Oct 29, 2026 |
-| CIBC | AI Developer Co-op (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/campus/job/Montral-QC/AI-Developer-Co-op---Bilingual---Winter-2027_2622390) | Oct 29, 2026 |
-| ↳ | Analyst Co-op (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/campus/job/Montral-QC/Analyst-Co-op---Bilingual---Winter-2027_2622369) | Oct 29, 2026 |
+| CIBC | AI Developer Co-op (Winter 2027) | Montreal, QC | Closed🔒 | Oct 29, 2026 |
+| ↳ | Analyst Co-op (Winter 2027) | Montreal, QC | Closed🔒 | Oct 29, 2026 |
 | Bank of Montreal | Quantitative Trading Analyst Co-op (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/BMO-Capital-Markets-Quantitative-Trading-Analyst---12-16-Month-Co-op_R260029657) | Oct 29, 2026 |
 | Altera | Software Engineer Intern, Factory Apps | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Software-Engineer---Factory-Apps---Intern_R03384) | Oct 29, 2026 |
 | Sun Life | Data Analyst Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 29, 2026 |
@@ -109,7 +109,7 @@ It will open a PR automatically.
  | ↳ | Software Developer Intern, Android (Summer 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---Android--May-2027---12-Months-_R10620) | Oct 26, 2026 | 
  | Altera | Software Engineer Intern | Toronto, ON | Closed🔒 | Oct 26, 2026 | 
  | Intuit | Software Developer Co-op, Front End (Winter 2027) | Toronto, ON | Closed🔒 | Oct 25, 2026 |
-| American Express | AI Engineer, Enterprise Technology Services (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26015552) | Oct 23, 2026 |
+| American Express | AI Engineer, Enterprise Technology Services (Summer 2027) | Toronto, ON | Closed🔒 | Oct 23, 2026 |
 | Boson Ai | MScAC Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/bosonai/3b66f322-55eb-4c4b-9b36-028dfcdd85e9/apply) | Oct 23, 2026 |
 | 1Password | Developer Intern, Developer Interfaces (Winter 2027) | Remote, Canada | Closed🔒 | Oct 23, 2026 |
 | ↳ | Product Management Intern, End User Experience (Winter 2027) | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/1password/bef2e88e-9590-467d-8ba6-821b30529003/) | Oct 23, 2026 |
@@ -237,7 +237,7 @@ It will open a PR automatically.
 | Equitable Bank | Software Engineer Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/eqbank/c924506b-22ad-4906-aea5-61d9b79163f3/) | Oct 8, 2026 | 
  | Tenstorrent | AI Software Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5259347007) | Oct 8, 2026 | 
  | PSP Investments | GenAI and Digital Workplace Intern (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://investpsp.wd3.myworkdayjobs.com/psp_careers/job/Montreal/Intern--GenAI-and-Digital-Workplace--January---April-2027-_R5003) | Oct 8, 2026 |
-| Manulife Financial | Software Engineering Co-op (Winter 2027) | Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Waterloo-Ontario/Winter-Co-op-2027---Software-Engineering_JR26081661-1) | Oct 8, 2026 | 
+| Manulife Financial | Software Engineering Co-op (Winter 2027) | Waterloo, ON | Closed🔒 | Oct 8, 2026 | 
  | Hitachi Energy | Software Analyst Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 8, 2026 | 
  | Manulife Financial | Grit Intern (Summer 2027) | Toronto, ON | Closed🔒 | Oct 8, 2026 | 
  | ↳ | Product Management & Risk Technology Intern (Winter 2027/ Summer 2027) | Toronto, ON | Closed🔒 | Oct 8, 2026 |
