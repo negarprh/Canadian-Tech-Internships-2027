@@ -153,7 +153,7 @@ It will open a PR automatically.
 | Altera | Software Intern | Toronto, ON | Closed🔒 | Oct 22, 2026 | 
  | Qualcomm | Display Systems Engineer Intern (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721661677) | Oct 21, 2026 | 
  | MLSE | Business Strategy & Product Management Intern, AI (Winter 2027) | Toronto, ON | Closed🔒 | Oct 21, 2026 |
-| CIBC | Product Analyst Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Product-Analyst-Co-op_2621541) | Oct 21, 2026 | 
+| CIBC | Product Analyst Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 21, 2026 | 
  | ↳ | Analyst Co-op, Enterprise Data and Records | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Analyst--Enterprise-Data-and-Records-co-op_2621668-1) | Oct 21, 2026 | 
  | ↳ | AI and Quantum Scientist Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/AI-and-Quantum-Scientist-Co-op_2621649-1) | Oct 21, 2026 |
 | Steel | Software Engineer Intern (Summer 2027) | Toronto, ON | Closed🔒 | Oct 20, 2026 | 
@@ -500,7 +500,7 @@ It will open a PR automatically.
 | D2L | Business Insights & Analytics Co-op | Kitchener, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.d2l.com/careers/jobs/?job_id=8188363&gh_jid=8188363) | Sep 9, 2026 |
 | ↳ | Software Developer Co-op | Kitchener, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.d2l.com/careers/jobs/?job_id=8174229&gh_jid=8174229) | Sep 9, 2026 |
 | GoMaterials | Data Quality Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/gomaterials/be3fb0e8-54a1-43de-b998-99dd071eed19/) | Sep 9, 2026 |
-| Hexagon AB | Digital Hardware Engineer Intern | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers-hexagonpositioning.icims.com/jobs/3090/job?mobile=true&needsRedirect=false) | Sep 9, 2026 |
+| Hexagon AB | Digital Hardware Engineer Intern | Calgary, AB | Closed🔒 | Sep 9, 2026 |
 | Pomerleau | AI Product Analyst Intern | Montreal, QC | Closed🔒 | Sep 9, 2026 |
 | ↳  | Software Developer Intern | Montreal, QC | Closed🔒 | Sep 9, 2026 |
 | ↳  | Forward Deployed AI Solutions Intern | Montreal, QC | Closed🔒 | Sep 9, 2026 |
