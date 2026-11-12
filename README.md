@@ -65,11 +65,11 @@ It will open a PR automatically.
 | ↳ | Machine Learning Engineer Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://stripe.com/jobs/search?gh_jid=8333122) | Oct 30, 2026 |
 | CIBC | Project Analyst Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/campus/job/Toronto-ON/Product-Analyst-Co-op--Winter-2027_2622544) | Oct 30, 2026 |
 | NAV CANADA | Aviation Predictive Analytics Co-op | Ottawa, ON | Closed🔒 | Oct 30, 2026 |
-| Revvity | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045792) | Oct 30, 2026 |
-| ↳ | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045794) | Oct 30, 2026 |
-| ↳ | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045793) | Oct 30, 2026 |
-| ↳ | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045791) | Oct 30, 2026 |
-| ↳ | Full-stack AI Developer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://revvity.wd103.myworkdayjobs.com/External/job/CAD-Remote--ON/Full-stack-AI-Developer-Intern_JR-045795) | Oct 30, 2026 |
+| Revvity | Full-stack AI Developer Intern | Remote, Canada | Closed🔒 | Oct 30, 2026 |
+| ↳ | Full-stack AI Developer Intern | Remote, Canada | Closed🔒 | Oct 30, 2026 |
+| ↳ | Full-stack AI Developer Intern | Remote, Canada | Closed🔒 | Oct 30, 2026 |
+| ↳ | Full-stack AI Developer Intern | Remote, Canada | Closed🔒 | Oct 30, 2026 |
+| ↳ | Full-stack AI Developer Intern | Remote, Canada | Closed🔒 | Oct 30, 2026 |
 | OLG | Front End Developer Student Intern (Winter 2027) | Toronto, ON / Sault Ste. Marie, ON | Closed🔒 | Oct 30, 2026 |
 | Waterworth | Computer Science Co-op (Winter 2027) | Victoria, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/waterworth/j/D450C48C96/) | Oct 29, 2026 |
 | Qualcomm | AI Software Engineering Co-op Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721862429) | Oct 29, 2026 |
@@ -87,7 +87,7 @@ It will open a PR automatically.
 | Qualcomm | Deep Learning Research Intern (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721828828) | Oct 28, 2026 |
 | NUVACORE | CPU Software Intern | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/nuvacore/f167579a-db4b-4f85-91b9-e0bfb444a37c/) | Oct 28, 2026 |
 | Manulife Financial | Operations & Data Analyst Co-op (Winter 2027) | Toronto, ON / Waterloo, ON | Closed🔒 | Oct 28, 2026 |
-| Cenovus Energy | Student Risk Analytics Intern (Summer 2027) | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cenovus.wd3.myworkdayjobs.com/careers/job/CA-AB-Calgary/Student--Risk-Analytics--Calgary--May-2027-_R-411263) | Oct 28, 2026 |
+| Cenovus Energy | Student Risk Analytics Intern (Summer 2027) | Calgary, AB | Closed🔒 | Oct 28, 2026 |
 | Uber | Software Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://iaziqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/304178) | Oct 27, 2026 |
 | Lumerate | Data Associate Intern (Winter 2027) | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://lumerate.breezy.hr/p/baf2283496ad-data-associate-winter-spring-2027) | Oct 27, 2026 |
 | CIBC | Junior Insights & Analytics Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Junior-Insights---Analytics-Co-op_2622099-1) | Oct 27, 2026 |
@@ -167,7 +167,7 @@ It will open a PR automatically.
  | Citco | Software Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://fa-euxc-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/18964) | Oct 19, 2026 | 
  | Qualcomm | Machine Learning AISW Intern (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721636765) | Oct 19, 2026 |
 | Manulife Financial | AI Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 19, 2026 | 
- | ↳ | AI Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Toronto-Ontario/Summer-Intern-2027---AI_JR26081688-1) | Oct 19, 2026 | 
+ | ↳ | AI Intern (Summer 2027) | Toronto, ON | Closed🔒 | Oct 19, 2026 | 
  | NVIDIA | ASIC Verification Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982) | Oct 19, 2026 |
 | Ciena | Services Business Intelligence & Analytics Intern (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Montreal/Services-Business-Intelligence---Analytics-Intern_R031851) | Oct 19, 2026 |
 | AstraZeneca | Patient Data Insights Intern (Winter 2027) | Mississauga, ON | Closed🔒 | Oct 19, 2026 | 
@@ -274,7 +274,7 @@ It will open a PR automatically.
 | Sun Life | Data Analyst Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 5, 2026 |
 | Royal Bank of Canada | AI Developer Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 5, 2026 | 
  | Capital One | Data Scientist Intern (Summer 2027) | Toronto, ON | Closed🔒 | Oct 5, 2026 |
-| Semtech | Software Developer Co-op, Web/Cloud Application | Richmond, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Richmond-BC/Software-Developer---Web-Cloud-Application--Co-op_REQ3644) | Oct 5, 2026 | 
+| Semtech | Software Developer Co-op, Web/Cloud Application | Richmond, BC | Closed🔒 | Oct 5, 2026 | 
  | GoTo Group | Software Developer Intern | Remote, Canada | Closed🔒 | Oct 5, 2026 | 
  | AltaGas | Digital Intern, NextGen AI & Data (Winter 2027) | Calgary, AB | Closed🔒 | Oct 5, 2026 |
 | Royal Bank of Canada | Data Analyst Co-op, Personal Banking (Winter 2027) | Toronto, ON | Closed🔒 | Oct 5, 2026 |
@@ -352,7 +352,7 @@ It will open a PR automatically.
 | Intel | Firmware Development Undergraduate Engineering Co-op (Winter 2027) | Remote, Canada | Closed🔒 | Sep 23, 2026 |
 | Intact | Android Developer Intern Co-op (Winter 2027) | Montreal, QC | Closed🔒 | Sep 23, 2026 |
 | Analog Devices | Embedded Software Engineer Intern | Toronto, ON / Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Embedded-Software-Engineer_R266615) | Sep 23, 2026 |
-| Teledyne | Industrialization and Statistical Analysis Intern | Bromont, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Bromont-QC-TDY/Stagiaire-en-industrialisation-et-analyse-statistique_REQ36708) | Sep 23, 2026 |
+| Teledyne | Industrialization and Statistical Analysis Intern | Bromont, QC | Closed🔒 | Sep 23, 2026 |
 | Electronic Arts | Rendering Engineer Intern (Summer 2027) | Vancouver, BC | Closed🔒 | Sep 22, 2026 |
 | ↳ | AI Engineer Intern (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/AI-Engineer/216236) | Sep 22, 2026 |
 | Planview | Software Engineer 1 Co-op, Data Foundations | Vancouver, BC | Closed🔒 | Sep 22, 2026 |
@@ -589,7 +589,7 @@ It will open a PR automatically.
 | ↳ | Geomatics Engineer Intern | Calgary, AB | Closed🔒 | Sep 3, 2026 |
 | Kinaxis | Developer Intern Co-op, Machine Learning | Remote, Canada | Closed🔒 | Sep 3, 2026 |
 | AMD | Diagnostics Design Engineering Intern/Co-op | Markham, ON | Closed🔒 | Sep 3, 2026 |
-| ↳ | Hardware Design Verification Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91361?icims=1) | Sep 3, 2026 |
+| ↳ | Hardware Design Verification Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 3, 2026 |
 | North American Construction Group | Full Stack Developer Co-op | Acheson, AB | Closed🔒 | Sep 3, 2026 |
 | Geotab | Software Developer Intern | Toronto, ON / Oakville, ON | Closed🔒 | Sep 3, 2026 |
 | AltaML | Associate Software Engineer | Edmonton, AB | Closed🔒 | Sep 3, 2026 |
@@ -598,7 +598,7 @@ It will open a PR automatically.
 | Mirego | Software Development Intern, Generative Artificial Intelligence Team | Québec City, QC | Closed🔒 | Sep 3, 2026 |
 | ↳ | Software Developer Intern | Québec City, QC | Closed🔒 | Sep 3, 2026 |
 | AMD | ASIC Verification Engineer Intern/Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91207?icims=1) | Sep 3, 2026 |
-| Geotab | Software Developer Intern | Oakville, ON / Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/internshiplist2000/jobs/5361630008) | Sep 3, 2026 |
+| Geotab | Software Developer Intern | Oakville, ON / Waterloo, ON | Closed🔒 | Sep 3, 2026 |
 | ↳ | Software Developer Intern | Oakville, ON | Closed🔒 | Sep 3, 2026 |
 | ↳ | Hardware Developer Intern | Oakville, ON | Closed🔒 | Sep 3, 2026 |
 | ↳ | Data Scientist Intern | Toronto, ON / Oakville, ON | Closed🔒 | Sep 3, 2026 |
@@ -631,26 +631,26 @@ It will open a PR automatically.
 | Grass Valley | Software Development Intern | Montreal, QC | Closed🔒 | Sep 1, 2026 |
 | Riverside Natural Foods | Junior Data Analyst Intern/Co-op | Toronto, ON | Closed🔒 | Sep 1, 2026 |
 | Geotab | Vehicle Systems Engineering Intern | Waterloo, ON | Closed🔒 | Sep 1, 2026 |
-| AMD | Hardware Design Verification Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90379?icims=1) | Sep 1, 2026 |
-| ↳ | Firmware Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91320?icims=1) | Sep 1, 2026 |
-| ↳ | Firmware Engineer Intern/Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90301?icims=1) | Sep 1, 2026 |
-| ↳ | Hardware Design Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91360?icims=1) | Sep 1, 2026 |
-| ↳ | Hardware Design Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90367?icims=1) | Sep 1, 2026 |
-| ↳ | Graphics Software Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90305?icims=1) | Sep 1, 2026 |
-| ↳ | Firmware Engineer Intern/Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91313?icims=1) | Sep 1, 2026 |
+| AMD | Hardware Design Verification Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Firmware Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Firmware Engineer Intern/Co-op | Vancouver, BC | Closed🔒 | Sep 1, 2026 |
+| ↳ | Hardware Design Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Hardware Design Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Graphics Software Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Firmware Engineer Intern/Co-op | Vancouver, BC | Closed🔒 | Sep 1, 2026 |
 | ↳ | Software Engineer Intern/Co-op | Calgary, AB | Closed🔒 | Sep 1, 2026 |
-| ↳ | Firmware Engineer Intern/Co-op - Long Term | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90297?icims=1) | Sep 1, 2026 |
-| ↳ | Analog and Mixed Signal Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91369?icims=1) | Sep 1, 2026 |
-| ↳ | Product Management Intern/Co-op - Multiple Teams | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90411?icims=1) | Sep 1, 2026 |
-| ↳ | Hardware Design Engineer Intern/Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90372?icims=1) | Sep 1, 2026 |
-| ↳ | Diagnostics Design Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90435?icims=1) | Sep 1, 2026 |
-| ↳ | Software Engineer Intern/Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91367?icims=1) | Sep 1, 2026 |
-| ↳ | AGS Libraries Intern/Co-op | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90427?icims=1) | Sep 1, 2026 |
-| ↳ | Hardware Design Verification Engineer Intern/Co-op | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91362?icims=1) | Sep 1, 2026 |
-| ↳ | Machine Learning/Artificial Intelligence Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91363?icims=1) | Sep 1, 2026 |
-| ↳ | Software Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91368?icims=1) | Sep 1, 2026 |
-| ↳ | Machine Learning/Artificial Intelligence Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/90383?icims=1) | Sep 1, 2026 |
-| ↳ | Graphics Software Engineer Intern/Co-op | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.amd.com/jobs/91359?icims=1) | Sep 1, 2026 |
+| ↳ | Firmware Engineer Intern/Co-op - Long Term | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Analog and Mixed Signal Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Product Management Intern/Co-op - Multiple Teams | Calgary, AB | Closed🔒 | Sep 1, 2026 |
+| ↳ | Hardware Design Engineer Intern/Co-op | Vancouver, BC | Closed🔒 | Sep 1, 2026 |
+| ↳ | Diagnostics Design Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Software Engineer Intern/Co-op | Vancouver, BC | Closed🔒 | Sep 1, 2026 |
+| ↳ | AGS Libraries Intern/Co-op | Calgary, AB | Closed🔒 | Sep 1, 2026 |
+| ↳ | Hardware Design Verification Engineer Intern/Co-op | Vancouver, BC | Closed🔒 | Sep 1, 2026 |
+| ↳ | Machine Learning/Artificial Intelligence Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Software Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Machine Learning/Artificial Intelligence Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
+| ↳ | Graphics Software Engineer Intern/Co-op | Markham, ON | Closed🔒 | Sep 1, 2026 |
 | Stripe | Software Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://stripe.com/jobs/search?gh_jid=8130805) | Sep 1, 2026 |
 | Wealthsimple | Software Development and Data Science Internships | Toronto, ON | Closed🔒 | Sep 1, 2026 |
 | Trane Technologies | BrainBox AI Intern | Montreal, QC | Closed🔒 | Sep 1, 2026 |
