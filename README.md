@@ -135,8 +135,8 @@ It will open a PR automatically.
 | TMX Group | Analyst Model Validation Intern (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://tmx.wd3.myworkdayjobs.com/TMX_Careers/job/Montreal---1190-av-des-Canadiens-de-Montreal/Intern-Analyst-Model-Validation---Winter-term_R-6603) | Oct 27, 2026 |
 | Altera | Undergrad Intern Technical | Toronto, ON | Closed🔒 | Oct 26, 2026 |
 | Royal Bank of Canada | Developer Intern, RBC Amplify (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/TORONTO-Ontario-Canada/Developer--RBC-Amplify-2027--Toronto_R-0000187114) | Oct 26, 2026 |
-| ↳ | Data Engineer Intern, RBC Amplify (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/410-GEORGIA-ST-W-FLOOR-3VANCOUVER/Data-Engineer--RBC-Amplify-2027--Vancouver_R-0000191198) | Oct 26, 2026 |
-| ↳ | Developer Intern, RBC Amplify (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/RBCEARLYTALENT1/job/VANCOUVER-British-Columbia-Canada/Developer--RBC-Amplify-2027--Vancouver_R-0000191199) | Oct 26, 2026 |
+| ↳ | Data Engineer Intern, RBC Amplify (Summer 2027) | Vancouver, BC | Closed🔒 | Oct 26, 2026 |
+| ↳ | Developer Intern, RBC Amplify (Summer 2027) | Vancouver, BC | Closed🔒 | Oct 26, 2026 |
 | ↳ | Developer Intern, RBC Amplify (Summer 2027) | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/CALGARY-Alberta-Canada/Developer--RBC-Amplify-2027--Calgary_R-0000191202) | Oct 26, 2026 |
 | ↳ | Data Engineer Intern, RBC Amplify (Summer 2027) | Calgary, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/CALGARY-Alberta-Canada/Data-Engineer--RBC-Amplify-2027--Calgary_R-0000191201-2) | Oct 26, 2026 |
 | ↳ | Developer Intern, RBC Amplify (Summer 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/MONTRAL-Quebec-Canada/dveloppeur--RBC-amplifie-2027--Montral---Developer--RBC-Amplify-2027--Montreal_R-0000191206) | Oct 26, 2026 |
@@ -234,7 +234,7 @@ It will open a PR automatically.
 | Altera | FPGA IP Design Engineer Intern | Toronto, ON | Closed🔒 | Oct 15, 2026 |
 | Kensington | Analytics Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/kensingtontours/jobs/5262680007) | Oct 14, 2026 |
 | Interac | Product Intern, Money Movement (Winter 2027) | Toronto, ON | Closed🔒 | Oct 15, 2026 |
-| Later | Data Science Co-op (Winter 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/later/jobs/8889650002) | Oct 14, 2026 |
+| Later | Data Science Co-op (Winter 2027) | Vancouver, BC | Closed🔒 | Oct 14, 2026 |
 | Microsoft | Research Intern, Machine Learning | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.careers.microsoft.com/careers/job/1970393557040927) | Oct 14, 2026 |
 | Tenstorrent | Systems Intern, Multiple Teams | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5264407007) | Oct 14, 2026 |
 | Profound Medical | Software Development Co-op | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://profoundmedical.bamboohr.com/careers/353/) | Oct 14, 2026 |
@@ -593,8 +593,8 @@ It will open a PR automatically.
 | Nasdaq | Software Development Student | Toronto, ON / St. John’s, NL | Closed🔒 | Sep 7, 2026 |
 | Entrust | Software Developer Intern | Ottawa, ON | Closed🔒 | Sep 7, 2026 |
 | ATCO | Data Analytics Co-op, Customer Operations | Edmonton, AB | Closed🔒 | Sep 5, 2026 |
-| Bree | Software Engineer Co-op, Product | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](http://jobs.ashbyhq.com/bree/17d8dd15-5f97-4003-8d6c-170dca13ff88/application?embed=true) | Sep 4, 2026 |
-| ↳ | Software Engineer Co-op, Backend | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](http://jobs.ashbyhq.com/bree/42fe78c1-e73f-4918-bf71-776b8142112b/application?embed=true) | Sep 4, 2026 |
+| Bree | Software Engineer Co-op, Product | Toronto, ON | Closed🔒 | Sep 4, 2026 |
+| ↳ | Software Engineer Co-op, Backend | Toronto, ON | Closed🔒 | Sep 4, 2026 |
 | Super | Data Analytics Intern | Toronto, ON / Remote, Canada | Closed🔒 | Sep 4, 2026 |
 | ↳ | Software Engineer in Data Intern | Toronto, ON / Remote, Canada | Closed🔒 | Sep 4, 2026 |
 | ↳ | Software Engineer Intern, Platform | Toronto, ON / Remote, Canada | Closed🔒 | Sep 4, 2026 |
@@ -640,7 +640,7 @@ It will open a PR automatically.
 | ↳ | Software Developer Intern | Oakville, ON | Closed🔒 | Sep 3, 2026 |
 | ↳ | Hardware Developer Intern | Oakville, ON | Closed🔒 | Sep 3, 2026 |
 | ↳ | Data Scientist Intern | Toronto, ON / Oakville, ON | Closed🔒 | Sep 3, 2026 |
-| General Dynamics UK | Software Engineer Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/GDMSI/744000147019949) | Sep 3, 2026 |
+| General Dynamics UK | Software Engineer Co-op | Ottawa, ON | Closed🔒 | Sep 3, 2026 |
 | Atlassian | Software Engineer Intern | Burnaby, BC / Vancouver, BC / Richmond, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://campus-globalcareers-atlassian.icims.com/jobs/26275/software-engineer-intern%2c-2027-canada/job) | Sep 3, 2026 |
 | Varian | Software Developer Co-op | Winnipeg, MB | Closed🔒 | Sep 3, 2026 |
 | RTX | Advanced Analytics Products & Change Management Intern, Advanced Analytics AI Evolution Project | Longueuil, QC | Closed🔒 | Sep 3, 2026 |
