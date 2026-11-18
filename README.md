@@ -49,6 +49,9 @@ It will open a PR automatically.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Birdseye Security Solutions | Software Developer Intern | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://birdseyeaccount.bamboohr.com/careers/286/) | Nov 17, 2026 | 
+ | ↳ Solutions | AI Systems Intern | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://birdseyeaccount.bamboohr.com/careers/287/) | Nov 17, 2026 | 
+ | ↳ | Computer Vision Intern | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://birdseyeaccount.bamboohr.com/careers/289/) | Nov 17, 2026 |
 | Xradar | Software Engineer Co-op (Winter 2027) | Burnaby, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://xradar.bamboohr.com/careers/203/) | Nov 17, 2026 |
 | Zurich Insurance | Data Analytics & AI Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.careers.zurich.com/job/Toronto-Data-Analytics-&-AI-Intern-ON/1377641357/?ats=successfactors) | Nov 16, 2026 | 
  | Shopify | Software Engineer Intern (Summer 2027) | Montreal, QC / Toronto, ON / Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a) | Nov 16, 2026 | 
