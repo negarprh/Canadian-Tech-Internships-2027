@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import re
 
+from duration import explicit_months
 from format_table import APPLY_LINK, split_markdown_row
 
 STATE = Path("data/work-terms.json")
@@ -89,13 +90,37 @@ def label(entry):
     return f"{term.title()} {year}"
 
 
+def duration_label(entry):
+    """Return the inline duration suffix (``· 8 months``) or an empty string."""
+    months = entry.get("duration_months")
+    if type(months) is not int or not 1 <= months <= 24:
+        return ""
+    # A title that already states its length needs no redundant suffix.
+    if months in explicit_months(entry.get("original_title", "")):
+        return ""
+    return f"{months} month" + ("" if months == 1 else "s")
+
+
 def display_title(entry):
     title = entry["original_title"]
-    suffix = label(entry)
+    suffix = label(entry) if entry.get("work_term") else ""
     # Existing explicit title terms need no redundant suffix.
-    if any(f"{m[1].title()} {m[2]}" == suffix for m in TERM.finditer(title)):
-        return title
-    return f"{title} ({suffix})"
+    if suffix and any(f"{m[1].title()} {m[2]}" == suffix for m in TERM.finditer(title)):
+        suffix = ""
+    if suffix:
+        title = f"{title} ({suffix})"
+    duration = duration_label(entry)
+    if duration:
+        title = f"{title} · {duration}"
+    return title
+
+
+# Role cells can carry a work-term suffix, a duration suffix, or both. A
+# suffix is only removed from the identity when a stored annotation owns the
+# exact rendered title (see ``rows``).
+ROLE_SUFFIX = re.compile(
+    r"^(?P<base>.*?)(?: \((?:Winter|Summer|Fall) 20\d{2}\))?(?: · \d{1,2} months?)?$"
+)
 
 
 def identity(company, title, location, posted):
@@ -109,6 +134,9 @@ class Row:
     url: str | None
     line: int
     role_cell: str
+    company: str = ""
+    location: str = ""
+    posted: str = ""
 
 
 def rows(table, state):
@@ -125,21 +153,23 @@ def rows(table, state):
         title = values[1]
         key = identity(company, title, values[2], values[4])
         # A suffix is stripped ONLY when a matching stored annotation owns it.
-        match = re.fullmatch(r"(.*) \((?:Winter|Summer|Fall) 20\d{2}\)", title)
-        if key not in state["jobs"] and match:
-            candidate = identity(company, match[1], values[2], values[4])
-            entry = state["jobs"].get(candidate, {})
-            if entry.get("work_term") and display_title(entry) == title:
-                key, title = candidate, entry["original_title"]
+        if key not in state["jobs"]:
+            match = ROLE_SUFFIX.fullmatch(title)
+            if match and match["base"]:
+                candidate = identity(company, match["base"], values[2], values[4])
+                entry = state["jobs"].get(candidate, {})
+                if (entry.get("work_term") or entry.get("duration_months")) and display_title(entry) == title:
+                    key, title = candidate, entry["original_title"]
         link = APPLY_LINK.search(values[3])
-        yield Row(key, title, link[1] if link else None, number, cells[1])
+        yield Row(key, title, link[1] if link else None, number, cells[1],
+                  company, values[2], values[4])
 
 
 def render_table(table, state):
     lines = table.splitlines(keepends=True)
     for row in rows(table, state):
         entry = state["jobs"].get(row.key, {})
-        if entry.get("work_term") and (not row.url or row.url == entry.get("source_url")):
+        if (entry.get("work_term") or entry.get("duration_months")) and (not row.url or row.url == entry.get("source_url")):
             old = row.role_cell
             new = old.replace(old.strip(), display_title(entry), 1)
             # Locate the role cell using the same escaped-pipe convention as the formatter.
