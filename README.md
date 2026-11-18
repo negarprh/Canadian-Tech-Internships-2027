@@ -49,6 +49,7 @@ It will open a PR automatically.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Xradar | Software Engineer Co-op (Winter 2027) | Burnaby, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://xradar.bamboohr.com/careers/203/) | Nov 17, 2026 |
 | Zurich Insurance | Data Analytics & AI Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.careers.zurich.com/job/Toronto-Data-Analytics-&-AI-Intern-ON/1377641357/?ats=successfactors) | Nov 16, 2026 | 
  | Shopify | Software Engineer Intern (Summer 2027) | Montreal, QC / Toronto, ON / Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a) | Nov 16, 2026 | 
  | ↳ | Data Intern (Summer 2027) | Montreal, QC / Toronto, ON / Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.shopify.com/careers/data-internships-summer-2027_33763bbb-341b-4d78-be50-4076570e5e95) | Nov 16, 2026 | 
