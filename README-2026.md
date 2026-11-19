@@ -577,7 +577,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Primetals Technologies | Software Development & Data Science Analyst Intern | Boisbriand, QC | Closed🔒 | Apr 16, 2026 |
 | ↳ | Software Development & Data Science Analyst Intern | Boisbriand, QC | Closed🔒 | Apr 16, 2026 |
 | Pinterest | Software Engineer Intern | Toronto, ON | Closed🔒 | Apr 15, 2026 |
-| Jonas Software | Jonas Fall Internship, Various Departments | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Toronto-GTA/Jonas-Fall-Internship---Various-Departments_R45877-2) | Apr 15, 2026 |
+| Jonas Software | Jonas Fall Internship, Various Departments | Toronto, ON | Closed🔒 | Apr 15, 2026 |
 | RTX | Data Science and Advanced Analytics Intern | Longueuil, QC | Closed🔒 | Apr 15, 2026 |
 | ↳ | Student Intern, Engineering | Midland, ON | Closed🔒 | Apr 15, 2026 |
 | CPP Investments | Technology & Data Fall and Winter Internship | Toronto, ON | Closed🔒 | Apr 14, 2026 |
