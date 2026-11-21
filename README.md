@@ -104,7 +104,7 @@ It will open a PR automatically.
 | ↳ | AI Engineer Co-op, Global Equities (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/rbcglobal1/job/TORONTO-Ontario-Canada/XMLNAME-2027-Capital-Markets--Global-Equities--AI-Engineer--16-Months--Co-op-_R-0000187401-2) | Nov 3, 2026 |
 | Meta | Research Scientist Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.metacareers.com/jobs/1406585275871250) | Nov 2, 2026 |
 | Qualcomm | Deep Learning Research Intern (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721913898) | Nov 2, 2026 |
-| Zimmer Biomet Holdings | Software Developer Co-op (Spring 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.zimmerbiomet.com/us/en/job/13309) | Nov 2, 2026 |
+| Zimmer Biomet Holdings | Software Developer Co-op (Spring 2027) | Montreal, QC | Closed🔒 | Nov 2, 2026 |
 | Bank of Montreal | UX/UI Designer Co-op Intern (Winter 2027) | Toronto, ON | Closed🔒 | Nov 2, 2026 |
 | Textron | Information Technology Intern (Winter 2027) | Mirabel, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://textron.taleo.net/careersection/textron/jobdetail.ftl?job=345269) | Nov 2, 2026 |
 | Tecsys | Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.workable.com/tecsys/j/D61D5FB9AB/) | Nov 2, 2026 |
@@ -202,7 +202,7 @@ It will open a PR automatically.
  | MLSE | Business Strategy & Product Management Intern, AI (Winter 2027) | Toronto, ON | Closed🔒 | Oct 21, 2026 |
 | CIBC | Product Analyst Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 21, 2026 | 
  | ↳ | Analyst Co-op, Enterprise Data and Records | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Analyst--Enterprise-Data-and-Records-co-op_2621668-1) | Oct 21, 2026 | 
- | ↳ | AI and Quantum Scientist Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/AI-and-Quantum-Scientist-Co-op_2621649-1) | Oct 21, 2026 |
+ | ↳ | AI and Quantum Scientist Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 21, 2026 |
 | Steel | Software Engineer Intern (Summer 2027) | Toronto, ON | Closed🔒 | Oct 20, 2026 | 
  | GeoSpectrum Technologies | Software Developer Co-op | Dartmouth, NS | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://geospectrum.bamboohr.com/careers/286/) | Oct 20, 2026 | 
  | TD Bank | Wealth Operations Automation Intern Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 20, 2026 | 
@@ -219,7 +219,7 @@ It will open a PR automatically.
 | Ciena | Services Business Intelligence & Analytics Intern (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Montreal/Services-Business-Intelligence---Analytics-Intern_R031851) | Oct 19, 2026 |
 | AstraZeneca | Patient Data Insights Intern (Winter 2027) | Mississauga, ON | Closed🔒 | Oct 19, 2026 | 
  | Accenture | MES & Supply Chain Systems Co-op Analyst (Winter 2027) | Toronto, ON | Closed🔒 | Oct 19, 2026 | 
- | CIBC | Application Developer Co-op (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Application-Software-Developer-Co-op--Winter-2027---Enterprise-Technology---Business-Management_2621524) | Oct 19, 2026 | 
+ | CIBC | Application Developer Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 19, 2026 | 
  | ↳ | Application/Software Developer Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 19, 2026 |
 | HeyGen | Software Engineer Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 19, 2026 |
 | Waabi | Safety Methodologies Intern Co-op (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/waabi/480d9d41-33d0-429a-8883-7f9ec305a30f/) | Oct 16, 2026 | 
