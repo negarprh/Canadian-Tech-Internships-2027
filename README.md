@@ -92,7 +92,7 @@ It will open a PR automatically.
 | SOTI | Software Developer Intern (Summer 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---Android--May-2027---12-Months-_R10650) | Nov 5, 2026 |
 | ↳ | Software Developer Intern (Summer 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027-12-Months-_R10655) | Nov 5, 2026 |
 | Royal Bank of Canada | Quantitative Technology Services Co-op, Software Developer (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://rbc.wd3.myworkdayjobs.com/ExternalPrivatePostingStudents/job/MONTRAL-Quebec-Canada/XMLNAME-2027-Winter-Capital-Markets-QTS--Software-Developer--Montreal---4-Months_R-0000184676-3) | Nov 5, 2026 |
-| Element Fleet Management | Forward Deployed Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://elementfleet.wd3.myworkdayjobs.com/External_Career_Site/job/Toronto/Forward-Deployed-Engineer--FDE--Intern--8-12-month-intern-_R105989) | Nov 5, 2026 |
+| Element Fleet Management | Forward Deployed Engineer Intern | Toronto, ON | Closed🔒 | Nov 5, 2026 |
 | Seaspan | Logistics Support Analysis Intern (Winter 2027) | Vancouver, BC | Closed🔒 | Nov 3, 2026 |
 | Global Relay | Java Developer Co-op (Winter 2027) | Halifax, NS | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.globalrelay.com/careers/jobs?gh_jid=6241594004) | Nov 3, 2026 |
 | ↳ | Java Developer Co-op (Winter 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.globalrelay.com/careers/jobs?gh_jid=6241593004) | Nov 3, 2026 |
@@ -173,7 +173,7 @@ It will open a PR automatically.
 | TELUS Digital | Software Engineering Intern Co-op (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/telus-digital/63b0654a-9849-4d74-bc3f-94b2ccceb2c2/) | Oct 23, 2026 |
 | Trimble | Navigation & Machine Learning Engineer Intern (Summer 2027) | Richmond Hill, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/Canada---Richmond-Hill-Ontario-Applanix/Navigation---Machine-Learning-Engineering-Intern--16-Months-_R57980) | Oct 23, 2026 |
 | ↳ | Software Engineer Intern (Summer 2027) | Richmond Hill, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/Canada---Richmond-Hill-Ontario-Applanix/Software-Engineering-Intern_R57963) | Oct 23, 2026 |
-| Citi | Application Development, Summer Analyst (Summer 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://citi.wd5.myworkdayjobs.com/2/job/Mississauga-Ontario-Canada/Technology--Application-Development--Summer-Analyst--Mississauga--Canada--2027_261003301) | Oct 23, 2026 |
+| Citi | Application Development, Summer Analyst (Summer 2027) | Mississauga, ON | Closed🔒 | Oct 23, 2026 |
 | Sardine | Engineering Intern (Summer 2027) | Remote, Canada | Closed🔒 | Oct 23, 2026 |
 | Aptiv | Engineering Intern | Kanata, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000704366) | Oct 23, 2026 |
 | ↳ | Engineering Intern | Kanata, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000704367) | Oct 23, 2026 |
@@ -201,7 +201,7 @@ It will open a PR automatically.
  | Qualcomm | Display Systems Engineer Intern (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446721661677) | Oct 21, 2026 | 
  | MLSE | Business Strategy & Product Management Intern, AI (Winter 2027) | Toronto, ON | Closed🔒 | Oct 21, 2026 |
 | CIBC | Product Analyst Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 21, 2026 | 
- | ↳ | Analyst Co-op, Enterprise Data and Records | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cibc.wd3.myworkdayjobs.com/search/job/Toronto-ON/Analyst--Enterprise-Data-and-Records-co-op_2621668-1) | Oct 21, 2026 | 
+ | ↳ | Analyst Co-op, Enterprise Data and Records | Toronto, ON | Closed🔒 | Oct 21, 2026 | 
  | ↳ | AI and Quantum Scientist Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 21, 2026 |
 | Steel | Software Engineer Intern (Summer 2027) | Toronto, ON | Closed🔒 | Oct 20, 2026 | 
  | GeoSpectrum Technologies | Software Developer Co-op | Dartmouth, NS | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://geospectrum.bamboohr.com/careers/286/) | Oct 20, 2026 | 
@@ -254,7 +254,7 @@ It will open a PR automatically.
 | Interac | Business Systems & AI Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 14, 2026 |
 | ↳ | Technical Analyst Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 14, 2026 |
 | Pebl | Software Engineering Intern | Toronto, ON, | Closed🔒 | Oct 13, 2026 |
-| Electronic Arts | Technical Artist Intern (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Technical-Artist-Co-op/216406) | Oct 13, 2026 |
+| Electronic Arts | Technical Artist Intern (Summer 2027) | Vancouver, BC | Closed🔒 | Oct 13, 2026 |
 | SOTI | Software Developer Intern (Winter 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern---SOTI-MobiControl-Apple-HQ--January-2027-12-Months-_R10551-2) | Oct 13, 2026 |
 | Sun Life | AI Developer Student Intern (Winter 2027) | Toronto, ON | Closed🔒 | Oct 13, 2026 |
 | 1Password | Data Intern, Product Analytics (Winter 2027) | Remote, Canada | Closed🔒 | Oct 12, 2026 |
@@ -277,9 +277,9 @@ It will open a PR automatically.
 | ↳ | Engineer Intern | Kanata, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000704362) | Oct 12, 2026 |
 | Magnet Forensics | Software Developer Co-op (Winter 2027) | Waterloo, ON / Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/magnetforensics/6eba87dc-f110-47b2-8015-31311ca60f52/) | Oct 10, 2026 |
 | Electronic Arts | Software Engineer Intern (Summer 2027) | Vancouver, BC | Closed🔒 | Oct 9, 2026 | 
- | ↳ | C++ Generalist Software Engineer Co-op (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216231) | Oct 9, 2026 | 
+ | ↳ | C++ Generalist Software Engineer Co-op (Summer 2027) | Vancouver, BC | Closed🔒 | Oct 9, 2026 | 
  | ↳ | Gameplay Software Engineer Co-op (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Co-op/216230) | Oct 9, 2026 | 
- | ↳ | C++ Software Engineer Intern (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-Intern-Summer-2027-8-months-UFC/216226) | Oct 9, 2026 | 
+ | ↳ | C++ Software Engineer Intern (Summer 2027) | Vancouver, BC | Closed🔒 | Oct 9, 2026 | 
  | Varian | Performance Engineering Assistant Co-op | Ottawa, ON | Closed🔒 | Oct 9, 2026 |
 | Workday | Software Development Engineer Intern (Winter 2027) | Vancouver, BC | Closed🔒 | Oct 9, 2026 | 
  | ↳ | Product Manager Intern (Winter 2027) | Vancouver, BC | Closed🔒 | Oct 9, 2026 | 
