@@ -16,7 +16,7 @@ from pathlib import Path
 import re
 import time
 from typing import Literal
-from urllib.parse import urlencode, urlparse, urlunparse
+from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -122,6 +122,15 @@ KNOWN_ATS = {
 }
 SEARCH_PATH_PARTS = ("/search", "/jobsearch", "/jobs/search", "/careers/search")
 LOCALE_SEGMENT = re.compile(r"^[a-z]{2}-[a-z]{2}$", re.IGNORECASE)
+JOB_UUID = r"[0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}"
+
+# These boards return HTTP 200 with an explicit missing-job query parameter.
+# The first capture is the board path, the second is the requested job ID.
+MISSING_JOB_REDIRECTS = {
+    "apply.workable.com": (r"(/[\w-]+)/j/([A-Za-z0-9]+)(?:/apply)?", "not_found", "true"),
+    "ats.rippling.com": (rf"(/[\w-]+/jobs)/({JOB_UUID})(?:/apply)?", "rr_message", "job_not_found"),
+    "app.careerpuck.com": (r"(/job-board/[\w-]+)/job/([0-9]+)", "notFound", None),
+}
 
 UA = {
     "User-Agent": (
@@ -211,6 +220,10 @@ def make_public_api_session() -> requests.Session:
 
 def ats_name(url: str) -> str:
     host = (urlparse(url).hostname or "").lower()
+    if host.endswith(".bamboohr.com"):
+        return "bamboohr"
+    if host.endswith(".careers.hibob.com"):
+        return "hibob"
     if "workday" in host or "myworkdayjobs" in host:
         return "workday"
     if "greenhouse" in host:
@@ -380,6 +393,61 @@ def check_public_ats_api(session: requests.Session, url: str, provider: str) -> 
     return CheckResult("UNKNOWN", f"{provider} API returned 200 without a job posting")
 
 
+def check_careers_api(session: requests.Session, url: str, provider: str) -> CheckResult:
+    """BambooHR and HiBob serve an HTML shell. Read the public posting behind it."""
+    parsed = urlparse(url)
+    path = parsed.path.rstrip("/").removesuffix("/apply")
+    posting = f"https://{parsed.hostname}{path}"
+    if provider == "bamboohr":
+        if not re.fullmatch(r"/careers/[0-9]+", path):
+            return CheckResult("UNKNOWN", "Unsupported BambooHR job route")
+        endpoint = f"{posting}/detail"
+    else:
+        route = re.fullmatch(rf"/jobs/({JOB_UUID})", path)
+        if route is None:
+            return CheckResult("UNKNOWN", "Unsupported HiBob job route")
+        endpoint = f"https://{parsed.hostname}/api/job-ad/{route[1]}/application-form"
+
+    try:
+        # HiBob expects the public job page as Referer. A redirect to a board
+        # or login cannot confirm the state of this particular application.
+        response = session.get(endpoint, headers={"Referer": posting},
+                               allow_redirects=False, timeout=(10, 30))
+    except requests.RequestException as error:
+        return CheckResult("UNKNOWN", f"{provider} API failed: {type(error).__name__}")
+    if response.status_code not in {200, 404, 410}:
+        return CheckResult("UNKNOWN", f"{provider} API HTTP {response.status_code}")
+    try:
+        payload = response.json()
+    except requests.JSONDecodeError:
+        payload = None
+    unknown = CheckResult("UNKNOWN", f"{provider} API HTTP {response.status_code} without posting state")
+    if not isinstance(payload, dict):
+        return unknown
+    if response.status_code in {404, 410}:
+        if ((provider == "bamboohr" and payload.get("type") == "not_found")
+                or (provider == "hibob" and payload.get("message") == "Could not find resource")):
+            return CheckResult("CLOSED", f"{provider} API reports the requested posting is missing")
+        return unknown
+
+    if provider == "bamboohr":
+        result = payload.get("result")
+        job = result.get("jobOpening") if isinstance(result, dict) else None
+        if isinstance(job, dict) and job.get("jobOpeningShareUrl") == posting:
+            if job.get("jobOpeningStatus") == "Open" and job.get("jobOpeningName"):
+                return CheckResult("OPEN", "BambooHR returned the requested open job")
+            if job.get("jobOpeningStatus") in ("Filled", "Canceled"):
+                return CheckResult("CLOSED", f"BambooHR job status: {job['jobOpeningStatus']}")
+    else:
+        data = payload.get("data")
+        job = data.get("jobAd") if isinstance(data, dict) else None
+        if isinstance(job, dict) and job.get("title"):
+            form = job.get("applicationForm")
+            if isinstance(form, dict) and form.get("id"):
+                return CheckResult("OPEN", "HiBob returned the job ad and application form")
+    return unknown
+
+
 def check_oracle_api(session: requests.Session, url: str) -> CheckResult:
     """Oracle's UI treats an empty site-scoped detail result as job-expired."""
     parsed = urlparse(url)
@@ -421,7 +489,7 @@ def check_ashby_page(url: str, html: str) -> CheckResult:
     """Check the posting directly: unlisted jobs can still accept applications."""
     parsed = urlparse(url)
     route = re.fullmatch(
-        r"/[^/]+/([0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12})(?:/application)?/?",
+        rf"/[^/]+/({JOB_UUID})(?:/application)?/?",
         parsed.path,
     )
     if parsed.hostname != "jobs.ashbyhq.com" or route is None:
@@ -509,6 +577,32 @@ def redirect_is_search_or_landing(original: str, final: str, provider: str) -> b
     )
 
 
+def check_missing_job_redirect(url: str, response: requests.Response) -> CheckResult | None:
+    source = urlparse(url)
+    rule = MISSING_JOB_REDIRECTS.get(source.hostname)
+    if rule is None:
+        return None
+
+    pattern, parameter, value = rule
+    target = urlparse(response.url)
+    source_path = source.path.rstrip("/")
+    target_path = target.path.rstrip("/")
+    if source.hostname == "ats.rippling.com":
+        # Rippling adds a locale to both active jobs and missing-job redirects.
+        locale = r"^/[a-z]{2}-[A-Z]{2}(?=/[^/]+/jobs(?:/|$))"
+        source_path = re.sub(locale, "", source_path)
+        target_path = re.sub(locale, "", target_path)
+    route = re.fullmatch(pattern, source_path)
+    if not route or source.hostname != target.hostname:
+        return CheckResult("UNKNOWN", "Unsupported job route or redirect to a different site")
+    if target_path == source_path:
+        return None
+    if (response.status_code == 200 and target_path == route[1]
+            and parse_qs(target.query).get(parameter) == [value or route[2]]):
+        return CheckResult("CLOSED", f"Job board reported a missing posting: {response.url}")
+    return CheckResult("UNKNOWN", f"Inconclusive job redirect: {response.url}")
+
+
 def check_url(
     session: requests.Session,
     url: str,
@@ -517,6 +611,8 @@ def check_url(
 ) -> CheckResult:
     """Return CLOSED only when there is a high-confidence closure signal."""
     provider = ats_name(url)
+    if provider in {"bamboohr", "hibob"}:
+        return check_careers_api(public_api_session or make_public_api_session(), url, provider)
     if provider == "oracle":
         return check_oracle_api(public_api_session or make_public_api_session(), url)
     workday_result = None
@@ -552,6 +648,10 @@ def check_url(
             response = requests.get(url, allow_redirects=True, timeout=(10, 30))
         except requests.RequestException as error:
             return CheckResult("UNKNOWN", f"iCIMS fallback failed: {type(error).__name__}")
+
+    redirect_result = check_missing_job_redirect(url, response)
+    if redirect_result is not None:
+        return redirect_result
 
     if response.status_code in {404, 410}:
         return CheckResult("CLOSED", f"HTTP {response.status_code}")

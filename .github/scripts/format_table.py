@@ -9,7 +9,7 @@ LISTING_FILES = (
 
 # Shared Apply-control parser; the formatter itself needs no HTTP dependency.
 APPLY_LINK = re.compile(
-    r"\[!\[Apply\]\([^)]+?\)\]\((https?://[^)\s]+)\)", re.IGNORECASE
+    r"\[!\[Apply\]\([^)]+?\)\]\((https?://(?:[^()\s|]|\([^()\s|]*\))+)\)", re.IGNORECASE
 )
 
 def split_markdown_row(line: str) -> list[str] | None:
