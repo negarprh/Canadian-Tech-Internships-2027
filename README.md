@@ -51,8 +51,7 @@ It will open a PR automatically.
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
 | Roblox | Software Engineer Intern, Engine (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.roblox.com/jobs/8386080?gh_jid=8386080) | Nov 18, 2026 | 
- | Huawei | Researcher Intern, Recursive Self-Improvement | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://huaweicanada.recruitee.com/o/intern-researcher-recursive-self-improvement-rsi) | Nov 18, 2026 | 
- | Canadian Strategic Missions | Engineering Intern | Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://csmc.bamboohr.com/careers/51/) | Nov 18, 2026 |
+ | Huawei | Researcher Intern, Recursive Self-Improvement | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://huaweicanada.recruitee.com/o/intern-researcher-recursive-self-improvement-rsi) | Nov 18, 2026 |
 | SSI | Software Developer Co-op | Victoria, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ssicorporate.bamboohr.com/careers/101/) | Nov 18, 2026 |
 | BDO | Co-op or Intern, Technology, BizApps (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bdo.wd3.myworkdayjobs.com/en-US/bdo/job/Toronto---Bay-St/Co-op-or-Intern--Technology---BizApps--January-2027-_JR7062) | Nov 18, 2026 |
 | Qualcomm | AI/Machine Learning Internship Internship (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446722176432) | Nov 17, 2026 |
