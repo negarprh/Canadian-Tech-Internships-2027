@@ -56,7 +56,7 @@ I’ll post as soon as companies open 2026 internship applications.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
-| Brave | Software Engineering Intern, Waterloo University | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/brave/jobs/8161945) | Sep 4, 2026 |
+| Brave | Software Engineering Intern, Waterloo University | Remote, Canada | Closed🔒 | Sep 4, 2026 |
 | AltaGas | Data Science and Analytics Co-op | Calgary, AB | Closed🔒 | Aug 14, 2026 |
 | Cenovus Energy | Workforce Analytics & Strategic Planning | Calgary, AB | Closed🔒 | Aug 14, 2026 |
 | Léger | Research Intern | Toronto, ON | Closed🔒 | Aug 12, 2026 |
@@ -83,7 +83,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Rodan Energy Solutions Inc. | Data Science Co-op | Mississauga, ON | Closed🔒 | Aug 3, 2026 | 
  |  ↳  | AI Solutions Specialist Co-op | Mississauga, ON | Closed🔒 | Aug 3, 2026 | 
  |  ↳  | Artificial Intelligence Co-op, Data Services | Mississauga, ON | Closed🔒 | Aug 3, 2026 |
-| Carbon Engineering Ltd. | Process Systems Engineering Co-op, Automation & Data Integration | Squamish, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://carbonengineering.applytojob.com/apply/39rDfuYiYY/Process-Systems-Engineering-Coop-Automation-Data-Integration) | Aug 3, 2026 | 
+| Carbon Engineering Ltd. | Process Systems Engineering Co-op, Automation & Data Integration | Squamish, BC | Closed🔒 | Aug 3, 2026 | 
  | Yotta Labs | Research Engineer Intern, AI Systems | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/yotta/09821a51-fbe6-42a7-a566-0d2b5d40fae3/) | Aug 2, 2026 |
  | TMX Group | Analyst Student Intern, Market Insights | Toronto, ON | Closed🔒 | Aug 1, 2026 |
 | InstaLILY | Software Engineer 1 Co-op | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/instalilyai/jobs/4342089009) | Jul 31, 2026 | 
@@ -103,11 +103,11 @@ I’ll post as soon as companies open 2026 internship applications.
 | Ciena | Software Liquid Spectrum Applications Intern | Ottawa, ON | Closed🔒 | Jul 28, 2026 |
 | Later | Data/Analytics Co-op | Vancouver, BC | Closed🔒 | Jul 27, 2026 | 
  | Ciena | Software Engineer Intern | Ottawa, ON | Closed🔒 | Jul 27, 2026 |
-| TechInsights | Software Developer Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://techinsights.applytojob.com/apply/JihPx6iShB/Software-Development-Coop-Student-Fall-2026) | Jul 24, 2026 | 
+| TechInsights | Software Developer Co-op | Ottawa, ON | Closed🔒 | Jul 24, 2026 | 
  | Bank of Montreal | Market Risk Analyst Co-op/Intern | Toronto, ON | Closed🔒 | Jul 24, 2026 |
 | Veralto | Aquatic Informatics, Machine Learning Co-Op (Intern) | London, ON | Closed🔒 | Jul 23, 2026 |
 | Motorola | Software Engineer Co-op | Gatineau, QC | Closed🔒 | Jul 23, 2026 |
-| Later | Software Development Co-op, Later Influence | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/later/jobs/8643138002) | Jul 22, 2026 |  
+| Later | Software Development Co-op, Later Influence | Vancouver, BC | Closed🔒 | Jul 22, 2026 |  
  | Varian | Product Engineering Assistant Co-op | Ottawa, ON | Closed🔒 | Jul 22, 2026 |
 | ShyftLabs | AI Engineer Intern | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/shyftlabs/4f389ea7-9b98-4ed0-99c2-b25ea8cc2dcd/) | Jul 21, 2026 |  
  | Veeda AI | Veeda AI Scientist | Toronto, ON | Closed🔒 | Jul 21, 2026 | 
@@ -117,7 +117,7 @@ I’ll post as soon as companies open 2026 internship applications.
  | Generac | Data Science Intern | Toronto, ON | Closed🔒 | Jul 21, 2026 |
 | Google | Student Researcher, BS/MS | Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.google.com/about/careers/applications/jobs/results/113855697199735494) | Jul 20, 2026 | 
  | ↳ | Student Researcher, PHD | Waterloo, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.google.com/about/careers/applications/jobs/results/128430823337534150) | Jul 20, 2026 |
-| Telesat | User Terminal Engineering Co-op | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.lever.co/telesat/58832b41-ddb7-4ee1-99fc-92d57f23b788/) | Jul 20, 2026 | 
+| Telesat | User Terminal Engineering Co-op | Ottawa, ON | Closed🔒 | Jul 20, 2026 | 
  | Ciena | Photonic Hardware Intern | Ottawa, ON | Closed🔒 | Jul 20, 2026 | 
  | Sun Life | Student Associate Data Engineer | Toronto, ON / Waterloo, ON | Closed🔒 | Jul 20, 2026 |
 | Magna | AI Engineering Co-op | Milton, ON | Closed🔒 | Jul 17, 2026 | 
@@ -131,8 +131,8 @@ I’ll post as soon as companies open 2026 internship applications.
  | PartnerRe | Business Data Analyst Co-op | Toronto, ON | Closed🔒 | Jul 14, 2026 | 
  | TMX Group | Software Engineer Intern | Toronto, ON | Closed🔒 | Jul 14, 2026 | 
  | McKesson | AI & Strategic Analytics Intern | Mississauga, ON | Closed🔒 | Jul 14, 2026 |
-| DRW | Software Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/drweng/jobs/7991196) | Jul 13, 2026 | 
-| ↳ | AI/ML Research Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/drweng/jobs/7991171) | Jul 13, 2026 | 
+| DRW | Software Developer Intern | Montreal, QC | Closed🔒 | Jul 13, 2026 | 
+| ↳ | AI/ML Research Intern | Montreal, QC | Closed🔒 | Jul 13, 2026 | 
  | Xsolla | AI Engineer Intern | Montreal, QC, Canada | Closed🔒 | Jul 10, 2026 |
 | Later | Software Development Co-op | Vancouver, BC | Closed🔒 | Jul 9, 2026 | 
  | McKesson | Data Governance Analyst Intern | Mississauga, ON | Closed🔒 | Jul 9, 2026 | 
@@ -454,7 +454,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | ↳ | Cloud Business & Strategy Analytics Analyst Co-op/Internship | Toronto, ON | Closed🔒 | May 4, 2026 |
 | Trane Technologies | Brainbox AI Intern | Montreal, QC | Closed🔒 | May 2, 2026 |
 | Caterpillar | Software Designer Intern | Laval, QC | Closed🔒 | May 1, 2026 |
-| Cohere | Software Engineer Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/cohere/8c035d3d-081d-4c8a-914a-72f4efaad254/) | May 1, 2026 |
+| Cohere | Software Engineer Intern | Remote, Canada | Closed🔒 | May 1, 2026 |
 | ↳ | Research Internship | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/cohere/73bd3e2b-6597-4124-b64b-1e5dbc32e785/) | May 1, 2026 |
 | RBC | Data Analyst Intern, Private Banking | Toronto, ON | Closed🔒 | May 1, 2026 |
 | ↳ | Insurance, Product Analyst Co-op | Mississauga, ON | Closed🔒 | May 1, 2026 |
@@ -577,7 +577,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | Primetals Technologies | Software Development & Data Science Analyst Intern | Boisbriand, QC | Closed🔒 | Apr 16, 2026 |
 | ↳ | Software Development & Data Science Analyst Intern | Boisbriand, QC | Closed🔒 | Apr 16, 2026 |
 | Pinterest | Software Engineer Intern | Toronto, ON | Closed🔒 | Apr 15, 2026 |
-| Jonas Software | Jonas Fall Internship, Various Departments | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://talentmanagementsolution.wd3.myworkdayjobs.com/JonasSoftwareCanada/job/Toronto-GTA/Jonas-Fall-Internship---Various-Departments_R45877-2) | Apr 15, 2026 |
+| Jonas Software | Jonas Fall Internship, Various Departments | Toronto, ON | Closed🔒 | Apr 15, 2026 |
 | RTX | Data Science and Advanced Analytics Intern | Longueuil, QC | Closed🔒 | Apr 15, 2026 |
 | ↳ | Student Intern, Engineering | Midland, ON | Closed🔒 | Apr 15, 2026 |
 | CPP Investments | Technology & Data Fall and Winter Internship | Toronto, ON | Closed🔒 | Apr 14, 2026 |
