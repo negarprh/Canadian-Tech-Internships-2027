@@ -51,6 +51,9 @@ It will open a PR automatically.
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
 | BDO | Co-op or Intern, Technology, BizApps (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bdo.wd3.myworkdayjobs.com/en-US/bdo/job/Toronto---Bay-St/Co-op-or-Intern--Technology---BizApps--January-2027-_JR7062) | Nov 18, 2026 |
+| Qualcomm | AI/Machine Learning Internship Internship (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446722176432) | Nov 17, 2026 |
+| Meta | Visiting Researcher, AI Mentorship Program (PhD) (Fall 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.metacareers.com/jobs/1110284504699535) | Nov 17, 2026 |
+| Ross Video | Research Assistant Co-op, AI Focus (Winter 2027) | Nepean, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.jobvite.com/ross-video-careers/job/o51QAfwg?nl=1&nl=1&fr=false) | Nov 17, 2026 |
 | QSL | Software Development and Artificial Intelligence Intern (Winter 2027) | Québec City, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/QSL/744000162086264) | Nov 17, 2026 |
 | Critical Environment Technologies | Computer Science Co-op | Delta, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cetci.bamboohr.com/careers/92/) | Nov 17, 2026 |
 | NorthStar Earth & Space | Research Intern, AI for Earth Observation (Winter 2028) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://northstarearthandspace.bamboohr.com/careers/117/) | Nov 17, 2026 |
