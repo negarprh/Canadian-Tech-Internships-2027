@@ -238,7 +238,7 @@ I’ll post as soon as companies open 2026 internship applications.
 | ↳ | Developer Co-op/Intern - Machine Learning | Ottawa, ON | Closed🔒 | Jun 3, 2026 |
 | Autodesk | Cloud Developer Intern | Remote, Canada | Closed🔒 | Jun 2, 2026 |
 | ↳ | Software Developer Intern | Montreal, QC | Closed🔒 | Jun 2, 2026 |
-| EUNA Solutions | Software Developer Co-op | Oakville, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://euna.bamboohr.com/careers/652/) | Jun 2, 2026 |
+| EUNA Solutions | Software Developer Co-op | Oakville, ON | Closed🔒 | Jun 2, 2026 |
 | CIBC | Machine Learning Engineer Co-op | Toronto, ON | Closed🔒 | Jun 2, 2026 |
 | Nokia | Silicon Photonics Packaging Co-op/Intern | Ottawa, ON | Closed🔒 | Jun 2, 2026 |
 | AbbVie | Data Specialist Intern - Allergan Aesthetics | Markham, ON | Closed🔒 | Jun 2, 2026 |
