@@ -51,6 +51,9 @@ It will open a PR automatically.
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
 | BDO | Co-op or Intern, Technology, BizApps (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bdo.wd3.myworkdayjobs.com/en-US/bdo/job/Toronto---Bay-St/Co-op-or-Intern--Technology---BizApps--January-2027-_JR7062) | Nov 18, 2026 |
+| QSL | Software Development and Artificial Intelligence Intern (Winter 2027) | Québec City, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.smartrecruiters.com/QSL/744000162086264) | Nov 17, 2026 |
+| Critical Environment Technologies | Computer Science Co-op | Delta, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cetci.bamboohr.com/careers/92/) | Nov 17, 2026 |
+| NorthStar Earth & Space | Research Intern, AI for Earth Observation (Winter 2028) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://northstarearthandspace.bamboohr.com/careers/117/) | Nov 17, 2026 |
 | Angel Host | AI Product Engineer Intern Co-op | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://angelhost.bamboohr.com/careers/123/) | Nov 17, 2026 |
 | Birdseye Security Solutions | Software Developer Intern | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://birdseyeaccount.bamboohr.com/careers/286/) | Nov 17, 2026 | 
  | ↳ | AI Systems Intern | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://birdseyeaccount.bamboohr.com/careers/287/) | Nov 17, 2026 | 
