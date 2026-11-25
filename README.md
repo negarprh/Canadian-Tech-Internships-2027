@@ -50,6 +50,7 @@ It will open a PR automatically.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| SSI | Software Developer Co-op | Victoria, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ssicorporate.bamboohr.com/careers/101/) | Nov 18, 2026 |
 | BDO | Co-op or Intern, Technology, BizApps (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bdo.wd3.myworkdayjobs.com/en-US/bdo/job/Toronto---Bay-St/Co-op-or-Intern--Technology---BizApps--January-2027-_JR7062) | Nov 18, 2026 |
 | Qualcomm | AI/Machine Learning Internship Internship (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446722176432) | Nov 17, 2026 |
 | Meta | Visiting Researcher, AI Mentorship Program (PhD) (Fall 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://www.metacareers.com/jobs/1110284504699535) | Nov 17, 2026 |
