@@ -50,7 +50,7 @@ It will open a PR automatically.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
-| Honeywell Aerospace | Artificial Intelligence Engineer Intern | Kanata, Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/127878) | Nov 20, 2026 |
+| Honeywell Aerospace | Artificial Intelligence Engineer Intern | Kanata, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/127878) | Nov 20, 2026 |
 | Amii | Machine Learning Resident | Edmonton, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://amii.bamboohr.com/careers/254/) | Nov 20, 2026 | 
  | Microsoft | Research Intern, AI Serving Systems and Hardware | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.careers.microsoft.com/careers/job/1970393557076203) | Nov 20, 2026 | 
  | Mackenzie Investments | AI Program Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careersen-mackenzieinvestments.icims.com/jobs/6446/job?mobile=true&needsRedirect=false) | Nov 20, 2026 | 
