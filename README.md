@@ -50,6 +50,9 @@ It will open a PR automatically.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Method | Product Management Intern (Summer 2027) | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/method/jobs/8207585003) | Nov 20, 2026 | 
+ |  ↳  | Engineering Resident Intern | Remote, Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.greenhouse.io/method/jobs/8208724003) | Nov 20, 2026 | 
+ | Flare | Software Developer Intern (Winter 2027) | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://flare.bamboohr.com/careers/29/) | Nov 20, 2026 |
 | Honeywell Aerospace | Artificial Intelligence Engineer Intern | Kanata, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/127878) | Nov 20, 2026 |
 | Amii | Machine Learning Resident | Edmonton, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://amii.bamboohr.com/careers/254/) | Nov 20, 2026 | 
  | Microsoft | Research Intern, AI Serving Systems and Hardware | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.careers.microsoft.com/careers/job/1970393557076203) | Nov 20, 2026 | 
