@@ -50,6 +50,10 @@ It will open a PR automatically.
 
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
+| Amii | Machine Learning Resident | Edmonton, AB | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://amii.bamboohr.com/careers/254/) | Nov 20, 2026 | 
+ | Microsoft | Research Intern, AI Serving Systems and Hardware | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.careers.microsoft.com/careers/job/1970393557076203) | Nov 20, 2026 | 
+ | Mackenzie Investments | AI Program Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careersen-mackenzieinvestments.icims.com/jobs/6446/job?mobile=true&needsRedirect=false) | Nov 20, 2026 | 
+ | EUNA Solutions | Associate AI-Enablement Developer Co-op (Winter 2027) | Oakville, OJ | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://euna.bamboohr.com/careers/822/) | Nov 19, 2026 |
 | Horizon Trading Solutions | Java Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.eu.greenhouse.io/horizontradingsolutions/jobs/5011271101) | Nov 19, 2026 | 
  | Georgian Partners Growth | Physical AI and Robotics Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/georgian/62da47ff-0424-4e28-bffa-cff0de8ca228/) | Nov 19, 2026 | 
  | Microsoft | Research Intern, Model Foundations for Knowledge & Reasoning | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.careers.microsoft.com/careers/job/1970393557075474) | Nov 18, 2026 | 
