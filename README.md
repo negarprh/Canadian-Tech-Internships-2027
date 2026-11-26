@@ -51,9 +51,8 @@ It will open a PR automatically.
 | Company | Role | Location | Apply | Date Posted |
 |--------|------|----------|:-----:|--------------|
 | Horizon Trading Solutions | Java Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.eu.greenhouse.io/horizontradingsolutions/jobs/5011271101) | Nov 19, 2026 | 
- | Horizon Trading Solutions | Java Developer Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://job-boards.eu.greenhouse.io/horizontradingsolutions/jobs/5011266101) | Nov 19, 2026 | 
- | Georgian Partners Growth | Physical AI and Robotics Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/georgian/62da47ff-0424-4e28-bffa-cff0de8ca228/application?embed=true) | Nov 19, 2026 | 
- | Microsoft | Research Intern, Model Foundations for Knowledge & Reasoning | Canada | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.careers.microsoft.com/careers/job/1970393557075474) | Nov 18, 2026 | 
+ | Georgian Partners Growth | Physical AI and Robotics Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://jobs.ashbyhq.com/georgian/62da47ff-0424-4e28-bffa-cff0de8ca228/) | Nov 19, 2026 | 
+ | Microsoft | Research Intern, Model Foundations for Knowledge & Reasoning | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://apply.careers.microsoft.com/careers/job/1970393557075474) | Nov 18, 2026 | 
  | Qualcomm | GPU Compiler Development Intern (Summer 2027) | Markham, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446722198182) | Nov 18, 2026 |
 | Roblox | Software Engineer Intern, Engine (Summer 2027) | Vancouver, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://careers.roblox.com/jobs/8386080?gh_jid=8386080) | Nov 18, 2026 | 
  | Huawei | Researcher Intern, Recursive Self-Improvement | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://huaweicanada.recruitee.com/o/intern-researcher-recursive-self-improvement-rsi) | Nov 18, 2026 |
