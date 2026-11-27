@@ -93,7 +93,7 @@ It will open a PR automatically.
 | exacare ai | Data and Analytics Intern (Summer 2027) | Toronto, ON | Closed🔒 | Nov 11, 2026 |
 | Ciena | AI/ML Layout Engineering Intern (Winter 2027) | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/AI-ML-Layout-Engineering-Intern--Winter-2027-_R032102) | Nov 11, 2026 |
 | SOTI | Software Developer Intern (Summer 2027) | Mississauga, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://soti.wd3.myworkdayjobs.com/SOTI-Next-Gen/job/Mississauga-Canada--Meadowvale-Office-HQ/Software-Developer-Intern--May-2027---12-months-_R10677) | Nov 10, 2026 |
-| Amgen | Software Engineering Co-op (Winter 2027) | Burnaby, BC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://amgen.wd1.myworkdayjobs.com/careers/job/Canada---Burnaby/Undergraduate---Graduate-Co-op-Student---Software-Engineer---Large-Molecule-Discovery---Technology_R-260920) | Nov 10, 2026 |
+| Amgen | Software Engineering Co-op (Winter 2027) | Burnaby, BC | Closed🔒 | Nov 10, 2026 |
 | Investissement Québec | Automation and Artificial Intelligence Intern | Montreal, QC | Closed🔒 | Nov 10, 2026 |
 | Bank of Montreal | Data Analyst Co-op Intern (Winter 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://bmo.wd3.myworkdayjobs.com/Privileged/job/Toronto-ON-CAN/Data-Analyst--Winter-2027--Co-o-Internship----8-months_R260026973) | Nov 10, 2026 |
 | Qualcomm | Firmware Engineering Intern (Summer 2027) | Toronto, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://qualcomm.eightfold.ai/careers/job/446722038614) | Nov 9, 2026 |
@@ -331,7 +331,7 @@ It will open a PR automatically.
 | ↳ | Software Engineering Co-op (Winter 2027) | Surrey, BC | Closed🔒 | Oct 6, 2026 | 
  | General Motors | Vehicle Experience Software Developer Co-op (Winter 2027) | Markham, ON | Closed🔒 | Oct 6, 2026 | 
  | CIBC | Business Intelligence Enterprise Anti-Money Laundering Co-op (Winter 2027) | Toronto, ON | Closed🔒 | Oct 6, 2026 |
-| Lumentum | Embedded Software Engineer Co-op Intern | Ottawa, ON | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Engineer-Co-op-Intern_20261370) | Oct 6, 2026 | 
+| Lumentum | Embedded Software Engineer Co-op Intern | Ottawa, ON | Closed🔒 | Oct 6, 2026 | 
  | AltaGas | Data Analytics & Process Automation Co-op (Winter 2027) | Calgary, AB | Closed🔒 | Oct 6, 2026 |
 | CAE | Data Specialist Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire---Spcialiste-de-donnes_123901) | Oct 6, 2026 | 
  | ↳ | Artificial Intelligence Intern | Montreal, QC | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire----Intelligence-artificielle_123902) | Oct 6, 2026 | 
