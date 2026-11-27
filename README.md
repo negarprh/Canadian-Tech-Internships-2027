@@ -856,7 +856,7 @@ It will open a PR automatically.
 | British Columbia Investment | Risk Analytics Solutions Co-op/Intern | Victoria, BC | Closed🔒 | May 14, 2026 |
 | ↳ | Risk Reporting & Data Co-op/Internship | Victoria, BC | Closed🔒 | May 14, 2026 |
 | ↳ | Data & Analytics Engineer Co-op/Intern | Victoria, BC / Vancouver, BC| Closed🔒 | May 14, 2026 |
-
+| eBay | Data Science & Analytics Internship (Toronto) - Summer Internship | Toronto, ON, Hybrid | [![Apply](https://img.shields.io/badge/-Apply-blue?style=for-the-badge)](https://app.ripplematch.com/t/06aa2915) | Nov 25 |
 <!-- END:INTERNSHIPS_TABLE -->
 
 ---
